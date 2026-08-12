@@ -35,16 +35,7 @@ content:
     label: Kategooriad
     type: collection
     path: _categories
-    new_item_key: kategooria
     filename: "{primary}.md"
-    create:
-      path: _categories
-      front_matter:
-        layout: category
-        title: "Uus kategooria"
-        description: ""
-    structure:
-      type: flat
     view:
       primary: title
     fields:
