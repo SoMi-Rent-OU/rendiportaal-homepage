@@ -20,21 +20,23 @@ layout: default
 
 <section id="kategooriad" class="max-w-7xl mx-auto px-4 pb-20">
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {% for cat in site.data.categories %}
-      <a href="{{ cat.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-green-500/40 transition shadow-lg hover:shadow-green-500/10">
-        <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
-          <img src="/images/categories/{{ cat.title | slugify }}.jpg" alt="{{ cat.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
-        </div>
-        <div class="p-5">
-          <h3 class="text-lg font-bold mb-1 group-hover:text-green-600 transition">{{ cat.title }}</h3>
-          {% if cat.description %}
-            <p class="text-sm">{{ cat.description }}</p>
-          {% endif %}
-          <span class="inline-block mt-3 text-sm font-semibold text-green-600 group-hover:translate-x-1 transition-transform">
-            VAATA LÄHEMALT &rarr;
-          </span>
-        </div>
-      </a>
+    {% for post in site.posts %}
+      {% if post.layout == "category" %}
+        <a href="{{ post.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-green-500/40 transition shadow-lg hover:shadow-green-500/10">
+          <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
+            <img src="/images/categories/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-bold mb-1 group-hover:text-green-600 transition">{{ post.title }}</h3>
+            {% if post.description %}
+              <p class="text-sm">{{ post.description }}</p>
+            {% endif %}
+            <span class="inline-block mt-3 text-sm font-semibold text-green-600 group-hover:translate-x-1 transition-transform">
+              VAATA LÄHEMALT &rarr;
+            </span>
+          </div>
+        </a>
+      {% endif %}
     {% endfor %}
   </div>
 </section>
