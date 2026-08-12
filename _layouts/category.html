@@ -37,7 +37,9 @@ layout: default
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {% for product in site.products %}
-      {% if product.layout == 'product' and product.url contains page.url %}
+      {% assign category_slug = page.url | split: "/" | slice: 2 | first %}
+      {% assign product_category = product.url | split: "/" | slice: 2 | first %}
+      {% if product.layout == 'product' and product_category == category_slug %}
         <a href="{{ product.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-red-700/40 transition shadow-lg hover:shadow-red-700/10">
           <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
             <img src="/images/products/{{ product.slug }}.jpg" alt="{{ product.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">

@@ -3,12 +3,15 @@ layout: default
 ---
 
 {% assign product_id = page.slug %}
-{% assign url_parts = page.url | split: "/" %}
-{% assign category_url = "/" | append: url_parts[1] | append: "/" | append: url_parts[2] | append: "/" %}
+{% assign product_category = page.url | split: "/" | slice: 2 | first %}
 {% for cat in site.products %}
-  {% if cat.layout == 'category' and cat.url == category_url %}
-    {% assign category_title = cat.title %}
-    {% break %}
+  {% if cat.layout == 'category' %}
+    {% assign cat_slug = cat.url | split: "/" | slice: 2 | first %}
+    {% if cat_slug == product_category %}
+      {% assign category_title = cat.title %}
+      {% assign category_url = cat.url %}
+      {% break %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
