@@ -42,8 +42,7 @@ content:
       - name: layout
         type: string
         default: category
-        options:
-          hidden: true
+        hidden: true
       - name: title
         type: string
         label: Pealkiri
@@ -67,9 +66,11 @@ content:
     filename: "{primary}.md"
     view:
       primary: title
-    instance_value:
-      layout: category
     fields:
+      - name: layout
+        type: string
+        default: product
+        hidden: true
       - name: title
         type: string
         label: Pealkiri
