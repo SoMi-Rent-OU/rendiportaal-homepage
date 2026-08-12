@@ -35,22 +35,14 @@ content:
     label: Kategooriad
     type: collection
     path: _categories
-    new_item_key: kategooria
     filename: "{primary}.md"
-    create:
-      path: _categories
-      front_matter:
-        layout: category
-        title: "Uus kategooria"
-        description: ""
-    structure:
-      type: flat
     view:
       primary: title
     fields:
       - name: layout
-        type: hidden
+        type: string
         default: category
+        hidden: true
       - name: title
         type: string
         label: Pealkiri
@@ -71,22 +63,14 @@ content:
     label: Tooted
     type: collection
     path: _products
-    new_item_key: toode
     filename: "{primary}.md"
-    create:
-      path: _products
-      front_matter:
-        layout: product
-        title: "Uus toode"
-        description: ""
-    structure:
-      type: flat
     view:
       primary: title
     fields:
       - name: layout
-        type: hidden
+        type: string
         default: product
+        hidden: true
       - name: title
         type: string
         label: Pealkiri
