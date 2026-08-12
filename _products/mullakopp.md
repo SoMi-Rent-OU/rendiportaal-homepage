@@ -2,6 +2,7 @@
 layout: product
 title: Mullakopp
 description: Mullakopp mulla kaevamiseks ja teisaldamiseks. Lisaseade Avant laadurile.
+category: laaduri-lisaseadmed
 ---
 # Mullakopp
 

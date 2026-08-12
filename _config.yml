@@ -8,3 +8,6 @@ collections:
   products:
     output: true
     permalink: /products/:path/
+  categories:
+    output: true
+    permalink: /categories/:path/

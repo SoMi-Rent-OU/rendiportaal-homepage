@@ -3,15 +3,11 @@ layout: default
 ---
 
 {% assign product_id = page.slug %}
-{% assign product_category = page.url | split: "/" | slice: 2 | first %}
-{% for cat in site.products %}
-  {% if cat.layout == 'category' %}
-    {% assign cat_slug = cat.url | split: "/" | slice: 2 | first %}
-    {% if cat_slug == product_category %}
+{% for cat in site.categories %}
+  {% if cat.slug == page.category %}
       {% assign category_title = cat.title %}
       {% assign category_url = cat.url %}
       {% break %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 

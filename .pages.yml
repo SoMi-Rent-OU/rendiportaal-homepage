@@ -31,30 +31,20 @@ content:
         type: text
         label: Meta kirjeldus
 
-  - name: tooted
-    label: Tooted ja kategooriad
+  - name: kategooriad
+    label: Kategooriad
     type: collection
-    path: _products
-    new_item_key: toode
+    path: _categories
+    new_item_key: kategooria
     filename: "{primary}.md"
     create:
-      path: _products
-      extra_inputs:
-        - name: type
-          label: Tüüp
-          type: select
-          options:
-            values:
-              - label: Kategooria
-                value: category
-              - label: Toode
-                value: product
+      path: _categories
       front_matter:
-        layout: product
-        title: "Uus toode"
+        layout: category
+        title: "Uus kategooria"
         description: ""
     structure:
-      type: tree
+      type: flat
     view:
       primary: title
     fields:
@@ -69,10 +59,40 @@ content:
         label: Kirjeldus
       - name: permalink
         type: string
-        label: Püsiviide (vajalik ainult kategoorial)
+        label: Püsiviide
       - name: hidden
         type: boolean
         label: Peidetud
+
+  - name: tooted
+    label: Tooted
+    type: collection
+    path: _products
+    new_item_key: toode
+    filename: "{primary}.md"
+    create:
+      path: _products
+      front_matter:
+        layout: product
+        title: "Uus toode"
+        description: ""
+    structure:
+      type: flat
+    view:
+      primary: title
+    fields:
+      - name: layout
+        type: hidden
+        default: product
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: description
+        type: text
+        label: Kirjeldus
+      - name: category
+        type: string
+        label: Kategooria
       - name: body
         type: rich-text
         label: Sisu
