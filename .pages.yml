@@ -31,20 +31,32 @@ content:
         type: text
         label: Meta kirjeldus
 
-  - name: kategooriad
-    label: Kategooriad
+  - name: tooted
+    label: Tooted ja kategooriad
     type: collection
     path: _products
-    glob: "**/index.md"
-    new_item_key: category
+    new_item_key: toode
     create:
       path: _products
-      filename: "{key}/index.md"
+      filename: "{key}.md"
+      extra_inputs:
+        - name: type
+          label: Tüüp
+          type: select
+          options:
+            values:
+              - label: Kategooria
+                value: category
+              - label: Toode
+                value: product
       front_matter:
-        layout: category
-        title: "Uus kategooria"
+        layout: product
+        title: "Uus toode"
         description: ""
-        permalink: "/category/{key}/"
+    structure:
+      type: tree
+    view:
+      primary: title
     fields:
       - name: layout
         type: hidden
@@ -61,49 +73,12 @@ content:
       - name: hidden
         type: boolean
         label: Peidetud
-
-  - name: tooted
-    label: Tooted
-    type: collection
-    path: _products
-    exclude:
-      - "**/index.md"
-    new_item_key: product
-    create:
-      path: _products
-      glob: "{category}/*.md"
-      filename: "{key}.md"
-      extra_inputs:
-        - name: category
-          label: Kategooria
-          type: select
-          options:
-            values: _products/*/
-      front_matter:
-        layout: product
-        title: "Uus toode"
-        description: ""
-    view:
-      primary: title
-    fields:
-      - name: layout
-        type: hidden
-        default: product
-      - name: title
-        type: string
-        label: Pealkiri
-      - name: description
-        type: text
-        label: Kirjeldus
       - name: category_title
         type: string
         label: Kategooria nimi
       - name: category_url
         type: string
         label: Kategooria URL
-      - name: permalink
-        type: string
-        label: Püsiviide
       - name: body
         type: rich-text
         label: Sisu
