@@ -7,3 +7,4 @@ phone: +372 55991560
 collections:
   products:
     output: true
+    permalink: /products/:path/

@@ -18,4 +18,4 @@ Kompaktne ja mitmekülgne laadur, mis sobib nii hoovis, krundil kui ehitusplatsi
 
 ## Lisaseadmed
 
-[Vaata kõiki laaduri lisaseadmeid](/category/laaduri-lisaseadmed/)
+[Vaata kõiki laaduri lisaseadmeid](/products/laaduri-lisaseadmed/)

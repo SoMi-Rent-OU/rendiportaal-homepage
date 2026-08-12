@@ -2,6 +2,6 @@
 layout: category
 title: Laaduri lisaseadmed
 description: Lisaseadmed Avant laaduritele.
-permalink: /category/laaduri-lisaseadmed/
+permalink: /products/laaduri-lisaseadmed/
 hidden: true
 ---

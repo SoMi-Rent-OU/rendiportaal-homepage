@@ -2,5 +2,5 @@
 layout: category
 title: Piirdeaiad
 description: Ajutised ja püsivad piirdeaiad ehitusplatside turvalisuse tagamiseks.
-permalink: /category/piirdeaiad/
+permalink: /products/piirdeaiad/
 ---

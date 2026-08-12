@@ -2,5 +2,5 @@
 layout: category
 title: Haagised
 description: Erineva suurusega haagised transpordiks.
-permalink: /category/haagised/
+permalink: /products/haagised/
 ---
