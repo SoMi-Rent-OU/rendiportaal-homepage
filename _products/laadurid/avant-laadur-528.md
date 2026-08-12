@@ -1,6 +1,7 @@
 ---
 layout: product
 title: Avant laadur 528
+permalink: /category/laadurid/avant-laadur-528/
 ---
 # Avant laadur 528
 
@@ -17,4 +18,4 @@ Kompaktne ja mitmekülgne laadur, mis sobib nii hoovis, krundil kui ehitusplatsi
 
 ## Lisaseadmed
 
-[Vaata kõiki laaduri lisaseadmeid](/tooted/laaduri-lisaseadmed/)
+[Vaata kõiki laaduri lisaseadmeid](/category/laaduri-lisaseadmed/)

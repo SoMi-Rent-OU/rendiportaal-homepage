@@ -2,15 +2,14 @@
 layout: default
 ---
 
-{% assign path_parts = page.path | split: "/" %}
-{% assign category_folder = path_parts[1] %}
+{% assign url_parts = page.url | split: "/" %}
+{% assign category_slug = url_parts[2] %}
 {% assign product_id = page.slug %}
 
 {% for cat in site.products %}
   {% if cat.layout == 'category' %}
-    {% assign cat_path_parts = cat.path | split: "/" %}
-    {% assign cat_folder = cat_path_parts[1] %}
-    {% if cat_folder == category_folder %}
+    {% assign cat_parts = cat.url | split: "/" %}
+    {% if cat_parts[2] == category_slug %}
       {% assign category_title = cat.title %}
       {% assign category_url = cat.url %}
       {% break %}

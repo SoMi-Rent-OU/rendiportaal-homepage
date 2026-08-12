@@ -1,6 +1,7 @@
 ---
 layout: product
 title: Mullakopp
+permalink: /category/laaduri-lisaseadmed/mullakopp/
 ---
 # Mullakopp
 

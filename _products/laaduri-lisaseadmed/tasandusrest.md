@@ -1,6 +1,7 @@
 ---
 layout: product
 title: Tasandusrest
+permalink: /category/laaduri-lisaseadmed/tasandusrest/
 ---
 # Tasandusrest
 
