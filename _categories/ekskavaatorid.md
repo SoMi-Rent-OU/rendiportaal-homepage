@@ -2,6 +2,5 @@
 layout: category
 title: Ekskavaatorid
 description: Mini- ja suuremad ekskavaatorid kaevetöödeks.
-permalink: /categories/ekskavaatorid/
 image: /images/categories/ekskavaatorid.png
 ---

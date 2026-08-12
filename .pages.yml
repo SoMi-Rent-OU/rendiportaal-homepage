@@ -49,9 +49,6 @@ content:
       - name: description
         type: text
         label: Kirjeldus
-      - name: permalink
-        type: string
-        label: Püsiviide
       - name: hidden
         type: boolean
         label: Peidetud
