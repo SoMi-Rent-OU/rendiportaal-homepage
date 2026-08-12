@@ -24,7 +24,7 @@ layout: default
       {% if product.layout == 'category' and product.hidden != true %}
         <a href="{{ product.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-green-500/40 transition shadow-lg hover:shadow-green-500/10">
           <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
-            <img src="/images/categories/{{ product.title | slugify }}.jpg" alt="{{ product.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <img src="/images/categories/{{ product.title | slugify }}.svg" alt="{{ product.title }}" class="w-full h-full object-contain p-6 group-hover:scale-105 transition duration-300">
           </div>
           <div class="p-5">
             <h3 class="text-lg font-bold mb-1 group-hover:text-green-600 transition">{{ product.title }}</h3>
