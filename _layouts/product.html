@@ -3,6 +3,14 @@ layout: default
 ---
 
 {% assign product_id = page.slug %}
+{% assign url_parts = page.url | split: "/" %}
+{% assign category_url = "/" | append: url_parts[1] | append: "/" | append: url_parts[2] | append: "/" %}
+{% for cat in site.products %}
+  {% if cat.layout == 'category' and cat.url == category_url %}
+    {% assign category_title = cat.title %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 
 <script type="application/ld+json">
 {
@@ -33,8 +41,8 @@ layout: default
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "{{ page.category_title }}",
-      "item": "{{ site.url }}{{ page.category_url }}"
+      "name": "{{ category_title }}",
+      "item": "{{ site.url }}{{ category_url }}"
     },
     {
       "@type": "ListItem",
@@ -49,7 +57,7 @@ layout: default
 <nav class="max-w-7xl mx-auto px-4 pt-8 text-sm">
   <a href="/" class="hover:text-red-700 transition">Avaleht</a>
   <span class="mx-2">/</span>
-  <a href="{{ page.category_url }}" class="hover:text-red-700 transition">{{ page.category_title }}</a>
+  <a href="{{ category_url }}" class="hover:text-red-700 transition">{{ category_title }}</a>
   <span class="mx-2">/</span>
   <span class="font-bold">{{ page.title }}</span>
 </nav>

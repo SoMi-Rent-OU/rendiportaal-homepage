@@ -73,12 +73,6 @@ content:
       - name: hidden
         type: boolean
         label: Peidetud
-      - name: category_title
-        type: string
-        label: Kategooria nimi
-      - name: category_url
-        type: string
-        label: Kategooria URL
       - name: body
         type: rich-text
         label: Sisu
