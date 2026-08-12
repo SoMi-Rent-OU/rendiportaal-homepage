@@ -1,6 +1,8 @@
 ---
 layout: product
 title: Avant laadur 528
+category_title: Laadurid
+category_url: /category/laadurid/
 permalink: /category/laadurid/avant-laadur-528/
 ---
 # Avant laadur 528

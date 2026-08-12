@@ -2,28 +2,13 @@
 layout: default
 ---
 
-{% assign url_parts = page.url | split: "/" %}
-{% assign category_slug = url_parts[2] %}
 {% assign product_id = page.slug %}
-
-{% for cat in site.products %}
-  {% if cat.layout == 'category' %}
-    {% assign cat_parts = cat.url | split: "/" %}
-    {% if cat_parts[2] == category_slug %}
-      {% assign category_title = cat.title %}
-      {% assign category_url = cat.url %}
-      {% break %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
 
 <nav class="max-w-7xl mx-auto px-4 pt-8 text-sm">
   <a href="/" class="hover:text-green-600 transition">Avaleht</a>
   <span class="mx-2">/</span>
-  {% if category_title %}
-    <a href="{{ category_url }}" class="hover:text-green-600 transition">{{ category_title }}</a>
-    <span class="mx-2">/</span>
-  {% endif %}
+  <a href="{{ page.category_url }}" class="hover:text-green-600 transition">{{ page.category_title }}</a>
+  <span class="mx-2">/</span>
   <span class="font-bold">{{ page.title }}</span>
 </nav>
 
