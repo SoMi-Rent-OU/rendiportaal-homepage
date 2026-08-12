@@ -59,8 +59,14 @@ content:
       primary: title
     fields:
       - name: layout
-        type: hidden
-        default: category
+        type: select
+        label: Paigutus
+        options:
+          values:
+            - label: Kategooria
+              value: category
+            - label: Toode
+              value: product
       - name: title
         type: string
         label: Pealkiri
