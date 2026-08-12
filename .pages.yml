@@ -67,12 +67,9 @@ content:
     filename: "{primary}.md"
     view:
       primary: title
+    instance_value:
+      layout: category
     fields:
-      - name: layout
-        type: string
-        default: product
-        options:
-          hidden: true
       - name: title
         type: string
         label: Pealkiri
