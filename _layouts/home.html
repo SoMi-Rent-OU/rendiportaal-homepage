@@ -24,8 +24,8 @@ layout: default
       {% if product.layout == 'category' and product.hidden != true %}
         <li>
           <a href="{{ product.url }}" class="flex bg-white h-full items-center gap-4 p-2 rounded-lg shadow-sm hover:shadow-md hover:bg-gray-50 transition group">
-            <div class="rounded-hexagon size-fit shrink-0 group-hover:scale-105 transition">
-              <img src="/images/categories/{{ product.title | slugify }}.svg" alt="{{ product.title }}" class="md:size-32 size-16 p-3">
+            <div class="size-fit shrink-0 group-hover:scale-105 transition">
+              <img src="/images/categories/{{ product.title | slugify }}.png" alt="{{ product.title }}" class="md:size-32 size-16 p-3">
             </div>
             <div>
               <b class="font-bold text-gray-900 group-hover:text-red-700 transition">{{ product.title }}</b>
