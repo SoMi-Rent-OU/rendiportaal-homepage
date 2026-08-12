@@ -6,10 +6,4 @@
   <line x1="40" y1="120" x2="380" y2="120" stroke="#16a34a" stroke-width="6"/>
   <line x1="40" y1="200" x2="380" y2="200" stroke="#16a34a" stroke-width="6"/>
   <line x1="40" y1="280" x2="380" y2="280" stroke="#16a34a" stroke-width="6"/>
-  <path d="M60 80 L110 50 L160 80" fill="none" stroke="#16a34a" stroke-width="6"/>
-  <path d="M160 80 L210 50 L260 80" fill="none" stroke="#16a34a" stroke-width="6"/>
-  <path d="M260 80 L310 50 L360 80" fill="none" stroke="#16a34a" stroke-width="6"/>
-  <rect x="60" y="80" width="20" height="40" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
-  <rect x="160" y="80" width="20" height="40" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
-  <rect x="260" y="80" width="20" height="40" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
 </svg>
