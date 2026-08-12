@@ -69,7 +69,7 @@ content:
         label: Kirjeldus
       - name: permalink
         type: string
-        label: Püsiviide
+        label: Püsiviide (vajalik ainult kategoorial)
       - name: hidden
         type: boolean
         label: Peidetud
