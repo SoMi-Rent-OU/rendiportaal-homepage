@@ -40,7 +40,7 @@ layout: default
       {% if product.category == page.slug %}
         <a href="{{ product.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-red-700/40 transition shadow-lg hover:shadow-red-700/10">
           <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
-            <img src="/images/products/{{ product.slug }}.jpg" alt="{{ product.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <img src="{{ product.image }}" alt="{{ product.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
           </div>
           <div class="p-5">
             <h3 class="text-lg font-bold mb-1 group-hover:text-red-700 transition">{{ product.title }}</h3>

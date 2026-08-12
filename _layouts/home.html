@@ -26,7 +26,7 @@ layout: default
         <li>
           <a href="{{ category.url }}" class="flex bg-white h-full items-center gap-4 p-2 sm:p-0 rounded-lg shadow-sm hover:shadow-md hover:bg-gray-50 transition group">
             <div class="size-fit shrink-0 group-hover:scale-105 transition">
-              <img src="/images/categories/{{ category.title | slugify }}.png" alt="{{ category.title }}" class="md:size-32 size-16 p-3">
+              <img src="{{ category.image }}" alt="{{ category.title }}" class="md:size-32 size-16 p-3">
             </div>
             <div>
               <b class="font-bold text-gray-900 group-hover:text-red-700 transition">{{ category.title }}</b>

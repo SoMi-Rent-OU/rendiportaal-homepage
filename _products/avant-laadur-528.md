@@ -3,6 +3,7 @@ layout: product
 title: Avant laadur 528
 description: Kompaktne Avant 528 laadur — freesib, puurib, kaevab, tasandab, veab, tõstab ja lükkab lund. Tõstevõime 950 kg.
 category: laadurid
+image: /images/products/avant-laadur-528.jpg
 ---
 # Avant laadur 528
 

@@ -63,6 +63,9 @@ content:
       - name: hidden
         type: boolean
         label: Peidetud
+      - name: image
+        type: image
+        label: Pilt
 
   - name: tooted
     label: Tooted
@@ -93,6 +96,9 @@ content:
       - name: category
         type: string
         label: Kategooria
+      - name: image
+        type: image
+        label: Pilt
       - name: body
         type: rich-text
         label: Sisu
