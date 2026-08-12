@@ -19,24 +19,24 @@ layout: default
 </section>
 
 <section id="kategooriad" class="max-w-7xl mx-auto px-4 pb-20">
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {% for product in site.products %}
       {% if product.layout == 'category' and product.hidden != true %}
-        <a href="{{ product.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-red-700/40 transition shadow-lg hover:shadow-red-700/10">
-          <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
-            <img src="/images/categories/{{ product.title | slugify }}.svg" alt="{{ product.title }}" class="w-full h-full object-contain p-6 group-hover:scale-105 transition duration-300">
-          </div>
-          <div class="p-5">
-            <h3 class="text-lg font-bold mb-1 group-hover:text-red-700 transition">{{ product.title }}</h3>
-            {% if product.description %}
-              <p class="text-sm">{{ product.description }}</p>
-            {% endif %}
-            <span class="inline-block mt-3 text-sm font-semibold text-red-700 group-hover:translate-x-1 transition-transform">
-              VAATA LÄHEMALT &rarr;
-            </span>
-          </div>
-        </a>
+        <li>
+          <a href="{{ product.url }}" class="flex bg-white h-full items-center gap-4 p-2 rounded-lg shadow-sm hover:shadow-md hover:bg-gray-50 transition group">
+            <div class="rounded-hexagon size-fit shrink-0 group-hover:scale-105 transition">
+              <img src="/images/categories/{{ product.title | slugify }}.svg" alt="{{ product.title }}" class="md:size-32 size-16 p-3">
+            </div>
+            <div>
+              <b class="font-bold text-gray-900 group-hover:text-red-700 transition">{{ product.title }}</b>
+              {% if product.description %}
+              <p class="text-xs text-gray-600 hidden sm:block">{{ product.description }}</p>
+              {% endif %}
+              <span class="inline-block mt-1 text-xs font-semibold text-red-700">VAATA LÄHEMALT &rarr;</span>
+            </div>
+          </a>
+        </li>
       {% endif %}
     {% endfor %}
-  </div>
+  </ul>
 </section>
