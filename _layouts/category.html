@@ -16,7 +16,7 @@ layout: default
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {% for product in site.products %}
-      {% if product.category == page.title %}
+      {% if product.layout == 'product' and product.category == page.title %}
         <a href="{{ product.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-green-500/40 transition shadow-lg hover:shadow-green-500/10">
           <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
             <img src="/images/products/{{ product.product_id }}.jpg" alt="{{ product.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">

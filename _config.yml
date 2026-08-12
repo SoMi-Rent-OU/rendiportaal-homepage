@@ -30,8 +30,6 @@ github_username:  jekyll
 
 # Collections
 collections:
-  categories:
-    output: true
   products:
     output: true
 
