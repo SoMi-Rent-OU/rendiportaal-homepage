@@ -71,22 +71,15 @@ content:
     label: Tooted
     type: collection
     path: _products
-    new_item_key: toode
     filename: "{primary}.md"
-    create:
-      path: _products
-      front_matter:
-        layout: product
-        title: "Uus toode"
-        description: ""
-    structure:
-      type: flat
     view:
       primary: title
     fields:
       - name: layout
-        type: hidden
+        type: string
         default: product
+        options:
+          hidden: true
       - name: title
         type: string
         label: Pealkiri
