@@ -1,6 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Masinate rent kogu Eestis
+description: Masinate ja seadmete rent kogu Eestis. Laadurid, ekskavaatorid, haagised, tellingud ja piirdeaiad. SoMi Rent.
 ---

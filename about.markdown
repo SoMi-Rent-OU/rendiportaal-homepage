@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: Meist
+description: SoMi Rent — masinate ja seadmete rent kogu Eestis. Usaldusväärne partner ehitus- ja heakorratöödeks.
 permalink: /about/
 ---
 
