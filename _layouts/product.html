@@ -2,37 +2,40 @@
 layout: default
 ---
 
-{% assign category_url = page.category_permalink %}
+{% assign path_parts = page.path | split: "/" %}
+{% assign category_folder = path_parts[1] %}
+{% assign product_id = page.slug %}
+
+{% for cat in site.products %}
+  {% if cat.layout == 'category' %}
+    {% assign cat_path_parts = cat.path | split: "/" %}
+    {% assign cat_folder = cat_path_parts[1] %}
+    {% if cat_folder == category_folder %}
+      {% assign category_title = cat.title %}
+      {% assign category_url = cat.url %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 <nav class="max-w-7xl mx-auto px-4 pt-8 text-sm">
   <a href="/" class="hover:text-green-600 transition">Avaleht</a>
   <span class="mx-2">/</span>
-  <a href="{{ category_url }}" class="hover:text-green-600 transition">{{ page.category }}</a>
-  <span class="mx-2">/</span>
+  {% if category_title %}
+    <a href="{{ category_url }}" class="hover:text-green-600 transition">{{ category_title }}</a>
+    <span class="mx-2">/</span>
+  {% endif %}
   <span class="font-bold">{{ page.title }}</span>
 </nav>
 
 <section class="max-w-7xl mx-auto px-4 py-10">
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
     <div class="aspect-[4/3] bg-gray-100 rounded-xl overflow-hidden">
-      <img src="/images/products/{{ page.product_id }}.jpg" alt="{{ page.title }}" class="w-full h-full object-cover">
+      <img src="/images/products/{{ product_id }}.jpg" alt="{{ page.title }}" class="w-full h-full object-cover">
     </div>
 
-    <div>
-      <h1 class="text-3xl md:text-4xl font-extrabold mb-4">{{ page.title }}</h1>
-      <p class="mb-8 leading-relaxed">{{ page.description }}</p>
-
-      {% if page.specs %}
-        <h2 class="text-xl font-bold mb-4">Tehnilised andmed</h2>
-        <ul class="space-y-2">
-          {% for spec in page.specs %}
-            <li class="flex items-start gap-2">
-              <span class="mt-1 w-2 h-2 rounded-full bg-green-500 flex-shrink-0"></span>
-              <span>{{ spec }}</span>
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+    <div class="space-y-4 md-content">
+      {{ content }}
     </div>
   </div>
 </section>
