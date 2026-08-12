@@ -49,8 +49,10 @@ content:
       primary: title
     fields:
       - name: layout
-        type: hidden
+        type: string
         default: category
+        options:
+          hidden: true
       - name: title
         type: string
         label: Pealkiri
