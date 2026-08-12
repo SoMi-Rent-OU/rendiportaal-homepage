@@ -27,3 +27,7 @@ Hind sisaldab juhti ja kütust.
 Hind ei sisalda kütuse maksumust.
 
 Rentides laaduri meilt, on üks lisaseade tasuta hinna sees (mullakühvel, tasandusrest või tõstekahvel).
+
+## Lisaseadmed
+
+[Vaata kõiki laaduri lisaseadmeid](/tooted/laaduri-lisaseadmed/)
