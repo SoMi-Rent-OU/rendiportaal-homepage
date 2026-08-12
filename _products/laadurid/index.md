@@ -2,5 +2,5 @@
 layout: category
 title: Laadurid
 description: Kompaktsed ja võimsad laadurid erinevateks töödeks.
-permalink: /tooted/laadurid/
+permalink: /products/laadurid/
 ---
