@@ -3,6 +3,7 @@ layout: product
 title: CAT 906M rattalaadur
 description: Võimas rattalaadur suuremateks koormustöödeks. Mugav kabiin ja hea manööverdusvõime.
 category: Laadurid
+category_permalink: /tooted/laadurid/
 product_id: cat-906m
 permalink: /tooted/laadurid/cat-906m/
 specs:

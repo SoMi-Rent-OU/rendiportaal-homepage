@@ -3,6 +3,7 @@ layout: product
 title: Püsivad piirdeaiad
 description: Tugevad püsivad piirdeaiad ehitusplatside pikaajaliseks piiramiseks. Vastupidav ilmastikule.
 category: Piirdeaiad
+category_permalink: /tooted/piirdeaiad/
 product_id: püsivad-piirdeaiad
 permalink: /tooted/piirdeaiad/püsivad-piirdeaiad/
 specs:

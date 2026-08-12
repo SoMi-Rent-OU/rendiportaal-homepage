@@ -3,6 +3,7 @@ layout: product
 title: Rullikutellingud kuni 6 m
 description: Liikuvad rullikutellingud siseruumides töötamiseks. Mugav liikuda töökoha vahel.
 category: Ehitus tellingud
+category_permalink: /tooted/tellingud/
 product_id: tellingud-kuni-6m
 permalink: /tooted/tellingud/tellingud-kuni-6m/
 specs:

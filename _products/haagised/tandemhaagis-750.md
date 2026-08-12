@@ -3,6 +3,7 @@ layout: product
 title: Tandemhaagis 750 kg
 description: Kerge kahe teljega haagis väiksemate koormate transportimiseks. Mugav ja stabiilne sõidul.
 category: Haagised
+category_permalink: /tooted/haagised/
 product_id: tandemhaagis-750
 permalink: /tooted/haagised/tandemhaagis-750/
 specs:

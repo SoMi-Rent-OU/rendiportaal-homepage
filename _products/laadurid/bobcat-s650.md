@@ -3,6 +3,7 @@ layout: product
 title: Bobcat S650 kompaktlaadur
 description: Mitmekülgne kompaktlaadur kitsastes tingimustes töötamiseks. Sobib nii ehitusplatsile kui haljastustöödele.
 category: Laadurid
+category_permalink: /tooted/laadurid/
 product_id: bobcat-s650
 permalink: /tooted/laadurid/bobcat-s650/
 specs:

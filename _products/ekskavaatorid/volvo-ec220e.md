@@ -3,6 +3,7 @@ layout: product
 title: Volvo EC220E ekskavaator
 description: Keskmine roomik-ekskavaator suuremateks kaevetöödeks. Võimas ja töökindel masin.
 category: Ekskavaatorid
+category_permalink: /tooted/ekskavaatorid/
 product_id: volvo-ec220e
 permalink: /tooted/ekskavaatorid/volvo-ec220e/
 specs:

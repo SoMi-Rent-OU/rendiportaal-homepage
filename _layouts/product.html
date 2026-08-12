@@ -2,11 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  {% if post.layout == "category" and post.title == page.category %}
-    {% assign category_url = post.url %}
-  {% endif %}
-{% endfor %}
+{% assign category_url = page.category_permalink %}
 
 <nav class="max-w-7xl mx-auto px-4 pt-8 text-sm text-gray-500">
   <a href="/" class="hover:text-green-600 transition">Avaleht</a>

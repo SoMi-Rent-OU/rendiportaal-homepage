@@ -3,6 +3,7 @@ layout: product
 title: Raamtellingud kuni 7 m
 description: Kerged raamtellingud väiksemateks töödeks fassaadil. Lihtne paigaldada ja transportida.
 category: Ehitus tellingud
+category_permalink: /tooted/tellingud/
 product_id: raamtellingud-700
 permalink: /tooted/tellingud/raamtellingud-700/
 specs:

@@ -3,6 +3,7 @@ layout: product
 title: JCB 3CX kompaktlaadur
 description: Kombineeritud laadur-ekskavaator universaalseteks töödeks. Esikopp ja tagakaevur ühes masinas.
 category: Laadurid
+category_permalink: /tooted/laadurid/
 product_id: jcb-3cx
 permalink: /tooted/laadurid/jcb-3cx/
 specs:

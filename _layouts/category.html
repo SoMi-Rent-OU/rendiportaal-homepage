@@ -15,15 +15,15 @@ layout: default
   {% endif %}
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {% for post in site.posts %}
-      {% if post.layout == "product" and post.category == page.title %}
-        <a href="{{ post.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-green-500/40 transition shadow-lg hover:shadow-green-500/10">
+    {% for product in site.products %}
+      {% if product.category == page.title %}
+        <a href="{{ product.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-green-500/40 transition shadow-lg hover:shadow-green-500/10">
           <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
-            <img src="/images/products/{{ post.product_id }}.jpg" alt="{{ post.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <img src="/images/products/{{ product.product_id }}.jpg" alt="{{ product.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
           </div>
           <div class="p-5">
-            <h3 class="text-lg font-bold mb-1 group-hover:text-green-600 transition">{{ post.title }}</h3>
-            <p class="text-sm text-gray-600">{{ post.description }}</p>
+            <h3 class="text-lg font-bold mb-1 group-hover:text-green-600 transition">{{ product.title }}</h3>
+            <p class="text-sm text-gray-600">{{ product.description }}</p>
             <span class="inline-block mt-3 text-sm font-semibold text-green-600 group-hover:translate-x-1 transition-transform">
               VAATA LÄHEMALT &rarr;
             </span>

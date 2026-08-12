@@ -3,6 +3,7 @@ layout: product
 title: Kubota KX040 mini-ekskavaator
 description: Kompaktne mini-ekskavaator kitsastes tingimustes töötamiseks. Ideaalne väiksemateks kaevetöödeks.
 category: Ekskavaatorid
+category_permalink: /tooted/ekskavaatorid/
 product_id: kubota-kx040
 permalink: /tooted/ekskavaatorid/kubota-kx040/
 specs:
