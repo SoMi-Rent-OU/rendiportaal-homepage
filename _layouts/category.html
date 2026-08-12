@@ -24,7 +24,7 @@ layout: default
 </script>
 
 <nav class="max-w-7xl mx-auto px-4 pt-8 text-sm">
-  <a href="/" class="hover:text-green-600 transition">Avaleht</a>
+  <a href="/" class="hover:text-red-700 transition">Avaleht</a>
   <span class="mx-2">/</span>
   <span class="font-bold">{{ page.title }}</span>
 </nav>
@@ -38,13 +38,13 @@ layout: default
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {% for product in site.products %}
       {% if product.layout == 'product' and product.url contains page.url %}
-        <a href="{{ product.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-green-500/40 transition shadow-lg hover:shadow-green-500/10">
+        <a href="{{ product.url }}" class="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-red-700/40 transition shadow-lg hover:shadow-red-700/10">
           <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
             <img src="/images/products/{{ product.slug }}.jpg" alt="{{ product.title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
           </div>
           <div class="p-5">
-            <h3 class="text-lg font-bold mb-1 group-hover:text-green-600 transition">{{ product.title }}</h3>
-            <span class="inline-block mt-3 text-sm font-semibold text-green-600 group-hover:translate-x-1 transition-transform">
+            <h3 class="text-lg font-bold mb-1 group-hover:text-red-700 transition">{{ product.title }}</h3>
+            <span class="inline-block mt-3 text-sm font-semibold text-red-700 group-hover:translate-x-1 transition-transform">
               VAATA LÄHEMALT &rarr;
             </span>
           </div>

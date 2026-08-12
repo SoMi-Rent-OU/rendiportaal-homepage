@@ -9,6 +9,8 @@
   <meta property="og:type" content="website">
   {% if page.layout == 'product' %}
     <meta property="og:image" content="{{ site.url }}/images/products/{{ page.slug }}.jpg">
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}/images/og-img.jpeg">
   {% endif %}
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,10 +24,10 @@
     .md-content ul { list-style-type: none; padding-left: 1.5rem; margin-bottom: 1rem; }
     .md-content ol { list-style-type: none; padding-left: 1.5rem; margin-bottom: 1rem; counter-reset: md-counter; }
     .md-content li { line-height: 1.7; margin-bottom: 0.35rem; position: relative; }
-    .md-content ul li::before { content: "●"; color: #16a34a; position: absolute; left: -1.25rem; font-size: 0.6rem; top: 0.5rem; }
-    .md-content ol li::before { counter-increment: md-counter; content: counter(md-counter) "."; color: #16a34a; font-weight: 600; position: absolute; left: -1.5rem; }
-    .md-content a { color: #16a34a; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
-    .md-content a:hover { color: #15803d; }
+    .md-content ul li::before { content: "●"; color: #b91c1c; position: absolute; left: -1.25rem; font-size: 0.6rem; top: 0.5rem; }
+    .md-content ol li::before { counter-increment: md-counter; content: counter(md-counter) "."; color: #b91c1c; font-weight: 600; position: absolute; left: -1.5rem; }
+    .md-content a { color: #b91c1c; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+    .md-content a:hover { color: #991b1b; }
   </style>
 </head>
 <body class="bg-gray-50">

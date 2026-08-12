@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SoMi Rent
+title: SoMi-Rent
 email: tarmosokolov@gmail.com
 phone: +372 55991560
 description: >-
