@@ -1,5 +1,50 @@
 media: images
 
+components:
+  category-fields:
+    type: object
+    fields:
+      - name: layout
+        type: hidden
+        default: category
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: description
+        type: text
+        label: Kirjeldus
+      - name: permalink
+        type: string
+        label: Püsiviide
+      - name: hidden
+        type: boolean
+        label: Peidetud
+
+  product-fields:
+    type: object
+    fields:
+      - name: layout
+        type: hidden
+        default: product
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: description
+        type: text
+        label: Kirjeldus
+      - name: category_title
+        type: string
+        label: Kategooria nimi
+      - name: category_url
+        type: string
+        label: Kategooria URL
+      - name: permalink
+        type: string
+        label: Püsiviide
+      - name: body
+        type: rich-text
+        label: Sisu
+
 content:
   - name: config
     label: Saidi seaded
@@ -39,127 +84,37 @@ content:
         label: Laadurid
         type: file
         path: _products/laadurid/index.md
-        fields:
-          - name: layout
-            type: hidden
-            default: category
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: hidden
-            type: boolean
-            label: Peidetud
+        component: category-fields
 
       - name: laaduri-lisaseadmed-cat
         label: Laaduri lisaseadmed
         type: file
         path: _products/laaduri-lisaseadmed/index.md
-        fields:
-          - name: layout
-            type: hidden
-            default: category
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: hidden
-            type: boolean
-            label: Peidetud
+        component: category-fields
 
       - name: ekskavaatorid-cat
         label: Ekskavaatorid
         type: file
         path: _products/ekskavaatorid/index.md
-        fields:
-          - name: layout
-            type: hidden
-            default: category
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: hidden
-            type: boolean
-            label: Peidetud
+        component: category-fields
 
       - name: haagised-cat
         label: Haagised
         type: file
         path: _products/haagised/index.md
-        fields:
-          - name: layout
-            type: hidden
-            default: category
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: hidden
-            type: boolean
-            label: Peidetud
+        component: category-fields
 
       - name: tellingud-cat
         label: Tellingud
         type: file
         path: _products/tellingud/index.md
-        fields:
-          - name: layout
-            type: hidden
-            default: category
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: hidden
-            type: boolean
-            label: Peidetud
+        component: category-fields
 
       - name: piirdeaiad-cat
         label: Piirdeaiad
         type: file
         path: _products/piirdeaiad/index.md
-        fields:
-          - name: layout
-            type: hidden
-            default: category
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: hidden
-            type: boolean
-            label: Peidetud
+        component: category-fields
 
   - name: tooted
     label: Tooted
@@ -173,28 +128,7 @@ content:
           - index.md
         view:
           primary: title
-        fields:
-          - name: layout
-            type: hidden
-            default: product
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: category_title
-            type: string
-            label: Kategooria nimi
-          - name: category_url
-            type: string
-            label: Kategooria URL
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: body
-            type: rich-text
-            label: Sisu
+        component: product-fields
 
       - name: laaduri-lisaseadmed
         label: Laaduri lisaseadmed
@@ -204,28 +138,7 @@ content:
           - index.md
         view:
           primary: title
-        fields:
-          - name: layout
-            type: hidden
-            default: product
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: category_title
-            type: string
-            label: Kategooria nimi
-          - name: category_url
-            type: string
-            label: Kategooria URL
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: body
-            type: rich-text
-            label: Sisu
+        component: product-fields
 
       - name: ekskavaatorid
         label: Ekskavaatorid
@@ -235,28 +148,7 @@ content:
           - index.md
         view:
           primary: title
-        fields:
-          - name: layout
-            type: hidden
-            default: product
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: category_title
-            type: string
-            label: Kategooria nimi
-          - name: category_url
-            type: string
-            label: Kategooria URL
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: body
-            type: rich-text
-            label: Sisu
+        component: product-fields
 
       - name: haagised
         label: Haagised
@@ -266,28 +158,7 @@ content:
           - index.md
         view:
           primary: title
-        fields:
-          - name: layout
-            type: hidden
-            default: product
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: category_title
-            type: string
-            label: Kategooria nimi
-          - name: category_url
-            type: string
-            label: Kategooria URL
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: body
-            type: rich-text
-            label: Sisu
+        component: product-fields
 
       - name: tellingud
         label: Tellingud
@@ -297,28 +168,7 @@ content:
           - index.md
         view:
           primary: title
-        fields:
-          - name: layout
-            type: hidden
-            default: product
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: category_title
-            type: string
-            label: Kategooria nimi
-          - name: category_url
-            type: string
-            label: Kategooria URL
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: body
-            type: rich-text
-            label: Sisu
+        component: product-fields
 
       - name: piirdeaiad
         label: Piirdeaiad
@@ -328,25 +178,4 @@ content:
           - index.md
         view:
           primary: title
-        fields:
-          - name: layout
-            type: hidden
-            default: product
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: description
-            type: text
-            label: Kirjeldus
-          - name: category_title
-            type: string
-            label: Kategooria nimi
-          - name: category_url
-            type: string
-            label: Kategooria URL
-          - name: permalink
-            type: string
-            label: Püsiviide
-          - name: body
-            type: rich-text
-            label: Sisu
+        component: product-fields
