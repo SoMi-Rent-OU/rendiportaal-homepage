@@ -33,24 +33,6 @@ Aiapaneelid renditakse koos paigalduseks vajalike aluskividega ning paneelide om
 
 Piirdeaeda on võimalik tellida **paigaldusega** või **paigalduseta**. Kliendi soovil transpordime piirdeaiad objektile ja tagasi meie lattu.
 
-## Miks valida meie piirdeaiad?
-
-**Ohutus eelkõige** — piirdeaiad vastavad kõikidele ohutusstandarditele ja on selgelt nähtavad.
-
-**Stabiilne paigaldus** — aluskividega kinnitus tagab kindla seisu ka tuulistes oludes.
-
-**Komplektne lahendus** — rendihinna sees on kivid ja klambrid, midagi eraldi otsima ei pea.
-
-**Paindlik transport** — toome objektile ja vajadusel toome ka tagasi.
-
-## Renditingimused
-
-**Päevarent:** alates 5 € + km / meeter
-
-**Nädalarent:** kokkuleppel
-
-**Pikaajaline rent:** soodsamad tingimused
-
 ## Soovid piirdeaeda rentida?
 
 Täida allolev päringuvorm või võta meiega otse ühendust. Aitame valida just Sinu objektile sobiva lahenduse!

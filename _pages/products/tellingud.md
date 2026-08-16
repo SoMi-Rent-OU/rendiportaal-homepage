@@ -44,18 +44,6 @@ Ebaharilikes kohtades parima tulemuse saavutamiseks tasub kasutada siiski moodul
 
 **Transpordi võimalus** — toome tellingud objektile ja vajadusel aitame paigaldamisel.
 
-## Müük
-
-Pakume raamtellinguid ka müügiks! Täpsema info saamiseks võta meiega ühendust.
-
-## Renditingimused
-
-**Päevarent:** alates 50 € + km / päev
-
-**Nädalarent:** alates 200 € + km / nädal
-
-**Pikaajaline rent:** kokkuleppel
-
 ## Soovid tellinguid rentida?
 
 Täida allolev päringuvorm või võta meiega otse ühendust. Aitame valida just Sinu töö jaoks sobiva tellingulahenduse!
