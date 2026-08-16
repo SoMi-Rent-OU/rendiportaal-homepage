@@ -14,9 +14,7 @@ images:
 category: avant-530
 permalink: /products/avant-laadur-530/
 additionalEquipment:
-  - maapuur-100
-  - maapuur-200
-  - maapuur-300
+  - maapuur
   - mullakopp
   - kahvel
   - tasandusrest
@@ -109,7 +107,7 @@ Paku oma projektile parimat lahendust – pikaajalisest rendist kuni juhiga teen
 Optimeeri masina tööd õigete lisaseadmetega:
 
 - Mullakühvel, tasandusrest ja tõstekahvel
-- Maapuur (puurid Ø 100 mm, 200 mm ja 300 mm)
+- Maapuur (Ø 100, 200 ja 300 mm)
 - V-kujuline lumesahk
 
 ## Soovid masinat rentida või küsida lisainfot?
