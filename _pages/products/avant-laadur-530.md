@@ -1,9 +1,9 @@
 ---
-title: Avant 528 kompaktlaaduri rent
-description: Kompaktne jõud igaks tööks. Usaldusväärne ja mitmekülgne masin, mis ühendab suure tõstevõime, suurepärase manööverdusvõime ja murusõbralikkuse.
+title: Avant 530 kompaktlaaduri rent
+description: Kuldne kesktee – kompaktne, kuid võimas. Optidrive™ juhtsüsteem, lihtne hüdraulika ja suurepärane manööverdusvõime.
 image: /images/products/avant-laadur-528.jpg
 category: avant-530
-permalink: /products/avant-laadur-528/
+permalink: /products/avant-laadur-530/
 additionalEquipment:
   - maapuur-100
   - maapuur-200
@@ -20,7 +20,7 @@ specifications:
   - label: Tõstekõrgus
     value: 2.8 m
   - label: Sõidukiirus
-    value: 12 km/h
+    value: 19 km/h
   - label: Vedu
     value: Nelivedu
   - label: Kütus
@@ -32,13 +32,13 @@ specifications:
   - label: Kõrgus
     value: 1985 mm
   - label: Kaal
-    value: 1250 + 170 kg
+    value: 1290 + 170 kg
   - label: Standard rehvid
     value: 23×10.50-12" muru/TR
   - label: Ülekanne, ajam
     value: Hüdraulika, Avant Optidrive™
   - label: Maksimaalne tõmbejõud
-    value: 950 kp
+    value: 1050 kp
   - label: Tööhüdraulika tootlus/rõhk
     value: 36 l/min 200 bar
   - label: Hüdraulikaõli jahuti
@@ -54,30 +54,30 @@ specifications:
   - label: Mootor
     value: Kubota D1105 Stage V
   - label: Mootori võimsus (ECE R120)
-    value: 19 Kw (26 hp)
+    value: 19 kW (26 hp)
   - label: Väändemoment
     value: 72 Nm @2200 rpm
 ---
 
-# Avant 528 kompaktlaadur
+# Avant 530 kompaktlaadur kabiiniga
 
-Kompaktne jõud igaks tööks. Usaldusväärne ja mitmekülgne masin, mis ühendab suure tõstevõime, suurepärase manööverdusvõime ja murusõbralikkuse.
+Kuldne kesktee – kompaktne, kuid võimas. Optidrive™ juhtsüsteem, lihtne hüdraulika ja suurepärane manööverdusvõime.
 
-## Kompaktne jõud igaks tööks
+## 500 seeria – kuldne kesktee
 
-Otsid usaldusväärset ja mitmekülgset masinat, mis saaks hõlpsalt hakkama ka kõige nõudlikumate ülesannetega? Avant 528 on kompaktlaadur, mis ühendab endas suure tõstevõime, suurepärase manööverdusvõime ja murusõbralikkuse. Tänu kompaktsetele mõõtmetele mahub masin ka kitsastesse oludesse, säästes samal ajal Sinu hoovi ja haljastust.
+Avant 530 kuulub 500 seeriasse, mis seob endas kompaktsuse ja efektiivsuse ning tipptasemel võimekuse ja funktsionaalsuse. See laadur on piisavalt väike, et manööverdada ka kitsamates oludes, olles samas piisavalt tugev, et tõsta kuni 950-kilogrammist lasti ning toita võimsa hüdraulikasüsteemi abil pea igat soovitud töövahendit.
 
-Olgu tegemist ehituse, haljastuse, pinnasetööde või lumekoristusega – Avant 528 kohandub kiiresti Sinu vajadustega.
+500 seeria on piisavalt kerge ja kompaktne, et transportida see haagisel just sinna, kus töö ootab. Tõstevõime 800–950 kg, mootori võimsus 22–26 hj ja sõidukiirus kuni 19 km/h teevad sellest ideaalse tööriista nii taluhooviks, maatöödeks kui ka laoplatsiks.
 
-## Miks valida rentimiseks just Avant 528?
+## Miks valida rentimiseks just Avant 530?
 
-**Võimas ja töökas:** 950 kg tõstevõimet ja 2,8 m tõstekõrgust tagavad, et ka rasked alused ja materjalid saavad liigutatud vaevata.
+**Optidrive™ juhtsüsteem:** Tagab ülima võimsuse ja täpse kontrolli iga tööülesande täitmiseks.
 
-**Murusõbralik ja säästlik:** Masin on varustatud spetsiaalsete mururehvidega ning liigendstruktuur tagab meeldivalt sujuva pööramise – Sinu muru, sillutis ja hoov jäävad kahjustamata.
+**Lihtne ja tõhus hüdraulika:** Madalad kasutuskulud tänu usaldusväärsele hüdraulikasüsteemile.
 
-**Mitmekülgne lisaseadmete valik:** Lai lisaseadmete sortiment teeb ühest masinast tõelise multifunktsionaalse tööriista.
+**Kompaktne ja transporditav:** Kerge konstruktsioon võimaldab masinat hõlpsalt transportida haagisel.
 
-**Lihtne käsitseda:** Ergonoomiline ja intuitiivne juhtimine tagab kiire kohanemise ka vähesemate kogemustega operaatorile.
+**Mitmekülgne lisaseadmete valik:** Lai valik töövahendeid muudab masina asendamatuks abiliseks igal pool.
 
 ## Renditingimused ja hinnakiri
 
@@ -101,9 +101,7 @@ Optimeeri masina tööd õigete lisaseadmetega:
 
 - Mullakühvel, tasandusrest ja tõstekahvel
 - Maapuur (puurid Ø 100 mm, 200 mm ja 300 mm)
-- Mullafrees ja hooldusniiduk
-- Kaevur (minikaevur) ja silohark
-- Noolepikendus täiendava tööulatuse saavutamiseks
+- V-kujuline lumesahk
 
 ## Soovid masinat rentida või küsida lisainfot?
 
