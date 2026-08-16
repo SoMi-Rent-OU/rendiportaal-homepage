@@ -5,6 +5,6 @@ description: Pakume erinevaid haljastusteenuseid — pinnasetööd, haljastamine
 children:
   - pinnasetood
   - haljastusteenused
-  - lumelukamine
+  - lumelukkamine
 permalink: /haljastusteenused/
 ---

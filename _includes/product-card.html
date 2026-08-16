@@ -1,0 +1,11 @@
+<a href="{{ include.href }}" class="block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition overflow-hidden">
+  {% if include.image %}
+    <img src="{{ include.image }}" alt="{{ include.alt }}" class="w-full {{ include.image_height | default: 'h-48' }} object-cover">
+  {% endif %}
+  <div class="{{ include.content_padding | default: 'p-5' }}">
+    <h3 class="{{ include.title_size | default: 'text-lg' }} font-bold mb-1">{{ include.title }}</h3>
+    {% if include.description %}
+      <p class="text-sm">{{ include.description }}</p>
+    {% endif %}
+  </div>
+</a>
