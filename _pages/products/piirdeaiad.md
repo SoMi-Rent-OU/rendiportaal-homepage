@@ -4,7 +4,6 @@ description: Ajutised kõrge piirdeaiad ehitusplatsidele ja üritustele. Aluskiv
 image: /images/products/piirdeaiad/piirdeaed-aluskividega.jpg
 images:
   - /images/products/piirdeaiad/piirdeaed-aluskividega.jpg
-category: piirdeaiad
 permalink: /products/piirdeaiad/
 specifications:
   - label: Kõrgus

@@ -7,7 +7,6 @@ images:
   - /images/products/maapuur/puurimine.jpg
   - /images/products/maapuur/avant-maapuur.jpg
   - /images/products/maapuur/volfram-hambad.jpg
-category: avant-530
 permalink: /products/maapuur/
 youtubeVideos:
   - EgkRHc9ILk4

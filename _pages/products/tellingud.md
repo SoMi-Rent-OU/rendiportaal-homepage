@@ -7,7 +7,6 @@ images:
   - /images/products/tellingud/raamtelling-monteeritud.jpg
   - /images/products/tellingud/raamtelling-pikkus-15m.jpg
   - /images/products/tellingud/raamtelling-pikkus-25m.jpg
-category: tellingud
 permalink: /products/tellingud/
 specifications:
   - label: Raami laius

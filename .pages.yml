@@ -116,9 +116,6 @@ content:
       - name: description
         type: text
         label: Kirjeldus
-      - name: category
-        type: string
-        label: Kategooria
       - name: image
         type: image
         label: Pilt

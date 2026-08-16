@@ -7,7 +7,6 @@ images:
   - /images/products/v-kujuline/teepuhastus.jpg
   - /images/products/v-kujuline/kinnisvarahooldus.jpg
   - /images/products/v-kujuline/metsas.jpg
-category: avant-530
 permalink: /products/v-kujuline-lumesahk/
 youtubeVideos:
   - NiHViXP9kd4

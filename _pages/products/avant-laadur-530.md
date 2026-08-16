@@ -12,7 +12,6 @@ images:
   - /images/products/avant/avant-500-stone-collecting.jpg
   - /images/products/avant/avant-500-snow-plow.jpg
   - /images/products/avant/avant-500-pressure-washer.jpg
-category: avant-530
 permalink: /products/avant-laadur-530/
 additionalEquipment:
   - maapuur

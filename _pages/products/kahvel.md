@@ -2,7 +2,6 @@
 title: Tõstekahvlid
 description: Mitmekülgne töövahend materjalide tõstmiseks ja teisaldamiseks kaubaalustel.
 image: /images/products/kahvel.jpg
-category: avant-530
 permalink: /products/kahvel/
 youtubeVideos:
   - dkZah8js1YM

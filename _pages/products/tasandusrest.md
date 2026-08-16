@@ -2,7 +2,6 @@
 title: Tasandusrest
 description: Ökonoomne ja tõhus lahendus killustiku ja muude pinnasematerjalide tasandamiseks.
 image: /images/products/tasandusrest.jpg
-category: avant-530
 permalink: /products/tasandusrest/
 youtubeVideos:
   - bH6VuuW_TNE
