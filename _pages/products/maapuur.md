@@ -1,7 +1,6 @@
 ---
 title: Maapuur
 description: "Hüdrauliline maapuur postiaukude ja muudeks kaevetöödeks. Saadaval 100, 200 ja 300mm läbimõõduga."
-image: /images/products/maapuur/maapuur.jpg
 images:
   - /images/products/maapuur/maapuur.jpg
   - /images/products/maapuur/puurimine.jpg

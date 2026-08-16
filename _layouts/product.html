@@ -10,8 +10,6 @@ layout: default
   "url": "{{ site.url }}{{ page.permalink }}"
   {% if page.images and page.images.size > 0 %}
   ,"image": [{% for img in page.images %}"{{ site.url }}{{ img }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
-  {% elsif page.image %}
-  ,"image": "{{ site.url }}{{ page.image }}"
   {% endif %}
   {% if page.specifications and page.specifications.size > 0 %}
   ,"additionalProperty": [
@@ -48,8 +46,6 @@ layout: default
         <div class="float-left w-full md:w-1/2 mr-8">
           {% include carousel.html images=page.images alt=page.title %}
         </div>
-      {% elsif page.image %}
-        <img src="{{ page.image }}" alt="{{ page.title }}" class="float-left w-full md:w-1/2 mr-8 mb-4 rounded-lg object-cover">
       {% endif %}
       {{ content }}
       <div class="clear-both"></div>
@@ -93,8 +89,8 @@ layout: default
             {% assign equip = site.pages | where: "url", targetUrl | first %}
             {% if equip %}
               <a href="{{ equip.url }}" class="block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition overflow-hidden">
-                {% if equip.image %}
-                  <img loading="lazy" src="{{ equip.image }}" alt="{{ equip.title }}" class="w-full h-40 object-cover">
+                {% if equip.images and equip.images.size > 0 %}
+                  <img loading="lazy" src="{{ equip.images[0] }}" alt="{{ equip.title }}" class="w-full h-40 object-cover">
                 {% endif %}
                 <div class="p-4">
                   <h3 class="font-bold">{{ equip.title }}</h3>

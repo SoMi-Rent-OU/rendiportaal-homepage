@@ -1,7 +1,6 @@
 ---
 title: Raamtellingud
 description: Raamtellingud ja fassaaditellingud ehitustöödeks. Kiire paigaldus, soodne rendihind, turvaline lahendus.
-image: /images/products/tellingud/tellingud-fassaadil.jpg
 images:
   - /images/products/tellingud/tellingud-fassaadil.jpg
   - /images/products/tellingud/raamtelling-monteeritud.jpg

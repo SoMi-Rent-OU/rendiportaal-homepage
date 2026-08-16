@@ -120,9 +120,6 @@ content:
       - name: description
         type: text
         label: Kirjeldus
-      - name: image
-        type: image
-        label: Pilt
       - name: images
         type: image
         list: true

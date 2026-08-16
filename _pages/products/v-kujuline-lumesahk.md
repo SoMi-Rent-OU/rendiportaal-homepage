@@ -1,7 +1,6 @@
 ---
 title: V-kujuline lumesahk
 description: "Professionaalne V-kujuline lumesahk Avant laadurile. Saadaval 1600, 1800 ja 2400mm töölaiusega."
-image: /images/products/v-kujuline/lumelukkamine.jpg
 images:
   - /images/products/v-kujuline/lumelukkamine.jpg
   - /images/products/v-kujuline/teepuhastus.jpg
