@@ -79,7 +79,7 @@ content:
     type: collection
     path: _pages
     filename: "{primary}.md"
-    exclude: ["products/*"]
+    exclude: ["products/*", "overview/*"]
     view:
       primary: title
     fields:
@@ -95,6 +95,34 @@ content:
       - name: image
         type: image
         label: Pilt
+      - name: children
+        type: string
+        list: true
+        label: Alamlehed
+      - name: permalink
+        type: string
+        label: Püsiviide
+      - name: body
+        type: rich-text
+        label: Sisu
+
+  - name: ylevaated
+    label: Ülevaated
+    type: collection
+    path: _pages/overview
+    filename: "{primary}.md"
+    view:
+      primary: title
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: description
+        type: text
+        label: Kirjeldus
       - name: children
         type: string
         list: true
