@@ -1,28 +1,52 @@
 ---
 title: Raamtellingud
-description: Raamtellingud ja fassaaditellingud ehitustöödeks. Turvalised ja lihtsalt paigaldatavad.
-image: /images/products/avant/avant-500-front.jpg
+description: Raamtellingud ja fassaaditellingud ehitustöödeks. Kiire paigaldus, soodne rendihind, turvaline lahendus.
+image: /images/products/tellingud/tellingud-fassaadil.jpg
+images:
+  - /images/products/tellingud/tellingud-fassaadil.jpg
+  - /images/products/tellingud/raamtelling-monteeritud.jpg
+  - /images/products/tellingud/raamtelling-pikkus-15m.jpg
+  - /images/products/tellingud/raamtelling-pikkus-25m.jpg
 category: tellingud
 permalink: /products/tellingud/
+specifications:
+  - label: Raami laius
+    value: 0,73 m
+  - label: Raami kõrgus
+    value: 2,0 m
+  - label: Tüüp
+    value: Raamtelling (fassaaditelling)
+  - label: Sobivus
+    value: Sirged fassaadid
+  - label: Lisadetailid
+    value: Konsoolid, fermid, klambrid
 ---
 
 # Raamtellingud
 
-Turvalised ja lihtsalt paigaldatavad tellingud ehitustöödeks.
+Kiire ja mugav lahendus fassaaditöödeks — soodsam rendihind ja kiirem paigaldus sirgetel seintel.
 
-## Usaldusväärsed tellingud Sinu projektile
+## Raamtellingute eelised
 
-Pakume raamtellinguid ja fassaaditellinguid rendiks. Tellingud on turvalised, kergesti paigaldatavad ja sobivad erinevateks ehitustöödeks — fassaadi renoveerimine, värvimine, krohvimine ja muud kõrgtööd.
+Raamtellingud on välja töötatud kiireks ja mugavaks paigaldamiseks peamiselt sirgetele fassaadidele. Konsoolide, fermide, klambrite ja muude lisadetailide abil on võimalik koostada ka keerulisemaid tellingu konstruktsioone.
+
+Raamtellingute üheks eeliseks moodultellingute ees on nende **odavam rendihind** ja **kiirem paigaldus** sirgetel seintel.
+
+Ebaharilikes kohtades parima tulemuse saavutamiseks tasub kasutada siiski moodultellingut.
 
 ## Miks valida meie tellingud?
 
-**Turvaline ja stabiilne:** Tellingud vastavad kõikidele ohutusnõuetele ja on regulaarselt hooldatud.
+**Turvaline ja stabiilne** — tellingud vastavad kõikidele ohutusnõuetele ja on regulaarselt hooldatud.
 
-**Lihtne paigaldada:** Moodulsüsteem võimaldab kiiret monteerimist ja demonteerimist.
+**Kiire paigaldus** — raamsüsteem võimaldab monteerimist ja demonteerimist oluliselt kiiremini kui moodultellingud.
 
-**Paindlik lahendus:** Erinevad kõrgused ja konfiguratsioonid vastavalt Sinu vajadustele.
+**Paindlik lahendus** — erinevad kõrgused ja konfiguratsioonid vastavalt Sinu vajadustele.
 
-**Transpordi võimalus:** Toome tellingud objektile ja vajadusel aitame paigaldamisel.
+**Transpordi võimalus** — toome tellingud objektile ja vajadusel aitame paigaldamisel.
+
+## Müük
+
+Pakume raamtellinguid ka müügiks! Täpsema info saamiseks võta meiega ühendust.
 
 ## Renditingimused
 
