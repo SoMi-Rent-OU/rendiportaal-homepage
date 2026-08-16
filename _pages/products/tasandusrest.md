@@ -1,33 +1,57 @@
 ---
 title: Tasandusrest
-description: Tasandusrest pinnase tasandamiseks ja silumiseks.
+description: Ökonoomne ja tõhus lahendus killustiku ja muude pinnasematerjalide tasandamiseks.
 image: /images/products/tasandusrest.jpg
 category: avant-530
 permalink: /products/tasandusrest/
+youtubeVideos:
+  - bH6VuuW_TNE
+  - 3P44VTTWIQ8
+specifications:
+  - label: Laius
+    value: 1200 mm
+  - label: Mass
+    value: 85 kg
+  - label: Toote nr
+    value: A32411
+  - label: Laius
+    value: 1500 mm
+  - label: Mass
+    value: 95 kg
+  - label: Toote nr
+    value: A33537
 ---
 
 # Tasandusrest
 
-Tasandusrest pinnase tasandamiseks ja silumiseks.
+Ökonoomne ja tõhus lahendus killustiku ja muude pinnasematerjalide tasandamiseks. Vähendab vajadust käsitsi labidatöö järele, suurendades töö efektiivsust.
 
-## Täpne pinnase tasandamine
+## Mitmekülgne kasutamine
 
-Tasandusrest on ideaalne tööriist pinnase tasandamiseks ja silumiseks. Sobib haljastuse, ehituse ja muude tööde jaoks, kus vajatakse siledat pinda.
+Avanti tasandusrest on lihtne, ökonoomne ja üllatavalt praktiline töövahend, mis on loodud suuremate alade efektiivseks tasandamiseks. See sobib ideaalselt liiva, multši, mulla ja muude pinnasematerjalide tasandamiseks, pakkudes kiiret ja lihtsat lahendust mitmesugustele tasandustöödele.
+
+Tasandusresti peamised kasutusalad hõlmavad muruplatside eelnevat tasandamist enne külvamist või muru rajamist, liiva tasandamist hoovides ja sõiduteede tasandamist. Tänu selle mitmekülgsusele saab tasandusresti kasutada ka ehitusplatsil, näiteks materjalide (näiteks mururullide, tööriistade jms) tõstmiseks.
 
 ## Sobivad tööd
 
-- Pinnase tasandamine
-- Haljastuse ettevalmistamine
-- Ehitusplatside ettevalmistamine
-- Tee-ehituse ettevalmistamine
+- Muruplatside eelne tasandamine enne külvamist või muru rajamist
+- Liiva tasandamine hoovides
+- Sõiduteede tasandamine
+- Ehitusplatsil materjalide tõstmine (mururullid, tööriistad jms)
 
 ## Eelised
 
-**Täpne:** Tagab ühtlase ja sileda pinna.
+**Ökonoomne:** Lihtne ja soodne lahendus suuremate alade tasandamiseks.
 
-**Kiire:** Efektiivne töö tänu laiale restile.
+**Tõhus:** Vähendab oluliselt vajadust käsitsi tehtava labidatöö järele, muutes töö efektiivsemaks ja säästes aega.
+
+**Mitmekülgne:** Sobib mitmesugusteks tasandustöödeks nii koduaias kui ehitusplatsil.
 
 **Lihtne kasutada:** Ühendub Avant laaduri külge kiirelt.
+
+## Sobivad mudelid
+
+**Sobiv/Soovitame:** 220, 225, 313S, 320S, 320S+, 420, 423, 520, 523, 528, 530, 630, 635, 635i, 640, 640i, 645i, 650i, 735, 735i, 755i, 760i, 860i, R28, R35, e5, e513, e527, e6, e727
 
 ## Renditingimused
 

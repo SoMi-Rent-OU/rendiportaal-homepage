@@ -108,6 +108,12 @@ content:
           - name: value
             type: string
             label: Näitaja
+      - name: youtubeVideos
+        type: list
+        label: YouTube videod
+        field:
+          type: string
+          label: Video URL
       - name: body
         type: rich-text
         label: Sisu
