@@ -5,7 +5,7 @@ layout: default
   <div class="max-w-6xl mx-auto">
     <div class="prose max-w-none mb-16">
       {% if page.image %}
-        <img src="{{ page.image }}" alt="{{ page.title }}" class="float-left w-1/2 mr-8 mb-4 rounded-xl object-cover">
+        <img src="{{ page.image }}" alt="{{ page.title }}" class="float-left w-full md:w-1/2 mr-8 mb-4 rounded-xl object-cover">
       {% endif %}
       {{ content }}
       <div class="clear-both"></div>
