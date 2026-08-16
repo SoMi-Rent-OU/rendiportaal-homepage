@@ -4,6 +4,10 @@ email: rihard@pikker.dev
 phone: +372 55991560
 permalink: pretty
 
+locations:
+  tehnika: Saku vald, Tõdva küla
+  tellingud: Suur-Sõjamäe 25
+
 include:
   - _pages
 

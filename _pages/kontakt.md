@@ -8,3 +8,8 @@ permalink: /kontakt/
 
 Telefon: {{ site.phone }}
 E-post: {{ site.email }}
+
+**Asukohad**
+
+Tehnika: {{ site.locations.tehnika }}
+Tellingud ja piirdeaiad: {{ site.locations.tellingud }}

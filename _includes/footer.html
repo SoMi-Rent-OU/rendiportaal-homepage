@@ -1,4 +1,4 @@
-<footer class="border-t py-12 px-4">
+<footer class="bg-gray-50 border-t py-12 px-4">
   <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
     <div>
       <img src="/images/logo.jpeg" alt="SoMi-Rent" class="h-10 mb-3">
@@ -7,7 +7,9 @@
     <div>
       <h3 class="text-lg font-bold mb-3">Kontakt</h3>
       <p>{{ site.phone }}</p>
-      <p>{{ site.email }}</p>
+      <h3 class="text-lg font-bold mt-6 mb-3">Asukohad</h3>
+      <p>Tehnika: {{ site.locations.tehnika }}</p>
+      <p>Tellingud ja piirdeaiad: {{ site.locations.tellingud }}</p>
     </div>
     <div>
       <h3 class="text-lg font-bold mb-3">Lingid</h3>

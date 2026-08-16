@@ -18,6 +18,16 @@ content:
       - name: phone
         type: string
         label: Telefon
+      - name: locations
+        type: object
+        label: Asukohad
+        fields:
+          - name: tehnika
+            type: string
+            label: Tehnika
+          - name: tellingud
+            type: string
+            label: Tellingud ja piirdeaiad
 
   - name: home
     label: Avaleht
