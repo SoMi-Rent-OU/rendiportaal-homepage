@@ -1,8 +1,9 @@
 ---
 title: Avant 530 kompaktlaaduri rent
 description: Kuldne kesktee – kompaktne, kuid võimas. Optidrive™ juhtsüsteem, lihtne hüdraulika ja suurepärane manööverdusvõime.
-image: /images/products/avant/avant-500-front.jpg
+image: /images/products/avant/avant.jpg
 images:
+  - /images/products/avant/avant.jpg
   - /images/products/avant/avant-500-front.jpg
   - /images/products/avant/avant-500-loader.png
   - /images/products/avant/avant-500-forklift.jpg
