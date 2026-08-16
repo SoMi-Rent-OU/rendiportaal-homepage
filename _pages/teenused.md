@@ -7,3 +7,7 @@ children:
   - avant-juhita
 permalink: /teenused/
 ---
+
+# Teenused
+
+Avant laaduri rent koos juhiga või ilma. Valige endale sobiv variant.

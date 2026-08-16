@@ -8,3 +8,7 @@ children:
   - lumelukkamine
 permalink: /haljastusteenused/
 ---
+
+# Haljastusteenused
+
+Pakume erinevaid haljastusteenuseid — pinnasetööd, haljastamine ja lumelükkamine.
