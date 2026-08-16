@@ -29,7 +29,8 @@ content:
             type: string
             label: Tellingud ja piirdeaiad
       - name: navigation
-        type: list
+        type: object
+        list: true
         label: Navigatsioon
         fields:
           - name: title
@@ -39,7 +40,8 @@ content:
             type: string
             label: Link
           - name: children
-            type: list
+            type: object
+            list: true
             label: Alamlingid
             fields:
               - name: title
@@ -49,7 +51,8 @@ content:
                 type: string
                 label: Link
       - name: footer_links
-        type: list
+        type: object
+        list: true
         label: Jaluse lingid
         fields:
           - name: title
@@ -93,7 +96,8 @@ content:
         type: image
         label: Pilt
       - name: children
-        type: list
+        type: string
+        list: true
         label: Alamlehed
       - name: permalink
         type: string
@@ -120,19 +124,19 @@ content:
         type: image
         label: Pilt
       - name: images
-        type: list
+        type: image
+        list: true
         label: Pildid (karussell)
-        field:
-          type: image
-          label: Pilt
       - name: permalink
         type: string
         label: Püsiviide
       - name: additionalEquipment
-        type: list
+        type: string
+        list: true
         label: Lisaseadmed
       - name: specifications
-        type: list
+        type: object
+        list: true
         label: Tehnilised andmed
         fields:
           - name: label
@@ -142,11 +146,9 @@ content:
             type: string
             label: Näitaja
       - name: youtubeVideos
-        type: list
-        label: YouTube videod
-        field:
-          type: string
-          label: Video URL
+        type: string
+        list: true
+        label: YouTube videod (video ID)
       - name: body
         type: rich-text
         label: Sisu
