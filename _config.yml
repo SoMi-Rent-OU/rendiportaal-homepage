@@ -8,6 +8,50 @@ locations:
   tehnika: Saku vald, Tõdva küla
   tellingud: Suur-Sõjamäe 25
 
+navigation:
+  - title: Rendi avant
+    url: /products/avant-laadur-530/
+    children:
+      - title: Avant 530
+        url: /products/avant-laadur-530/
+  - title: Haljastusteenused
+    url: /haljastusteenused/
+    children:
+      - title: Pinnasetööd
+        url: /products/pinnasetood/
+      - title: Haljastusteenused
+        url: /products/haljastusteenused/
+      - title: Lumelükkamine
+        url: /products/lumelukkamine/
+  - title: Teenused
+    url: /teenused/
+    children:
+      - title: Avant juhiga
+        url: /products/avant-juhiga/
+      - title: Avant juhita
+        url: /products/avant-juhita/
+  - title: Tellingud ja piirdeaiad
+    url: /tellingud-ja-piirdeaiad/
+    children:
+      - title: Raamtellingud
+        url: /products/tellingud/
+      - title: Piirdeaiad
+        url: /products/piirdeaiad/
+  - title: Saada päring
+    url: /paring/
+  - title: Kontakt
+    url: /kontakt/
+
+footer_links:
+  - title: Rendi avant
+    url: /products/avant-laadur-530/
+  - title: Tellingud ja piirdeaiad
+    url: /tellingud-ja-piirdeaiad/
+  - title: Saada päring
+    url: /paring/
+  - title: Kontakt
+    url: /kontakt/
+
 include:
   - _pages
 

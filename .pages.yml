@@ -28,6 +28,36 @@ content:
           - name: tellingud
             type: string
             label: Tellingud ja piirdeaiad
+      - name: navigation
+        type: list
+        label: Navigatsioon
+        fields:
+          - name: title
+            type: string
+            label: Pealkiri
+          - name: url
+            type: string
+            label: Link
+          - name: children
+            type: list
+            label: Alamlingid
+            fields:
+              - name: title
+                type: string
+                label: Pealkiri
+              - name: url
+                type: string
+                label: Link
+      - name: footer_links
+        type: list
+        label: Jaluse lingid
+        fields:
+          - name: title
+            type: string
+            label: Pealkiri
+          - name: url
+            type: string
+            label: Link
 
   - name: home
     label: Avaleht

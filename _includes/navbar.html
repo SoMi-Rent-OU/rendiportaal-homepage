@@ -4,7 +4,7 @@
       <img src="/images/logo.jpeg" alt="SoMi-Rent" class="h-10">
     </a>
 
-    <!-- Hamburger Button (Fixed with span lines for perfect morphing) -->
+    <!-- Hamburger Button -->
     <button id="menu-toggle" class="md:hidden relative w-10 h-10 flex items-center justify-center text-gray-700 focus:outline-none" aria-label="Menu">
       <div class="relative w-6 h-[16px]">
         <span id="b1" class="absolute left-0 top-0 w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
@@ -15,48 +15,23 @@
 
     <!-- Desktop Navigation -->
     <ul class="hidden md:flex items-center gap-6 text-sm font-bold" id="nav-menu">
-      <li class="relative group">
-        <a href="/products/avant-laadur-530/" class="inline-flex items-center gap-1 hover:text-red-700 transition">
-          Rendi avant
-          <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-        </a>
-        <ul class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute top-full left-0 bg-white shadow-lg rounded-lg pt-2 pb-2 min-w-48 transition before:content-[''] before:absolute before:left-0 before:right-0 before:-top-2 before:h-2">
-          <li><a href="/products/avant-laadur-530/" class="block px-4 py-2 hover:bg-gray-50 hover:text-red-700">Avant 530</a></li>
-        </ul>
-      </li>
-      <li class="relative group">
-        <a href="/haljastusteenused/" class="inline-flex items-center gap-1 hover:text-red-700 transition">
-          Haljastusteenused
-          <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-        </a>
-        <ul class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute top-full left-0 bg-white shadow-lg rounded-lg pt-2 pb-2 min-w-56 transition before:content-[''] before:absolute before:left-0 before:right-0 before:-top-2 before:h-2">
-          <li><a href="/products/pinnasetood/" class="block px-4 py-2 hover:bg-gray-50 hover:text-red-700">Pinnasetööd</a></li>
-          <li><a href="/products/haljastusteenused/" class="block px-4 py-2 hover:bg-gray-50 hover:text-red-700">Haljastusteenused</a></li>
-          <li><a href="/products/lumelukamine/" class="block px-4 py-2 hover:bg-gray-50 hover:text-red-700">Lumelükkamine</a></li>
-        </ul>
-      </li>
-      <li class="relative group">
-        <a href="/teenused/" class="inline-flex items-center gap-1 hover:text-red-700 transition">
-          Teenused
-          <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-        </a>
-        <ul class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute top-full left-0 bg-white shadow-lg rounded-lg pt-2 pb-2 min-w-48 transition before:content-[''] before:absolute before:left-0 before:right-0 before:-top-2 before:h-2">
-          <li><a href="/products/avant-juhiga/" class="block px-4 py-2 hover:bg-gray-50 hover:text-red-700">Avant juhiga</a></li>
-          <li><a href="/products/avant-juhita/" class="block px-4 py-2 hover:bg-gray-50 hover:text-red-700">Avant juhita</a></li>
-        </ul>
-      </li>
-      <li class="relative group">
-        <a href="/tellingud-ja-piirdeaiad/" class="inline-flex items-center gap-1 hover:text-red-700 transition">
-          Tellingud ja piirdeaiad
-          <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-        </a>
-        <ul class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute top-full left-0 bg-white shadow-lg rounded-lg pt-2 pb-2 min-w-56 transition before:content-[''] before:absolute before:left-0 before:right-0 before:-top-2 before:h-2">
-          <li><a href="/products/tellingud/" class="block px-4 py-2 hover:bg-gray-50 hover:text-red-700">Raamtellingud</a></li>
-          <li><a href="/products/piirdeaiad/" class="block px-4 py-2 hover:bg-gray-50 hover:text-red-700">Piirdeaiad</a></li>
-        </ul>
-      </li>
-      <li><a href="/paring/" class="hover:text-red-700 transition">Saada päring</a></li>
-      <li><a href="/kontakt/" class="hover:text-red-700 transition">Kontakt</a></li>
+      {% for item in site.navigation %}
+        {% if item.children %}
+          <li class="relative group">
+            <a href="{{ item.url }}" class="inline-flex items-center gap-1 hover:text-red-700 transition">
+              {{ item.title }}
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            </a>
+            <ul class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute top-full left-0 bg-white shadow-lg rounded-lg pt-2 pb-2 min-w-48 transition before:content-[''] before:absolute before:left-0 before:right-0 before:-top-2 before:h-2">
+              {% for child in item.children %}
+                <li><a href="{{ child.url }}" class="block px-4 py-2 hover:bg-gray-50 hover:text-red-700">{{ child.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% else %}
+          <li><a href="{{ item.url }}" class="hover:text-red-700 transition">{{ item.title }}</a></li>
+        {% endif %}
+      {% endfor %}
     </ul>
   </div>
 
@@ -64,56 +39,25 @@
   <div id="mobile-menu" class="md:hidden grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out shadow-md bg-white absolute w-full left-0">
     <div class="overflow-hidden">
       <ul class="px-4 py-4 space-y-2 text-sm font-bold border-t">
-        <li>
-          <button class="mobile-dropdown-toggle w-full text-left py-2 flex items-center justify-between">
-            Rendi avant
-            <svg class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out">
-            <ul class="overflow-hidden pl-4 space-y-1 font-medium">
-              <li><a href="/products/avant-laadur-530/" class="block py-1 hover:text-red-700">Avant 530</a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="border-t pt-2">
-          <button class="mobile-dropdown-toggle w-full text-left py-2 flex items-center justify-between">
-            Haljastusteenused
-            <svg class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out">
-            <ul class="overflow-hidden pl-4 space-y-1 font-medium">
-              <li><a href="/products/pinnasetood/" class="block py-1 hover:text-red-700">Pinnasetööd</a></li>
-              <li><a href="/products/haljastusteenused/" class="block py-1 hover:text-red-700">Haljastusteenused</a></li>
-              <li><a href="/products/lumelukamine/" class="block py-1 hover:text-red-700">Lumelükkamine</a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="border-t pt-2">
-          <button class="mobile-dropdown-toggle w-full text-left py-2 flex items-center justify-between">
-            Teenused
-            <svg class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out">
-            <ul class="overflow-hidden pl-4 space-y-1 font-medium">
-              <li><a href="/products/avant-juhiga/" class="block py-1 hover:text-red-700">Avant juhiga</a></li>
-              <li><a href="/products/avant-juhita/" class="block py-1 hover:text-red-700">Avant juhita</a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="border-t pt-2">
-          <button class="mobile-dropdown-toggle w-full text-left py-2 flex items-center justify-between">
-            Tellingud ja piirdeaiad
-            <svg class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out">
-            <ul class="overflow-hidden pl-4 space-y-1 font-medium">
-              <li><a href="/products/tellingud/" class="block py-1 hover:text-red-700">Raamtellingud</a></li>
-              <li><a href="/products/piirdeaiad/" class="block py-1 hover:text-red-700">Piirdeaiad</a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="border-t pt-2"><a href="/paring/" class="block py-2 hover:text-red-700">Saada päring</a></li>
-        <li><a href="/kontakt/" class="block py-2 hover:text-red-700">Kontakt</a></li>
+        {% for item in site.navigation %}
+          {% if item.children %}
+            <li{% unless forloop.first %} class="border-t pt-2"{% endunless %}>
+              <button class="mobile-dropdown-toggle w-full text-left py-2 flex items-center justify-between">
+                {{ item.title }}
+                <svg class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+              </button>
+              <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out">
+                <ul class="overflow-hidden pl-4 space-y-1 font-medium">
+                  {% for child in item.children %}
+                    <li><a href="{{ child.url }}" class="block py-1 hover:text-red-700">{{ child.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </li>
+          {% else %}
+            <li{% if forloop.index > 1 %} class="border-t pt-2"{% endif %}><a href="{{ item.url }}" class="block py-2 hover:text-red-700">{{ item.title }}</a></li>
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
   </div>
@@ -122,12 +66,10 @@
 <script>
   const mobileMenu = document.getElementById('mobile-menu');
 
-  // Reusable function to open/close main menu
   const toggleMainMenu = () => {
     mobileMenu.classList.toggle('grid-rows-[0fr]');
     mobileMenu.classList.toggle('grid-rows-[1fr]');
 
-    // Animate span lines into a perfect X
     document.getElementById('b1').classList.toggle('translate-y-[7px]');
     document.getElementById('b1').classList.toggle('rotate-45');
     document.getElementById('b2').classList.toggle('opacity-0');
@@ -135,13 +77,11 @@
     document.getElementById('b3').classList.toggle('-rotate-45');
   };
 
-  // Toggle main menu on burger click
   document.getElementById('menu-toggle').addEventListener('click', (e) => {
     e.stopPropagation();
     toggleMainMenu();
   });
 
-  // Toggle submenus
   document.querySelectorAll('.mobile-dropdown-toggle').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -154,7 +94,6 @@
     });
   });
 
-  // Close when clicking outside of nav
   document.addEventListener('click', (e) => {
     if (!e.target.closest('nav') && mobileMenu.classList.contains('grid-rows-[1fr]')) {
       toggleMainMenu();

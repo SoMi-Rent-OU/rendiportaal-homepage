@@ -13,10 +13,9 @@
     <div>
       <h3 class="text-lg font-bold mb-3">Lingid</h3>
       <ul class="space-y-1">
-        <li><a href="/products/avant-laadur-530/" class="hover:text-red-700">Rendi avant</a></li>
-        <li><a href="/tellingud-ja-piirdeaiad/" class="hover:text-red-700">Tellingud ja piirdeaiad</a></li>
-        <li><a href="/paring/" class="hover:text-red-700">Saada päring</a></li>
-        <li><a href="/kontakt/" class="hover:text-red-700">Kontakt</a></li>
+        {% for link in site.footer_links %}
+          <li><a href="{{ link.url }}" class="hover:text-red-700">{{ link.title }}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </div>
