@@ -1,5 +1,4 @@
 ---
-layout: product
 title: Avant laadur 530
 description: Multifunktsionaalne kompaktlaadur, mis sobib paljudeks erinevateks töödeks.
 image: /images/products/avant-laadur-528.jpg

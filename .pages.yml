@@ -86,10 +86,6 @@ content:
     view:
       primary: title
     fields:
-      - name: layout
-        type: string
-        default: product
-        hidden: true
       - name: title
         type: string
         label: Pealkiri

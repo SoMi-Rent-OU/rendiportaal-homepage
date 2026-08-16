@@ -1,5 +1,4 @@
 ---
-layout: product
 title: V-kujuline lumesahk
 description: V-kujuline lumesahk lumelükkamiseks ja lume eemaldamiseks.
 image: /images/products/v-kujuline-lumesahk.jpg

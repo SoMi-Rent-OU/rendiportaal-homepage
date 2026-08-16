@@ -1,5 +1,4 @@
 ---
-layout: product
 title: Piirdeaiad
 description: Ehituspiirdeaiad ja ajutised piirdeaiad rendiks.
 image: /images/products/avant-laadur-528.jpg

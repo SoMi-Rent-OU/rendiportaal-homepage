@@ -1,5 +1,4 @@
 ---
-layout: product
 title: Maapuur 300mm
 description: 300mm läbimõõduga maapuur suurte aukude puurimiseks.
 image: /images/products/maapuur-300.jpg

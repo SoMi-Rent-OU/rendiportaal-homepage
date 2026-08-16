@@ -1,5 +1,4 @@
 ---
-layout: product
 title: Maapuur 100mm
 description: 100mm läbimõõduga maapuur postiaukude jaoks.
 image: /images/products/maapuur-100.jpg

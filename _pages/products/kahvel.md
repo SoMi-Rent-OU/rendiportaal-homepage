@@ -1,5 +1,4 @@
 ---
-layout: product
 title: Kahvel
 description: Kahvel materjalide teisaldamiseks.
 image: /images/products/kahvel.jpg

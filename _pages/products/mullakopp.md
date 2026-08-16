@@ -1,5 +1,4 @@
 ---
-layout: product
 title: Mullakopp
 description: Mullakopp mullatöödeks ja kaevamiseks.
 image: /images/products/mullakopp.jpg

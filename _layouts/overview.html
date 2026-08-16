@@ -62,7 +62,8 @@ layout: default
     {% if page.children %}
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
         {% for child_slug in page.children %}
-          {% assign child = site.pages | where: "slug", child_slug | first %}
+          {% assign targetUrl = "/products/" | append: child_slug | append: "/" %}
+          {% assign child = site.pages | where: "url", targetUrl | first %}
           {% if child %}
             <a href="{{ child.url }}" class="block bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition overflow-hidden">
               {% if child.image %}
