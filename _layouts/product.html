@@ -18,10 +18,10 @@ layout: default
     {% if page.specifications %}
       <div class="mb-16">
         <h2 class="text-2xl font-bold mb-6">Tehnilised andmed</h2>
-        <div class="rounded-lg overflow-hidden border border-gray-200">
+        <div class="md:rounded-lg -mx-4 md:mx-0 overflow-hidden border border-gray-200">
           <dl class="grid grid-cols-1 md:grid-cols-2">
             {% for spec in page.specifications %}
-              <div class="flex justify-between px-6 py-4 transition-colors hover:bg-gray-100 odd:bg-white even:bg-gray-50 md:[&:nth-child(4n-3)]:bg-white md:[&:nth-child(4n-2)]:bg-white md:[&:nth-child(4n-1)]:bg-gray-50 md:[&:nth-child(4n)]:bg-gray-50">
+              <div class="flex justify-between text-sm md:text-normal px-6 py-4 transition-colors hover:bg-gray-100 odd:bg-white even:bg-gray-50 md:[&:nth-child(4n-3)]:bg-white md:[&:nth-child(4n-2)]:bg-white md:[&:nth-child(4n-1)]:bg-gray-50 md:[&:nth-child(4n)]:bg-gray-50">
                 <dt class="text-gray-600">{{ spec.label }}</dt>
                 <dd class="font-medium">{{ spec.value }}</dd>
               </div>
