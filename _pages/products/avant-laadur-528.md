@@ -59,6 +59,10 @@ specifications:
     value: 72 Nm @2200 rpm
 ---
 
+# Avant 528 kompaktlaadur
+
+Kompaktne jõud igaks tööks. Usaldusväärne ja mitmekülgne masin, mis ühendab suure tõstevõime, suurepärase manööverdusvõime ja murusõbralikkuse.
+
 ## Kompaktne jõud igaks tööks
 
 Otsid usaldusväärset ja mitmekülgset masinat, mis saaks hõlpsalt hakkama ka kõige nõudlikumate ülesannetega? Avant 528 on kompaktlaadur, mis ühendab endas suure tõstevõime, suurepärase manööverdusvõime ja murusõbralikkuse. Tänu kompaktsetele mõõtmetele mahub masin ka kitsastesse oludesse, säästes samal ajal Sinu hoovi ja haljastust.

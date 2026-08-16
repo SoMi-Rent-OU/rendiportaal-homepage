@@ -3,22 +3,12 @@ layout: default
 ---
 <section class="py-16 px-4">
   <div class="max-w-6xl mx-auto">
-    <div class="grid md:grid-cols-2 gap-12 mb-12">
-      {% if page.image %}
-        <div>
-          <img src="{{ page.image }}" alt="{{ page.title }}" class="rounded-xl w-full object-cover">
-        </div>
-      {% endif %}
-      <div>
-        <h1 class="text-4xl font-bold mb-4">{{ page.title }}</h1>
-        {% if page.description %}
-          <p class="text-lg">{{ page.description }}</p>
-        {% endif %}
-      </div>
-    </div>
-
     <div class="prose max-w-none mb-16">
+      {% if page.image %}
+        <img src="{{ page.image }}" alt="{{ page.title }}" class="float-left w-1/2 mr-8 mb-4 rounded-xl object-cover">
+      {% endif %}
       {{ content }}
+      <div class="clear-both"></div>
     </div>
 
     {% if page.specifications %}
