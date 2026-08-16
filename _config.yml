@@ -1,8 +1,26 @@
 title: SoMi-Rent
 description: Masinate ja seadmete rent kogu Eestis.
+url: "https://demo-rendiportaal.pikker.dev"
 email: tarmosokolov@gmail.com
 phone: +372 55991560
 permalink: pretty
+
+exclude:
+  - AGENTS.md
+  - vendor
+  - node_modules
+  - .bundle
+  - .idea
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - build.sh
+  - LICENCE
+
+plugins:
+  - jekyll-sitemap
 
 locations:
   tehnika: Saku vald, Tõdva küla
