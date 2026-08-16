@@ -1,28 +1,47 @@
 ---
 title: Piirdeaiad
-description: Ehituspiirdeaiad ja ajutised piirdeaiad rendiks.
-image: /images/products/avant/avant-500-front.jpg
+description: Ajutised kõrge piirdeaiad ehitusplatsidele ja üritustele. Aluskividega paigaldatav, lihtne ja turvaline lahendus.
+image: /images/products/piirdeaiad/piirdeaed-aluskividega.jpg
+images:
+  - /images/products/piirdeaiad/piirdeaed-aluskividega.jpg
 category: piirdeaiad
 permalink: /products/piirdeaiad/
+specifications:
+  - label: Kõrgus
+    value: 2 m
+  - label: Laius
+    value: 3,5 m
+  - label: Tüüp
+    value: Kõrge piirdeaed
+  - label: Paigaldus
+    value: Aluskividega
+  - label: Komplektis
+    value: Kividega ja klambritega
 ---
 
-# Piirdeaiad
+# Kõrge piirdeaed 2 × 3,5 m
 
-Ajutised piirdeaiad ehitusplatsidele ja üritustele.
+Aluskividega paigaldatav ajutine piirdeaed — ideaalne lahendus ürituste alade ja ehitusobjektide piiramiseks.
 
-## Turvaline lahendus Sinu objektile
+## Kus piirdeaeda kasutada?
 
-Pakume erinevaid piirdeaiu rendiks — ehituspiirdeaiad, ajutised liikluspiirdeaiad ja muud lahendused. Piirdeaiad tagavad ohutuse ja korra nii ehitusplatsidel kui avalikel üritustel.
+Piirdeaed on ideaalne viis ajutiselt moodustada ürituste alasid või ehitusobjektide piiramiseks. Aiaelemendid sobivad nii ehitusplatsidele, avalikele üritustele kui ka muudeks ajutisteks piiramise vajadusteks.
+
+## Lihtne ja mugav teenus
+
+Aiapaneelid renditakse koos paigalduseks vajalike aluskividega ning paneelide omavaheliseks ühendamiseks vajalike klambritega — kõik vajalik on komplektis.
+
+Piirdeaeda on võimalik tellida **paigaldusega** või **paigalduseta**. Kliendi soovil transpordime piirdeaiad objektile ja tagasi meie lattu.
 
 ## Miks valida meie piirdeaiad?
 
-**Ohutus eelkõige:** Piirdeaiad vastavad kõikidele ohutusstandarditele ja on selgelt nähtavad.
+**Ohutus eelkõige** — piirdeaiad vastavad kõikidele ohutusstandarditele ja on selgelt nähtavad.
 
-**Lihtne paigaldada:** Kerged ja mobiilsed piirdeaiad, mida on kiire paigaldada ja ümber tõsta.
+**Stabiilne paigaldus** — aluskividega kinnitus tagab kindla seisu ka tuulistes oludes.
 
-**Vastupidav:** Ilmastikukindlad materjalid tagavad pikaajalise kasutuse.
+**Komplektne lahendus** — rendihinna sees on kivid ja klambrid, midagi eraldi otsima ei pea.
 
-**Paindlik lahendus:** Erinevad pikkused ja kõrgused vastavalt vajadusele.
+**Paindlik transport** — toome objektile ja vajadusel toome ka tagasi.
 
 ## Renditingimused
 
@@ -32,6 +51,6 @@ Pakume erinevaid piirdeaiu rendiks — ehituspiirdeaiad, ajutised liikluspiirdea
 
 **Pikaajaline rent:** soodsamad tingimused
 
-## Soovid piirdeaiu rentida?
+## Soovid piirdeaeda rentida?
 
 Täida allolev päringuvorm või võta meiega otse ühendust. Aitame valida just Sinu objektile sobiva lahenduse!
