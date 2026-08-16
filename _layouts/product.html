@@ -94,7 +94,7 @@ layout: default
             {% if equip %}
               <a href="{{ equip.url }}" class="block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition overflow-hidden">
                 {% if equip.image %}
-                  <img src="{{ equip.image }}" alt="{{ equip.title }}" class="w-full h-40 object-cover">
+                  <img loading="lazy" src="{{ equip.image }}" alt="{{ equip.title }}" class="w-full h-40 object-cover">
                 {% endif %}
                 <div class="p-4">
                   <h3 class="font-bold">{{ equip.title }}</h3>

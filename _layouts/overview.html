@@ -18,7 +18,7 @@ layout: default
           {% if child %}
             <a href="{{ child.url }}" class="block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition overflow-hidden">
               {% if child.image %}
-                <img src="{{ child.image }}" alt="{{ child.title }}" class="w-full h-48 object-cover">
+                <img loading="lazy" src="{{ child.image }}" alt="{{ child.title }}" class="w-full h-48 object-cover">
               {% endif %}
               <div class="p-5">
                 <h3 class="text-lg font-bold mb-1">{{ child.title }}</h3>

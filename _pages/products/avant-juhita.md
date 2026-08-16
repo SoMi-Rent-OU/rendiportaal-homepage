@@ -1,5 +1,5 @@
 ---
-title: Avant juhita
+title: Avant laaduri rent ilma juhita
 description: Avant laaduri rent ilma juhita. Sobib neile, kellel on oma kogemus masinaga.
 image: /images/products/avant/avant-500-front.jpg
 permalink: /products/avant-juhita/

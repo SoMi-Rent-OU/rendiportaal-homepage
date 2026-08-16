@@ -1,5 +1,5 @@
 ---
-title: Piirdeaiad
+title: Kõrge piirdeaed 2 x 3,5 m
 description: Ajutised kõrge piirdeaiad ehitusplatsidele ja üritustele. Aluskividega paigaldatav, lihtne ja turvaline lahendus.
 image: /images/products/piirdeaiad/piirdeaed-aluskividega.jpg
 images:
