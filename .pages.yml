@@ -62,12 +62,6 @@ content:
       - name: image
         type: image
         label: Pilt
-      - name: category
-        type: string
-        label: Kategooria
-      - name: categories
-        type: list
-        label: Kategooriad
       - name: children
         type: list
         label: Alamlehed

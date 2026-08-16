@@ -14,51 +14,6 @@ layout: default
 
     {{ content }}
 
-    {% if page.category %}
-      {% assign items = site.pages | where: "layout", "product" | where: "category", page.category %}
-      {% if items.size > 0 %}
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
-          {% for item in items %}
-            <a href="{{ item.url }}" class="block bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition overflow-hidden">
-              {% if item.image %}
-                <img src="{{ item.image }}" alt="{{ item.title }}" class="w-full h-48 object-cover">
-              {% endif %}
-              <div class="p-5">
-                <h3 class="text-lg font-bold mb-1">{{ item.title }}</h3>
-                {% if item.description %}
-                  <p class="text-sm">{{ item.description }}</p>
-                {% endif %}
-              </div>
-            </a>
-          {% endfor %}
-        </div>
-      {% endif %}
-    {% endif %}
-
-    {% if page.categories %}
-      {% for cat in page.categories %}
-        {% assign items = site.pages | where: "layout", "product" | where: "category", cat %}
-        {% if items.size > 0 %}
-          <h2 class="text-2xl font-bold mt-10 mb-6 capitalize">{{ cat }}</h2>
-          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
-            {% for item in items %}
-              <a href="{{ item.url }}" class="block bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition overflow-hidden">
-                {% if item.image %}
-                  <img src="{{ item.image }}" alt="{{ item.title }}" class="w-full h-48 object-cover">
-                {% endif %}
-                <div class="p-5">
-                  <h3 class="text-lg font-bold mb-1">{{ item.title }}</h3>
-                  {% if item.description %}
-                    <p class="text-sm">{{ item.description }}</p>
-                  {% endif %}
-                </div>
-              </a>
-            {% endfor %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
     {% if page.children %}
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
         {% for child_slug in page.children %}
