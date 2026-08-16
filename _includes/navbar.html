@@ -31,7 +31,7 @@
         {% else %}
           <li>
             {% if item.button %}
-              <a href="{{ item.url }}" class="bg-red-700 text-white px-5 py-2 rounded-lg hover:bg-red-800 transition">{{ item.title }}</a>
+              <a href="{{ item.url }}" class="saada-paring-btn bg-red-700 text-white px-5 py-2 rounded-lg hover:bg-red-800 transition">{{ item.title }}</a>
             {% else %}
               <a href="{{ item.url }}" class="hover:text-red-700 transition">{{ item.title }}</a>
             {% endif %}
@@ -63,7 +63,7 @@
           {% else %}
             <li{% if forloop.index > 1 %} class="border-t pt-2"{% endif %}>
               {% if item.button %}
-                <a href="{{ item.url }}" class="block py-2 bg-red-700 text-white text-center rounded-lg hover:bg-red-800 transition">{{ item.title }}</a>
+                <a href="{{ item.url }}" class="saada-paring-btn block py-2 bg-red-700 text-white text-center rounded-lg hover:bg-red-800 transition">{{ item.title }}</a>
               {% else %}
                 <a href="{{ item.url }}" class="block py-2 hover:text-red-700">{{ item.title }}</a>
               {% endif %}
@@ -110,5 +110,16 @@
     if (!e.target.closest('nav') && mobileMenu.classList.contains('grid-rows-[1fr]')) {
       toggleMainMenu();
     }
+  });
+
+  document.querySelectorAll('.saada-paring-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const form = document.getElementById('paring-form');
+      if (form) {
+        e.preventDefault();
+        form.scrollIntoView({ behavior: 'smooth' });
+        toggleMainMenu();
+      }
+    });
   });
 </script>
