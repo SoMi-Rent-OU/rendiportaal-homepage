@@ -3,7 +3,7 @@ title: Avant 528 kompaktlaaduri rent
 description: Kompaktne jõud igaks tööks. Usaldusväärne ja mitmekülgne masin, mis ühendab suure tõstevõime, suurepärase manööverdusvõime ja murusõbralikkuse.
 image: /images/products/avant-laadur-528.jpg
 category: avant-530
-permalink: /products/avant-laadur-530/
+permalink: /products/avant-laadur-528/
 additionalEquipment:
   - maapuur-100
   - maapuur-200

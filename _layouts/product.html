@@ -17,7 +17,7 @@ layout: default
         <div class="rounded-xl overflow-hidden border border-gray-200">
           <dl class="grid grid-cols-1 md:grid-cols-2">
             {% for spec in page.specifications %}
-              <div class="flex justify-between px-6 py-4 transition-colors hover:bg-gray-100 {% if forloop.index0 % 2 == 0 %}bg-white{% else %}bg-gray-50{% endif %}">
+              <div class="flex justify-between px-6 py-4 transition-colors hover:bg-gray-100 odd:bg-white even:bg-gray-50 md:[&:nth-child(4n-3)]:bg-white md:[&:nth-child(4n-2)]:bg-white md:[&:nth-child(4n-1)]:bg-gray-50 md:[&:nth-child(4n)]:bg-gray-50">
                 <dt class="text-gray-600">{{ spec.label }}</dt>
                 <dd class="font-medium">{{ spec.value }}</dd>
               </div>
