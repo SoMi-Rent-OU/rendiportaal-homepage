@@ -88,12 +88,12 @@ layout: default
             {% assign targetUrl = "/products/" | append: slug | append: "/" %}
             {% assign equip = site.pages | where: "url", targetUrl | first %}
             {% if equip %}
-              <a href="{{ equip.url }}" class="block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition overflow-hidden">
+              <a href="{{ equip.url }}" class="group block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg hover:border-red-200 transition overflow-hidden">
                 {% if equip.images and equip.images.size > 0 %}
                   <img loading="lazy" src="{{ equip.images[0] }}" alt="{{ equip.title }}" class="w-full h-40 object-cover">
                 {% endif %}
                 <div class="p-4">
-                  <h3 class="font-bold">{{ equip.title }}</h3>
+                  <h3 class="font-bold group-hover:text-red-700 transition">{{ equip.title }}</h3>
                   {% if equip.description %}
                     <p class="text-sm">{{ equip.description }}</p>
                   {% endif %}

@@ -55,10 +55,13 @@ navigation:
         url: /products/tellingud/
       - title: Piirdeaiad
         url: /products/piirdeaiad/
-  - title: Saada päring
-    url: /paring/
   - title: Kontakt
     url: /kontakt/
+  - title: Saada päring
+    url: /paring/
+    button: true
+
+
 
 footer_links:
   - title: Rendi avant

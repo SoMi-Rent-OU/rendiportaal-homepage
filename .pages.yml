@@ -39,6 +39,9 @@ content:
           - name: url
             type: string
             label: Link
+          - name: button
+            type: boolean
+            label: Nupuna kuvada
           - name: children
             type: object
             list: true
