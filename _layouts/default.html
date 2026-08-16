@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:image" content="{{ page.image | default: '/images/og-img.jpeg' }}">
+  <link rel="icon" href="/images/favicon.png">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/tailwind.min.css">
+</head>
+<body class="font-sans text-gray-900 bg-white">
+  {% include navbar.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>

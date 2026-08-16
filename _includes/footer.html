@@ -1,0 +1,25 @@
+<footer class="border-t py-12 px-4">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+    <div>
+      <img src="/images/logo.jpeg" alt="SoMi-Rent" class="h-10 mb-3">
+      <p>Masinate ja seadmete rent kogu Eestis.</p>
+    </div>
+    <div>
+      <h3 class="text-lg font-bold mb-3">Kontakt</h3>
+      <p>{{ site.phone }}</p>
+      <p>{{ site.email }}</p>
+    </div>
+    <div>
+      <h3 class="text-lg font-bold mb-3">Lingid</h3>
+      <ul class="space-y-1">
+        <li><a href="/products/avant-laadur-530/" class="hover:text-red-700">Rendi avant</a></li>
+        <li><a href="/tellingud-ja-piirdeaiad/" class="hover:text-red-700">Tellingud ja piirdeaiad</a></li>
+        <li><a href="/paring/" class="hover:text-red-700">Saada päring</a></li>
+        <li><a href="/kontakt/" class="hover:text-red-700">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-6xl mx-auto mt-8 pt-8 border-t text-center text-sm">
+    &copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Kõik õigused kaitstud.
+  </div>
+</footer>

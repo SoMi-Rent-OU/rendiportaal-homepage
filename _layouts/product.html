@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<section class="py-16 px-4">
+  <div class="max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-12 mb-12">
+      {% if page.image %}
+        <div>
+          <img src="{{ page.image }}" alt="{{ page.title }}" class="rounded-xl w-full object-cover">
+        </div>
+      {% endif %}
+      <div>
+        <h1 class="text-4xl font-bold mb-4">{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="text-lg">{{ page.description }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="prose max-w-none mb-16">
+      {{ content }}
+    </div>
+
+    {% if page.additionalEquipment %}
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold mb-6">Lisaseadmed</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {% for slug in page.additionalEquipment %}
+            {% assign targetUrl = "/products/" | append: slug | append: "/" %}
+            {% assign equip = site.pages | where: "url", targetUrl | first %}
+            {% if equip %}
+              <a href="{{ equip.url }}" class="block bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition overflow-hidden">
+                {% if equip.image %}
+                  <img src="{{ equip.image }}" alt="{{ equip.title }}" class="w-full h-40 object-cover">
+                {% endif %}
+                <div class="p-4">
+                  <h3 class="font-bold">{{ equip.title }}</h3>
+                  {% if equip.description %}
+                    <p class="text-sm">{{ equip.description }}</p>
+                  {% endif %}
+                </div>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% include contact-form.html %}
+  </div>
+</section>
