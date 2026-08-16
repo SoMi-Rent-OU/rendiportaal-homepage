@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Masinate rent kogu Eestis
-description: Masinate ja seadmete rent kogu Eestis. Laadurid, ekskavaatorid, tellingud ja piirdeaiad. SoMi Rent.
+title: Ehitustehnika ja tellingute rent kogu Eestis
+description: SoMi Rent pakub ehitustehnika renti nii väiksemateks kui ka suuremateks töödeks. Meie rendivalikust leiad Avant laadurid koos lisaseadmetega ning erinevad tellingud ja piirdeaiad.
 ---
