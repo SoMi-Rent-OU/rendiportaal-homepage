@@ -11,6 +11,20 @@
   <link rel="icon" href="/images/favicon.png">
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/tailwind.min.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": "{{ site.url }}"
+    {% if site.email %}
+    ,"email": "{{ site.email }}"
+    {% endif %}
+    {% if site.phone %}
+    ,"telephone": "{{ site.phone }}"
+    {% endif %}
+  }
+  </script>
 </head>
 <body class="font-sans text-gray-900 bg-white">
   {% include navbar.html %}
