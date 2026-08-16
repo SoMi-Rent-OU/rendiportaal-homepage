@@ -1,13 +1,18 @@
 title: SoMi-Rent
-description: Masinate ja seadmete rent kogu Eestis. Laadurid, ekskavaatorid,
-  haagised, tellingud ja piirdeaiad.
+description: Masinate ja seadmete rent kogu Eestis.
 email: rihard@pikker.dev
 phone: +372 55991560
+permalink: pretty
 
-collections:
-  products:
-    output: true
-    permalink: /products/:path/
-  categories:
-    output: true
-    permalink: /categories/:path/
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: "_pages/products"
+    values:
+      layout: product
+  - scope:
+      path: "_pages"
+    values:
+      layout: page

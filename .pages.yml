@@ -22,7 +22,7 @@ content:
   - name: home
     label: Avaleht
     type: file
-    path: index.markdown
+    path: index.md
     fields:
       - name: title
         type: string
@@ -31,17 +31,17 @@ content:
         type: text
         label: Meta kirjeldus
 
-  - name: kategooriad
-    label: Kategooriad
+  - name: lehed
+    label: Lehed
     type: collection
-    path: _categories
+    path: _pages
     filename: "{primary}.md"
+    exclude: ["products/*"]
     view:
       primary: title
     fields:
       - name: layout
         type: string
-        default: category
         hidden: true
       - name: title
         type: string
@@ -49,17 +49,29 @@ content:
       - name: description
         type: text
         label: Kirjeldus
-      - name: hidden
-        type: boolean
-        label: Peidetud
       - name: image
         type: image
         label: Pilt
+      - name: category
+        type: string
+        label: Kategooria
+      - name: categories
+        type: list
+        label: Kategooriad
+      - name: children
+        type: list
+        label: Alamlehed
+      - name: permalink
+        type: string
+        label: Püsiviide
+      - name: body
+        type: rich-text
+        label: Sisu
 
   - name: tooted
     label: Tooted
     type: collection
-    path: _products
+    path: _pages/products
     filename: "{primary}.md"
     view:
       primary: title
@@ -80,6 +92,12 @@ content:
       - name: image
         type: image
         label: Pilt
+      - name: permalink
+        type: string
+        label: Püsiviide
+      - name: additionalEquipment
+        type: list
+        label: Lisaseadmed
       - name: body
         type: rich-text
         label: Sisu

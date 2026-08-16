@@ -3,12 +3,16 @@ module.exports = {
   content: [
     './_layouts/**/*.html',
     './_includes/**/*.html',
-    './_categories/**/*.md',
-    './_products/**/*.md',
+    './_pages/**/*.md',
+    './*.md',
     './*.html',
-    './*.markdown',
   ],
   theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+    },
     container: {
       center: true,
     },
