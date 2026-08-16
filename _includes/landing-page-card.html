@@ -1,0 +1,9 @@
+<a href="{{ include.href }}" class="group bg-black relative block overflow-hidden rounded-2xl aspect-[4/5]">
+  <img src="{{ include.image }}" alt="{{ include.alt }}" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-60 group-hover:scale-105 transition-all duration-700">
+  <div class="relative z-10 flex flex-col justify-end h-full p-8 md:p-10">
+    <span class="text-xs tracking-[0.25em] text-gray-400 uppercase mb-3">{{ include.label }}</span>
+    <h2 class="text-4xl md:text-5xl font-black text-white uppercase leading-none mb-4">{{ include.title }}</h2>
+    <p class="text-gray-300 mb-6">{{ include.description }}</p>
+    <span class="inline-flex items-center gap-2 text-sm font-bold tracking-wider uppercase text-red-700 group-hover:gap-4 transition-all">Vaata lähemalt <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg></span>
+  </div>
+</a>
