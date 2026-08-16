@@ -98,6 +98,16 @@ content:
       - name: additionalEquipment
         type: list
         label: Lisaseadmed
+      - name: specifications
+        type: list
+        label: Tehnilised andmed
+        fields:
+          - name: label
+            type: string
+            label: Parameeter
+          - name: value
+            type: string
+            label: Näitaja
       - name: body
         type: rich-text
         label: Sisu

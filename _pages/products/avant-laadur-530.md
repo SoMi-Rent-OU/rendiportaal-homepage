@@ -1,6 +1,6 @@
 ---
-title: Avant laadur 530
-description: Multifunktsionaalne kompaktlaadur, mis sobib paljudeks erinevateks töödeks.
+title: Avant 528 kompaktlaaduri rent
+description: Kompaktne jõud igaks tööks. Usaldusväärne ja mitmekülgne masin, mis ühendab suure tõstevõime, suurepärase manööverdusvõime ja murusõbralikkuse.
 image: /images/products/avant-laadur-528.jpg
 category: avant-530
 permalink: /products/avant-laadur-530/
@@ -12,5 +12,97 @@ additionalEquipment:
   - kahvel
   - tasandusrest
   - v-kujuline-lumesahk
+specifications:
+  - label: Tõstevõime
+    value: 950 kg
+  - label: Võimsus
+    value: 26 hj diisel
+  - label: Tõstekõrgus
+    value: 2.8 m
+  - label: Sõidukiirus
+    value: 12 km/h
+  - label: Vedu
+    value: Nelivedu
+  - label: Kütus
+    value: Diisel
+  - label: Pikkus
+    value: 2570 mm
+  - label: Laius
+    value: 1130 mm
+  - label: Kõrgus
+    value: 1985 mm
+  - label: Kaal
+    value: 1250 + 170 kg
+  - label: Standard rehvid
+    value: 23×10.50-12" muru/TR
+  - label: Ülekanne, ajam
+    value: Hüdraulika, Avant Optidrive™
+  - label: Maksimaalne tõmbejõud
+    value: 950 kp
+  - label: Tööhüdraulika tootlus/rõhk
+    value: 36 l/min 200 bar
+  - label: Hüdraulikaõli jahuti
+    value: Standard
+  - label: Pöörderaadius sisemine/välimine
+    value: 995 / 2050 mm
+  - label: Maksimaalne tõstekõrgus
+    value: 2790 mm
+  - label: Tõstevõime alates*
+    value: 950 kg
+  - label: Maksimaalne murdejõud
+    value: 1250 kg
+  - label: Mootor
+    value: Kubota D1105 Stage V
+  - label: Mootori võimsus (ECE R120)
+    value: 19 Kw (26 hp)
+  - label: Väändemoment
+    value: 72 Nm @2200 rpm
 ---
-Avant 530 on mitmekülgne kompaktlaadur, millega saab teha erinevaid töid nii ehitusplatsil kui ka haljastuses.
+
+## Kompaktne jõud igaks tööks
+
+Otsid usaldusväärset ja mitmekülgset masinat, mis saaks hõlpsalt hakkama ka kõige nõudlikumate ülesannetega? Avant 528 on kompaktlaadur, mis ühendab endas suure tõstevõime, suurepärase manööverdusvõime ja murusõbralikkuse. Tänu kompaktsetele mõõtmetele mahub masin ka kitsastesse oludesse, säästes samal ajal Sinu hoovi ja haljastust.
+
+Olgu tegemist ehituse, haljastuse, pinnasetööde või lumekoristusega – Avant 528 kohandub kiiresti Sinu vajadustega.
+
+## Miks valida rentimiseks just Avant 528?
+
+**Võimas ja töökas:** 950 kg tõstevõimet ja 2,8 m tõstekõrgust tagavad, et ka rasked alused ja materjalid saavad liigutatud vaevata.
+
+**Murusõbralik ja säästlik:** Masin on varustatud spetsiaalsete mururehvidega ning liigendstruktuur tagab meeldivalt sujuva pööramise – Sinu muru, sillutis ja hoov jäävad kahjustamata.
+
+**Mitmekülgne lisaseadmete valik:** Lai lisaseadmete sortiment teeb ühest masinast tõelise multifunktsionaalse tööriista.
+
+**Lihtne käsitseda:** Ergonoomiline ja intuitiivne juhtimine tagab kiire kohanemise ka vähesemate kogemustega operaatorile.
+
+## Renditingimused ja hinnakiri
+
+Paku oma projektile parimat lahendust – pikaajalisest rendist kuni juhiga teenuseni.
+
+**Päevarent:** 110 € + km / päev
+
+- Sisaldab kuni 8 mototöötundi.
+- Tarnitakse täispaagiga (kütus ei sisaldu hinnas).
+- **Boonus iga rendiga:** Üks põhilisaseade (mullakühvel, tasandusrest või tõstekahvel) TASUTA kaasa!
+
+**Pikaajaline rent (1 kuu):** 1500 € + km / kuu
+
+**Laaduri rent koos operaatoriga:** 45 € + km / tund
+
+- Sisaldab kogenud juhti ja kütust.
+
+## Saadaval olevad lisaseadmed
+
+Optimeeri masina tööd õigete lisaseadmetega:
+
+- Mullakühvel, tasandusrest ja tõstekahvel
+- Maapuur (puurid Ø 100 mm, 200 mm ja 300 mm)
+- Mullafrees ja hooldusniiduk
+- Kaevur (minikaevur) ja silohark
+- Noolepikendus täiendava tööulatuse saavutamiseks
+
+## Soovid masinat rentida või küsida lisainfot?
+
+Täida allolev päringuvorm või võta meiega otse ühendust. Aitame valida just Sinu töö jaoks sobivad lisaseadmed!
+
+*Tõstevõimet on mõõdetud 400 mm kaugusel töövahendi kinnitusplaadist. Lisatud on töövahend massiga 70 kg ja vasturaskus.*
