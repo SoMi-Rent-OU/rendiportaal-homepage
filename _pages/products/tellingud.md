@@ -1,7 +1,7 @@
 ---
 title: Raamtellingud
 description: Raamtellingud ja fassaaditellingud ehitustöödeks. Turvalised ja lihtsalt paigaldatavad.
-image: /images/products/avant-laadur-528.jpg
+image: /images/products/avant/avant-500-front.jpg
 category: tellingud
 permalink: /products/tellingud/
 ---

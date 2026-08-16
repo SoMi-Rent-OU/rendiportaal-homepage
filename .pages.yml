@@ -92,6 +92,12 @@ content:
       - name: image
         type: image
         label: Pilt
+      - name: images
+        type: list
+        label: Pildid (karussell)
+        field:
+          type: image
+          label: Pilt
       - name: permalink
         type: string
         label: Püsiviide

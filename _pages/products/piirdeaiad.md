@@ -1,7 +1,7 @@
 ---
 title: Piirdeaiad
 description: Ehituspiirdeaiad ja ajutised piirdeaiad rendiks.
-image: /images/products/avant-laadur-528.jpg
+image: /images/products/avant/avant-500-front.jpg
 category: piirdeaiad
 permalink: /products/piirdeaiad/
 ---

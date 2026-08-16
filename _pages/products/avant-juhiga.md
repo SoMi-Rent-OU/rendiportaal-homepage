@@ -1,7 +1,7 @@
 ---
 title: Avant juhiga
 description: Avant laaduri rent koos kogenud juhiga. Teie ütlete, meie teeme.
-image: /images/products/avant-laadur-528.jpg
+image: /images/products/avant/avant-500-front.jpg
 permalink: /products/avant-juhiga/
 ---
 

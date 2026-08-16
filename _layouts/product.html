@@ -4,7 +4,11 @@ layout: default
 <section class="py-16 px-4">
   <div class="max-w-6xl mx-auto">
     <div class="prose max-w-none mb-16">
-      {% if page.image %}
+      {% if page.images and page.images.size > 0 %}
+        <div class="float-left w-full md:w-1/2 mr-8">
+          {% include carousel.html images=page.images alt=page.title %}
+        </div>
+      {% elsif page.image %}
         <img src="{{ page.image }}" alt="{{ page.title }}" class="float-left w-full md:w-1/2 mr-8 mb-4 rounded-xl object-cover">
       {% endif %}
       {{ content }}

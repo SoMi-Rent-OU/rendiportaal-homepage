@@ -1,0 +1,108 @@
+{% assign carousel_id = include.id | default: "carousel" %}
+{% assign images = include.images %}
+{% assign alt = include.alt | default: "Product image" %}
+
+<div class="not-prose mb-8">
+  <div class="relative">
+    <div
+      id="{{ carousel_id }}"
+      class="relative aspect-[3/2] bg-white rounded-xl overflow-hidden"
+      data-current="0"
+    >
+      {% for img in images %}
+        <img
+          src="{{ img }}"
+          alt="{{ alt }} {{ forloop.index }}"
+          class="carousel-img block absolute inset-0 w-full h-full object-contain transition-opacity duration-300 ease-in-out {% if forloop.first %}opacity-100{% else %}opacity-0{% endif %}"
+          {% unless forloop.first %}loading="lazy"{% endunless %}
+          draggable="false"
+        >
+      {% endfor %}
+
+
+    </div>
+
+    {% if images.size > 1 %}
+      <div class="carousel-thumbs flex gap-2 overflow-x-auto pb-2 mt-3">
+        {% for img in images %}
+          <button
+            class="carousel-thumb shrink-0 h-16 aspect-[3/2] rounded-md overflow-hidden border-2 bg-white {% if forloop.first %}border-red-700{% else %}border-gray-200 hover:border-gray-400{% endif %}"
+            data-index="{{ forloop.index0 }}"
+            aria-label="View image {{ forloop.index }}"
+          >
+            <img loading="lazy" src="{{ img }}" alt="Thumbnail {{ forloop.index }}" class="block w-full h-full object-cover" draggable="false">
+          </button>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+  .carousel-thumbs { scrollbar-width: none; }
+</style>
+
+<script>
+  (function() {
+    var container = document.getElementById('{{ carousel_id }}')
+    if (!container) return
+
+    var images = container.querySelectorAll('.carousel-img')
+    var thumbs = container.parentElement.querySelectorAll('.carousel-thumb')
+    var currentIndex = 0
+    var touchStartX = 0
+    var touchStartY = 0
+
+    function setIndex(index) {
+      if (index < 0) index = images.length - 1
+      if (index >= images.length) index = 0
+      images[currentIndex].classList.remove('opacity-100')
+      images[currentIndex].classList.add('opacity-0')
+      currentIndex = index
+      images[currentIndex].classList.remove('opacity-0')
+      images[currentIndex].classList.add('opacity-100')
+
+      for (var i = 0; i < thumbs.length; i++) {
+        if (i === currentIndex) {
+          thumbs[i].classList.remove('border-gray-200')
+          thumbs[i].classList.add('border-red-700')
+        } else {
+          thumbs[i].classList.remove('border-red-700')
+          thumbs[i].classList.add('border-gray-200')
+        }
+      }
+
+      thumbs[currentIndex].scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'center'})
+    }
+
+    for (var i = 0; i < thumbs.length; i++) {
+      (function(idx) {
+        thumbs[idx].addEventListener('click', function() { setIndex(idx) })
+      })(i)
+    }
+
+    container.addEventListener('touchstart', function(e) {
+      touchStartX = e.touches[0].clientX
+      touchStartY = e.touches[0].clientY
+    }, { passive: true })
+
+    container.addEventListener('touchend', function(e) {
+      var deltaX = touchStartX - e.changedTouches[0].clientX
+      var deltaY = touchStartY - e.changedTouches[0].clientY
+
+      if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
+        if (deltaX > 0) {
+          setIndex(currentIndex + 1)
+        } else {
+          setIndex(currentIndex - 1)
+        }
+      }
+    }, { passive: true })
+
+    document.addEventListener('keydown', function(e) {
+      if (!container.matches(':hover')) return
+      if (e.key === 'ArrowLeft') setIndex(currentIndex - 1)
+      if (e.key === 'ArrowRight') setIndex(currentIndex + 1)
+    })
+  })()
+</script>
