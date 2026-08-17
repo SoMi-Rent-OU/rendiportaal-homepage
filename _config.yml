@@ -55,6 +55,13 @@ navigation:
         url: /products/tellingud/
       - title: Piirdeaiad
         url: /products/piirdeaiad/
+  - title: Haagise rent
+    url: /haagise-rent/
+    children:
+      - title: TikiTreileri Kerghaagis
+        url: /products/tiki-kerghaagis-kaanega/
+      - title: Autoülekande haagis
+        url: /products/ap2600-drb/
   - title: Kontakt
     url: /kontakt/
   - title: Saada päring
