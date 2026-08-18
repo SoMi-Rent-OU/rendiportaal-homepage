@@ -1,8 +1,9 @@
 ---
 permalink: /404.html
-layout: page
+layout: default
+lang: et
 ---
-
+{% include lang.html %}
 <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
@@ -17,9 +18,11 @@ layout: page
   }
 </style>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<section class="py-16 px-4">
+  <div class="max-w-6xl mx-auto text-center">
+    <h1 class="text-6xl font-black mb-6">{{ t.error_title }}</h1>
+    <p class="text-xl font-bold mb-4">{{ t.error_heading }}</p>
+    <p class="mb-8">{{ t.error_text }}</p>
+    <a href="{{ lang_prefix }}/" class="inline-block bg-red-700 text-white font-bold px-6 py-3 rounded-lg hover:bg-red-800 transition">{{ t.error_back }}</a>
+  </div>
+</section>

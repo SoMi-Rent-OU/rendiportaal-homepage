@@ -1,0 +1,36 @@
+lang_code: ru
+lang_name: Русский
+lang_switch_label: EST
+lang_switch_url_prefix: /et
+
+home_title: "Аренда строительной техники и лесов"
+home_highlight: "по всей Эстонии"
+home_description: "SoMi Rent предлагает аренду строительной техники как для небольших, так и для крупных работ. В нашем ассортименте — погрузчики Avant с навесным оборудованием, а также различные леса и ограждения."
+
+specs_heading: "Технические характеристики"
+videos_heading: "Видео"
+equipment_heading: "Дополнительное оборудование"
+
+form_heading: "Запрос"
+form_description: "Оставьте заявку и мы ответим при первой возможности."
+form_email_label: "Электронная почта"
+form_message_label: "Дополнительная информация"
+form_submit: "Отправить запрос"
+form_subject: "Новый запрос"
+
+cta_text: "Подробнее"
+
+footer_description: "Аренда техники и оборудования по всей Эстонии."
+footer_contact: "Контакты"
+footer_links: "Ссылки"
+footer_rights: "Все права защищены."
+location_tehnika: "Техника"
+location_tellingud: "Леса и ограждения"
+
+meta_title_suffix: "SoMi-Rent"
+meta_default_description: "Аренда техники и оборудования по всей Эстонии."
+
+error_title: "404"
+error_heading: "Страница не найдена"
+error_text: "К сожалению, запрашиваемая страница не существует."
+error_back: "На главную"

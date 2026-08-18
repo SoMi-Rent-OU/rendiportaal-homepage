@@ -1,0 +1,11 @@
+{%- assign lang = page.lang | default: "et" -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign nav = site.data.nav[lang] -%}
+{%- if lang == "et" -%}
+  {%- assign other_lang = "ru" -%}
+  {%- assign other_lang_prefix = "/ru" -%}
+{%- else -%}
+  {%- assign other_lang = "et" -%}
+  {%- assign other_lang_prefix = "/et" -%}
+{%- endif -%}
+{%- assign lang_prefix = "/" | append: lang -%}

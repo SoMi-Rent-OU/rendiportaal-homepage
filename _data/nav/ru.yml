@@ -1,0 +1,40 @@
+- title: Аренда Avant
+  url: /ru/products/avant-laadur-530/
+  children:
+    - title: Avant 530
+      url: /ru/products/avant-laadur-530/
+- title: Озеленение
+  url: /ru/haljastusteenused/
+  children:
+    - title: Земляные работы
+      url: /ru/products/pinnasetood/
+    - title: Озеленение
+      url: /ru/products/haljastusteenused/
+    - title: Уборка снега
+      url: /ru/products/lumelukkamine/
+- title: Услуги
+  url: /ru/teenused/
+  children:
+    - title: Avant с оператором
+      url: /ru/products/avant-juhiga/
+    - title: Avant без оператора
+      url: /ru/products/avant-juhita/
+- title: Леса и ограждения
+  url: /ru/tellingud-ja-piirdeaiad/
+  children:
+    - title: Рамные леса
+      url: /ru/products/tellingud/
+    - title: Ограждения
+      url: /ru/products/piirdeaiad/
+- title: Аренда прицепов
+  url: /ru/haagise-rent/
+  children:
+    - title: TikiTreileri прицеп
+      url: /ru/products/tiki-kerghaagis-kaanega/
+    - title: Прицеп для перевозки авто
+      url: /ru/products/ap2600-drb/
+- title: Контакты
+  url: /ru/kontakt/
+- title: Отправить запрос
+  url: /ru/paring/
+  button: true

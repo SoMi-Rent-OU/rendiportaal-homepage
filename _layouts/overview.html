@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include lang.html %}
 <section class="py-16 px-4">
   <div class="max-w-6xl mx-auto">
     <div class="prose max-w-none mb-16">
@@ -13,7 +14,7 @@ layout: default
     {% if page.children %}
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
         {% for child_slug in page.children %}
-          {% assign targetUrl = "/products/" | append: child_slug | append: "/" %}
+          {% assign targetUrl = lang_prefix | append: "/products/" | append: child_slug | append: "/" %}
           {% assign child = site.pages | where: "url", targetUrl | first %}
           {% if child %}
             <a href="{{ child.url }}" class="group block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg hover:border-red-200 transition overflow-hidden">

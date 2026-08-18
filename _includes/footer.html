@@ -2,24 +2,24 @@
   <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
     <div>
       <img loading="lazy" src="/images/logo.jpeg" alt="SoMi-Rent" class="h-14 mb-3">
-      <p>Masinate ja seadmete rent kogu Eestis.</p>
+      <p>{{ t.footer_description }}</p>
     </div>
     <div>
-      <h3 class="text-lg font-bold mb-3">Kontakt</h3>
+      <h3 class="text-lg font-bold mb-3">{{ t.footer_contact }}</h3>
       <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
-      <p><b>Tehnika:</b> {{ site.locations.tehnika }}</p>
-      <p><b>Tellingud ja piirdeaiad:</b> {{ site.locations.tellingud }}</p>
+      <p><b>{{ t.location_tehnika }}:</b> {{ site.locations.tehnika }}</p>
+      <p><b>{{ t.location_tellingud }}:</b> {{ site.locations.tellingud }}</p>
     </div>
     <div>
-      <h3 class="text-lg font-bold mb-3">Lingid</h3>
+      <h3 class="text-lg font-bold mb-3">{{ t.footer_links }}</h3>
       <ul class="space-y-1">
-        {% for item in site.navigation %}
+        {% for item in nav %}
           <li><a href="{{ item.url }}" class="hover:text-red-700">{{ item.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
   </div>
   <div class="max-w-6xl mx-auto mt-8 pt-8 border-t text-center text-sm">
-    &copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Kõik õigused kaitstud.
+    &copy; {{ 'now' | date: "%Y" }} {{ site.title }}. {{ t.footer_rights }}
   </div>
 </footer>

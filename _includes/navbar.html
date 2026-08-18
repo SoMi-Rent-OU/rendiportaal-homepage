@@ -1,21 +1,30 @@
 <nav class="bg-white shadow sticky top-0 z-50">
   <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-20">
-    <a href="/" class="flex items-center gap-2">
+    <a href="{{ lang_prefix }}/" class="flex items-center gap-2">
       <img src="/images/logo.jpeg" alt="SoMi-Rent" class="h-16">
     </a>
 
-    <!-- Hamburger Button -->
-    <button id="menu-toggle" class="lg:hidden relative w-10 h-10 flex items-center justify-center text-gray-700 focus:outline-none" aria-label="Menu">
-      <div class="relative w-6 h-[16px]">
-        <span id="b1" class="absolute left-0 top-0 w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
-        <span id="b2" class="absolute left-0 top-[7px] w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
-        <span id="b3" class="absolute left-0 top-[14px] w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
-      </div>
-    </button>
+    <div class="flex items-center gap-4">
+      <!-- Language Switcher -->
+      {% if page.lang_pair %}
+        <a href="{{ page.lang_pair }}" class="text-sm font-bold hover:text-red-700 transition">{{ t.lang_switch_label }}</a>
+      {% else %}
+        <a href="{{ other_lang_prefix }}/" class="text-sm font-bold hover:text-red-700 transition">{{ t.lang_switch_label }}</a>
+      {% endif %}
+
+      <!-- Hamburger Button -->
+      <button id="menu-toggle" class="lg:hidden relative w-10 h-10 flex items-center justify-center text-gray-700 focus:outline-none" aria-label="Menu">
+        <div class="relative w-6 h-[16px]">
+          <span id="b1" class="absolute left-0 top-0 w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
+          <span id="b2" class="absolute left-0 top-[7px] w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
+          <span id="b3" class="absolute left-0 top-[14px] w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
+        </div>
+      </button>
+    </div>
 
     <!-- Desktop Navigation -->
     <ul class="hidden lg:flex items-center gap-6 text-sm font-bold" id="nav-menu">
-      {% for item in site.navigation %}
+      {% for item in nav %}
         {% if item.children %}
           <li class="relative group">
             <a href="{{ item.url }}" class="inline-flex items-center gap-1 hover:text-red-700 transition">
@@ -45,7 +54,7 @@
   <div id="mobile-menu" class="lg:hidden grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out shadow-md bg-white absolute w-full left-0">
     <div class="overflow-hidden">
       <ul class="px-4 py-4 space-y-2 text-sm font-bold border-t">
-        {% for item in site.navigation %}
+        {% for item in nav %}
           {% if item.children %}
             <li{% unless forloop.first %} class="border-t pt-2"{% endunless %}>
               <button class="mobile-dropdown-toggle w-full text-left py-2 flex items-center justify-between">
@@ -70,6 +79,14 @@
             </li>
           {% endif %}
         {% endfor %}
+        <!-- Mobile Language Switcher -->
+        <li class="border-t pt-2">
+          {% if page.lang_pair %}
+            <a href="{{ page.lang_pair }}" class="block py-2 font-bold hover:text-red-700">{{ t.lang_switch_label }}</a>
+          {% else %}
+            <a href="{{ other_lang_prefix }}/" class="block py-2 font-bold hover:text-red-700">{{ t.lang_switch_label }}</a>
+          {% endif %}
+        </li>
       </ul>
     </div>
   </div>

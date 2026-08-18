@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include lang.html %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -25,7 +26,7 @@ layout: default
   {% if page.additionalEquipment and page.additionalEquipment.size > 0 %}
   ,"isRelatedTo": [
     {% for slug in page.additionalEquipment %}
-      {% assign targetUrl = "/products/" | append: slug | append: "/" %}
+      {% assign targetUrl = lang_prefix | append: "/products/" | append: slug | append: "/" %}
       {% assign equip = site.pages | where: "url", targetUrl | first %}
       {% if equip %}
       {
@@ -70,7 +71,7 @@ layout: default
 
     {% if page.specifications %}
       <div class="mb-16">
-        <h2 class="text-2xl font-bold mb-6">Tehnilised andmed</h2>
+        <h2 class="text-2xl font-bold mb-6">{{ t.specs_heading }}</h2>
         <div class="md:rounded-lg -mx-4 md:mx-0 overflow-hidden border border-gray-200">
           <dl class="grid grid-cols-1 md:grid-cols-2">
             {% for spec in page.specifications %}
@@ -86,7 +87,7 @@ layout: default
 
     {% if hasVideos and page.youtubeVideos.size > 1 %}
       <div class="mb-16">
-        <h2 class="text-2xl font-bold mb-6">Videod</h2>
+        <h2 class="text-2xl font-bold mb-6">{{ t.videos_heading }}</h2>
         <div class="grid sm:grid-cols-2 gap-6">
           {% for videoId in page.youtubeVideos %}
             {% unless forloop.first %}
@@ -101,10 +102,10 @@ layout: default
 
     {% if page.additionalEquipment %}
       <div class="mb-16">
-        <h2 class="text-2xl font-bold mb-6">Lisaseadmed</h2>
+        <h2 class="text-2xl font-bold mb-6">{{ t.equipment_heading }}</h2>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {% for slug in page.additionalEquipment %}
-            {% assign targetUrl = "/products/" | append: slug | append: "/" %}
+            {% assign targetUrl = lang_prefix | append: "/products/" | append: slug | append: "/" %}
             {% assign equip = site.pages | where: "url", targetUrl | first %}
             {% if equip %}
               <a href="{{ equip.url }}" class="group block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg hover:border-red-200 transition overflow-hidden">

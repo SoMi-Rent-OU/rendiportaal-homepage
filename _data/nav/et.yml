@@ -1,0 +1,40 @@
+- title: Rendi avant
+  url: /et/products/avant-laadur-530/
+  children:
+    - title: Avant 530
+      url: /et/products/avant-laadur-530/
+- title: Haljastusteenused
+  url: /et/haljastusteenused/
+  children:
+    - title: Pinnasetööd
+      url: /et/products/pinnasetood/
+    - title: Haljastusteenused
+      url: /et/products/haljastusteenused/
+    - title: Lumelükkamine
+      url: /et/products/lumelukkamine/
+- title: Teenused
+  url: /et/teenused/
+  children:
+    - title: Avant juhiga
+      url: /et/products/avant-juhiga/
+    - title: Avant juhita
+      url: /et/products/avant-juhita/
+- title: Tellingud ja piirdeaiad
+  url: /et/tellingud-ja-piirdeaiad/
+  children:
+    - title: Raamtellingud
+      url: /et/products/tellingud/
+    - title: Piirdeaiad
+      url: /et/products/piirdeaiad/
+- title: Haagise rent
+  url: /et/haagise-rent/
+  children:
+    - title: TikiTreileri Kerghaagis
+      url: /et/products/tiki-kerghaagis-kaanega/
+    - title: Autoülekande haagis
+      url: /et/products/ap2600-drb/
+- title: Kontakt
+  url: /et/kontakt/
+- title: Saada päring
+  url: /et/paring/
+  button: true

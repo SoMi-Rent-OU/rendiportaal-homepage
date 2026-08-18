@@ -1,26 +1,26 @@
 <div id="paring-form" class="max-w-xl">
-  <h2 class="text-2xl font-bold mb-2">Päring</h2>
-  <p class="mb-6">Jäta oma päring ja vastame esimesel võimalusel.</p>
+  <h2 class="text-2xl font-bold mb-2">{{ t.form_heading }}</h2>
+  <p class="mb-6">{{ t.form_description }}</p>
 
   <form action="https://formsubmit.co/{{ site.email }}" method="POST" class="space-y-4">
-    <input type="hidden" name="_subject" value="Uus päring: {{ page.title }}">
+    <input type="hidden" name="_subject" value="{{ t.form_subject }}: {{ page.title }}">
     <input type="hidden" name="_captcha" value="true">
 
     <div>
-      <label for="email" class="block font-bold mb-1">E-post</label>
+      <label for="email" class="block font-bold mb-1">{{ t.form_email_label }}</label>
       <input type="email" id="email" name="email" required
         class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-700">
     </div>
 
     <div>
-      <label for="message" class="block font-bold mb-1">Lisainfo</label>
+      <label for="message" class="block font-bold mb-1">{{ t.form_message_label }}</label>
       <textarea id="message" name="message" rows="4"
         class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-700"></textarea>
     </div>
 
     <button type="submit"
       class="bg-red-700 text-white font-bold px-6 py-2 rounded-lg hover:bg-red-800 transition">
-      Saada päring
+      {{ t.form_submit }}
     </button>
   </form>
 </div>

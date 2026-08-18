@@ -1,0 +1,36 @@
+lang_code: et
+lang_name: Eesti
+lang_switch_label: РУС
+lang_switch_url_prefix: /ru
+
+home_title: "Ehitustehnika ja tellingute rent"
+home_highlight: "kogu Eestis"
+home_description: "SoMi Rent pakub ehitustehnika renti nii väiksemateks kui ka suuremateks töödeks. Meie rendivalikust leiad Avant laadurid koos lisaseadmetega ning erinevad tellingud ja piirdeaiad."
+
+specs_heading: "Tehnilised andmed"
+videos_heading: "Videod"
+equipment_heading: "Lisaseadmed"
+
+form_heading: "Päring"
+form_description: "Jäta oma päring ja vastame esimesel võimalusel."
+form_email_label: "E-post"
+form_message_label: "Lisainfo"
+form_submit: "Saada päring"
+form_subject: "Uus päring"
+
+cta_text: "Vaata lähemalt"
+
+footer_description: "Masinate ja seadmete rent kogu Eestis."
+footer_contact: "Kontakt"
+footer_links: "Lingid"
+footer_rights: "Kõik õigused kaitstud."
+location_tehnika: "Tehnika"
+location_tellingud: "Tellingud ja piirdeaiad"
+
+meta_title_suffix: "SoMi-Rent"
+meta_default_description: "Masinate ja seadmete rent kogu Eestis."
+
+error_title: "404"
+error_heading: "Lehte ei leitud"
+error_text: "Kahjuks sellist lehte ei eksisteeri."
+error_back: "Tagasi avalehele"

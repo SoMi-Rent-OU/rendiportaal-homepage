@@ -5,6 +5,10 @@ email: tarmosokolov@gmail.com
 phone: +372 55991560
 permalink: pretty
 
+languages:
+  - et
+  - ru
+
 exclude:
   - AGENTS.md
   - vendor
@@ -24,60 +28,29 @@ plugins:
 
 locations:
   tehnika: Saku vald, Tõdva küla
-  tellingud: Suur-Sõjamäe 25
-
-navigation:
-  - title: Rendi avant
-    url: /products/avant-laadur-530/
-    children:
-      - title: Avant 530
-        url: /products/avant-laadur-530/
-  - title: Haljastusteenused
-    url: /haljastusteenused/
-    children:
-      - title: Pinnasetööd
-        url: /products/pinnasetood/
-      - title: Haljastusteenused
-        url: /products/haljastusteenused/
-      - title: Lumelükkamine
-        url: /products/lumelukkamine/
-  - title: Teenused
-    url: /teenused/
-    children:
-      - title: Avant juhiga
-        url: /products/avant-juhiga/
-      - title: Avant juhita
-        url: /products/avant-juhita/
-  - title: Tellingud ja piirdeaiad
-    url: /tellingud-ja-piirdeaiad/
-    children:
-      - title: Raamtellingud
-        url: /products/tellingud/
-      - title: Piirdeaiad
-        url: /products/piirdeaiad/
-  - title: Haagise rent
-    url: /haagise-rent/
-    children:
-      - title: TikiTreileri Kerghaagis
-        url: /products/tiki-kerghaagis-kaanega/
-      - title: Autoülekande haagis
-        url: /products/ap2600-drb/
-  - title: Kontakt
-    url: /kontakt/
-  - title: Saada päring
-    url: /paring/
-    button: true
-
+  tellingud: Suur-Sõjamäe 25a
 
 include:
   - _pages
 
 defaults:
   - scope:
-      path: "_pages/products"
+      path: "_pages/et/products"
     values:
       layout: product
+      lang: et
   - scope:
-      path: "_pages"
+      path: "_pages/ru/products"
+    values:
+      layout: product
+      lang: ru
+  - scope:
+      path: "_pages/et"
     values:
       layout: page
+      lang: et
+  - scope:
+      path: "_pages/ru"
+    values:
+      layout: page
+      lang: ru

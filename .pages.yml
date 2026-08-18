@@ -28,36 +28,173 @@ content:
           - name: tellingud
             type: string
             label: Tellingud ja piirdeaiad
-      - name: navigation
-        type: object
-        list: true
-        label: Navigatsioon
-        fields:
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: url
-            type: string
-            label: Link
-          - name: button
-            type: boolean
-            label: Nupuna kuvada
-          - name: children
-            type: object
-            list: true
-            label: Alamlingid
-            fields:
-              - name: title
-                type: string
-                label: Pealkiri
-              - name: url
-                type: string
-                label: Link
 
-  - name: home
-    label: Avaleht
+  - name: i18n_et
+    label: Tõlked (ET)
     type: file
-    path: index.md
+    path: _data/i18n/et.yml
+    fields:
+      - name: home_title
+        type: string
+        label: Avalehe pealkiri
+      - name: home_highlight
+        type: string
+        label: Avalehe rõhutus
+      - name: home_description
+        type: text
+        label: Avalehe kirjeldus
+      - name: specs_heading
+        type: string
+        label: Tehniliste andmete pealkiri
+      - name: videos_heading
+        type: string
+        label: Videode pealkiri
+      - name: equipment_heading
+        type: string
+        label: Lisaseadmete pealkiri
+      - name: form_heading
+        type: string
+        label: Päringu pealkiri
+      - name: form_description
+        type: text
+        label: Päringu kirjeldus
+      - name: form_email_label
+        type: string
+        label: E-posti väli
+      - name: form_message_label
+        type: string
+        label: Sõnumi väli
+      - name: form_submit
+        type: string
+        label: Saada nupp
+      - name: form_subject
+        type: string
+        label: Päringu teema
+      - name: cta_text
+        type: string
+        label: CTA nupu tekst
+      - name: footer_description
+        type: text
+        label: Jaluse kirjeldus
+      - name: footer_contact
+        type: string
+        label: Jaluse kontakt
+      - name: footer_links
+        type: string
+        label: Jaluse lingid
+      - name: footer_rights
+        type: string
+        label: Õigused
+      - name: location_tehnika
+        type: string
+        label: Tehnika asukoht
+      - name: location_tellingud
+        type: string
+        label: Tellingute asukoht
+      - name: meta_title_suffix
+        type: string
+        label: Meta tiitli lisa
+      - name: meta_default_description
+        type: text
+        label: Meta vaikimisi kirjeldus
+      - name: error_title
+        type: string
+        label: 404 pealkiri
+      - name: error_heading
+        type: string
+        label: 404 tekst
+      - name: error_text
+        type: string
+        label: 404 kirjeldus
+      - name: error_back
+        type: string
+        label: 404 tagasi nupp
+
+  - name: i18n_ru
+    label: Tõlked (RU)
+    type: file
+    path: _data/i18n/ru.yml
+    fields:
+      - name: home_title
+        type: string
+        label: Avalehe pealkiri
+      - name: home_highlight
+        type: string
+        label: Avalehe rõhutus
+      - name: home_description
+        type: text
+        label: Avalehe kirjeldus
+      - name: specs_heading
+        type: string
+        label: Tehniliste andmete pealkiri
+      - name: videos_heading
+        type: string
+        label: Videode pealkiri
+      - name: equipment_heading
+        type: string
+        label: Lisaseadmete pealkiri
+      - name: form_heading
+        type: string
+        label: Päringu pealkiri
+      - name: form_description
+        type: text
+        label: Päringu kirjeldus
+      - name: form_email_label
+        type: string
+        label: E-posti väli
+      - name: form_message_label
+        type: string
+        label: Sõnumi väli
+      - name: form_submit
+        type: string
+        label: Saada nupp
+      - name: form_subject
+        type: string
+        label: Päringu teema
+      - name: cta_text
+        type: string
+        label: CTA nupu tekst
+      - name: footer_description
+        type: text
+        label: Jaluse kirjeldus
+      - name: footer_contact
+        type: string
+        label: Jaluse kontakt
+      - name: footer_links
+        type: string
+        label: Jaluse lingid
+      - name: footer_rights
+        type: string
+        label: Õigused
+      - name: location_tehnika
+        type: string
+        label: Tehnika asukoht
+      - name: location_tellingud
+        type: string
+        label: Tellingute asukoht
+      - name: meta_title_suffix
+        type: string
+        label: Meta tiitli lisa
+      - name: meta_default_description
+        type: text
+        label: Meta vaikimisi kirjeldus
+      - name: error_title
+        type: string
+        label: 404 pealkiri
+      - name: error_heading
+        type: string
+        label: 404 tekst
+      - name: error_text
+        type: string
+        label: 404 kirjeldus
+      - name: error_back
+        type: string
+        label: 404 tagasi nupp
+
+  - name: home_et
+    label: Avaleht (ET)
+    type: file
+    path: _pages/et/index.md
     fields:
       - name: title
         type: string
@@ -66,31 +203,33 @@ content:
         type: text
         label: Meta kirjeldus
 
-  - name: lehed
-    label: Lehed
+  - name: home_ru
+    label: Avaleht (RU)
+    type: file
+    path: _pages/ru/index.md
+    fields:
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: description
+        type: text
+        label: Meta kirjeldus
+
+  - name: et_lehed
+    label: Lehed (ET)
     type: collection
-    path: _pages
+    path: _pages/et
     filename: "{primary}.md"
     exclude: ["products/*", "overview/*"]
     view:
       primary: title
     fields:
-      - name: layout
-        type: string
-        hidden: true
       - name: title
         type: string
         label: Pealkiri
       - name: description
         type: text
         label: Kirjeldus
-      - name: image
-        type: image
-        label: Pilt
-      - name: children
-        type: string
-        list: true
-        label: Alamlehed
       - name: permalink
         type: string
         label: Püsiviide
@@ -98,17 +237,36 @@ content:
         type: rich-text
         label: Sisu
 
-  - name: ylevaated
-    label: Ülevaated
+  - name: ru_lehed
+    label: Lehed (RU)
     type: collection
-    path: _pages/overview
+    path: _pages/ru
+    filename: "{primary}.md"
+    exclude: ["products/*", "overview/*"]
+    view:
+      primary: title
+    fields:
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: description
+        type: text
+        label: Kirjeldus
+      - name: permalink
+        type: string
+        label: Püsiviide
+      - name: body
+        type: rich-text
+        label: Sisu
+
+  - name: et_ylevaated
+    label: Ülevaated (ET)
+    type: collection
+    path: _pages/et/overview
     filename: "{primary}.md"
     view:
       primary: title
     fields:
-      - name: layout
-        type: string
-        hidden: true
       - name: title
         type: string
         label: Pealkiri
@@ -126,10 +284,35 @@ content:
         type: rich-text
         label: Sisu
 
-  - name: tooted
-    label: Tooted
+  - name: ru_ylevaated
+    label: Ülevaated (RU)
     type: collection
-    path: _pages/products
+    path: _pages/ru/overview
+    filename: "{primary}.md"
+    view:
+      primary: title
+    fields:
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: description
+        type: text
+        label: Kirjeldus
+      - name: children
+        type: string
+        list: true
+        label: Alamlehed
+      - name: permalink
+        type: string
+        label: Püsiviide
+      - name: body
+        type: rich-text
+        label: Sisu
+
+  - name: et_tooted
+    label: Tooted (ET)
+    type: collection
+    path: _pages/et/products
     filename: "{primary}.md"
     view:
       primary: title
@@ -143,7 +326,7 @@ content:
       - name: images
         type: image
         list: true
-        label: Pildid (karussell)
+        label: Pildid
       - name: permalink
         type: string
         label: Püsiviide
@@ -165,7 +348,51 @@ content:
       - name: youtubeVideos
         type: string
         list: true
-        label: YouTube videod (video ID)
+        label: YouTube videod
+      - name: body
+        type: rich-text
+        label: Sisu
+
+  - name: ru_tooted
+    label: Tooted (RU)
+    type: collection
+    path: _pages/ru/products
+    filename: "{primary}.md"
+    view:
+      primary: title
+    fields:
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: description
+        type: text
+        label: Kirjeldus
+      - name: images
+        type: image
+        list: true
+        label: Pildid
+      - name: permalink
+        type: string
+        label: Püsiviide
+      - name: additionalEquipment
+        type: string
+        list: true
+        label: Lisaseadmed
+      - name: specifications
+        type: object
+        list: true
+        label: Tehnilised andmed
+        fields:
+          - name: label
+            type: string
+            label: Parameeter
+          - name: value
+            type: string
+            label: Näitaja
+      - name: youtubeVideos
+        type: string
+        list: true
+        label: YouTube videod
       - name: body
         type: rich-text
         label: Sisu
