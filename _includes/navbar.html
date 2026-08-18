@@ -4,24 +4,6 @@
       <img src="/images/logo.jpeg" alt="SoMi-Rent" class="h-16">
     </a>
 
-    <div class="flex items-center gap-4">
-      <!-- Language Switcher -->
-      {% if page.lang_pair %}
-        <a href="{{ page.lang_pair }}" class="text-sm font-bold hover:text-red-700 transition">{{ t.lang_switch_label }}</a>
-      {% else %}
-        <a href="{{ other_lang_prefix }}/" class="text-sm font-bold hover:text-red-700 transition">{{ t.lang_switch_label }}</a>
-      {% endif %}
-
-      <!-- Hamburger Button -->
-      <button id="menu-toggle" class="lg:hidden relative w-10 h-10 flex items-center justify-center text-gray-700 focus:outline-none" aria-label="Menu">
-        <div class="relative w-6 h-[16px]">
-          <span id="b1" class="absolute left-0 top-0 w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
-          <span id="b2" class="absolute left-0 top-[7px] w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
-          <span id="b3" class="absolute left-0 top-[14px] w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
-        </div>
-      </button>
-    </div>
-
     <!-- Desktop Navigation -->
     <ul class="hidden lg:flex items-center gap-6 text-sm font-bold" id="nav-menu">
       {% for item in nav %}
@@ -48,6 +30,24 @@
         {% endif %}
       {% endfor %}
     </ul>
+
+    <div class="flex items-center gap-4">
+      <!-- Language Switcher -->
+      {% if page.lang_pair %}
+      <a href="{{ page.lang_pair }}" class="text-sm font-bold hover:text-red-700 transition">{{ t.lang_switch_label }}</a>
+      {% else %}
+      <a href="{{ other_lang_prefix }}/" class="text-sm font-bold hover:text-red-700 transition">{{ t.lang_switch_label }}</a>
+      {% endif %}
+
+      <!-- Hamburger Button -->
+      <button id="menu-toggle" class="lg:hidden relative w-10 h-10 flex items-center justify-center text-gray-700 focus:outline-none" aria-label="Menu">
+        <span class="relative w-6 h-[16px]">
+          <span id="b1" class="absolute left-0 top-0 w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
+          <span id="b2" class="absolute left-0 top-[7px] w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
+          <span id="b3" class="absolute left-0 top-[14px] w-6 h-[2px] bg-current transition-all duration-300 rounded"></span>
+        </span>
+      </button>
+    </div>
   </div>
 
   <!-- Mobile Menu -->
@@ -79,14 +79,6 @@
             </li>
           {% endif %}
         {% endfor %}
-        <!-- Mobile Language Switcher -->
-        <li class="border-t pt-2">
-          {% if page.lang_pair %}
-            <a href="{{ page.lang_pair }}" class="block py-2 font-bold hover:text-red-700">{{ t.lang_switch_label }}</a>
-          {% else %}
-            <a href="{{ other_lang_prefix }}/" class="block py-2 font-bold hover:text-red-700">{{ t.lang_switch_label }}</a>
-          {% endif %}
-        </li>
       </ul>
     </div>
   </div>
