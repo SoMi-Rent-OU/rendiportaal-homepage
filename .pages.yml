@@ -53,17 +53,6 @@ content:
               - name: url
                 type: string
                 label: Link
-      - name: footer_links
-        type: object
-        list: true
-        label: Jaluse lingid
-        fields:
-          - name: title
-            type: string
-            label: Pealkiri
-          - name: url
-            type: string
-            label: Link
 
   - name: home
     label: Avaleht

@@ -69,17 +69,6 @@ navigation:
     button: true
 
 
-
-footer_links:
-  - title: Rendi avant
-    url: /products/avant-laadur-530/
-  - title: Tellingud ja piirdeaiad
-    url: /tellingud-ja-piirdeaiad/
-  - title: Saada päring
-    url: /paring/
-  - title: Kontakt
-    url: /kontakt/
-
 include:
   - _pages
 
