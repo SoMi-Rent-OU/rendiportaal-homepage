@@ -34,9 +34,23 @@
     <div class="flex items-center gap-4">
       <!-- Language Switcher -->
       {% if page.lang_pair %}
-      <a href="{{ page.lang_pair }}" class="text-sm font-bold hover:text-red-700 transition">{{ t.lang_switch_label }}</a>
+      <a href="{{ page.lang_pair }}" class="flex items-center gap-1.5 text-sm font-bold hover:text-red-700 transition">
+        {% if lang == "et" %}
+          <svg class="w-5 h-3.5 rounded-sm" viewBox="0 0 640 480"><rect width="640" height="160" fill="#0072ce"/><rect y="160" width="640" height="160" fill="#000"/><rect y="320" width="640" height="160" fill="#fff"/></svg>
+        {% else %}
+          <svg class="w-5 h-3.5 rounded-sm" viewBox="0 0 640 480"><rect width="640" height="160" fill="#fff"/><rect y="160" width="640" height="160" fill="#0039a6"/><rect y="320" width="640" height="160" fill="#d52b1e"/></svg>
+        {% endif %}
+        <span>{{ t.lang_switch_label }}</span>
+      </a>
       {% else %}
-      <a href="{{ other_lang_prefix }}/" class="text-sm font-bold hover:text-red-700 transition">{{ t.lang_switch_label }}</a>
+      <a href="{{ other_lang_prefix }}/" class="flex items-center gap-1.5 text-sm font-bold hover:text-red-700 transition">
+        {% if lang == "et" %}
+          <svg class="w-5 h-3.5 rounded-sm" viewBox="0 0 640 480"><rect width="640" height="160" fill="#0072ce"/><rect y="160" width="640" height="160" fill="#000"/><rect y="320" width="640" height="160" fill="#fff"/></svg>
+        {% else %}
+          <svg class="w-5 h-3.5 rounded-sm" viewBox="0 0 640 480"><rect width="640" height="160" fill="#fff"/><rect y="160" width="640" height="160" fill="#0039a6"/><rect y="320" width="640" height="160" fill="#d52b1e"/></svg>
+        {% endif %}
+        <span>{{ t.lang_switch_label }}</span>
+      </a>
       {% endif %}
 
       <!-- Hamburger Button -->
