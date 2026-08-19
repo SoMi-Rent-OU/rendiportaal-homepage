@@ -15,6 +15,7 @@ form_heading: "Päring"
 form_description: "Jäta oma päring ja vastame esimesel võimalusel."
 form_email_label: "E-post"
 form_message_label: "Lisainfo"
+form_terms_link: "Rendi üldtingimused"
 form_submit: "Saada päring"
 form_subject: "Uus päring"
 

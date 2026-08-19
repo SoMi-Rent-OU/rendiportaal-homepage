@@ -1,6 +1,6 @@
 <div id="paring-form" class="max-w-xl">
   <h2 class="text-2xl font-bold mb-2">{{ t.form_heading }}</h2>
-  <p class="mb-6">{{ t.form_description }}</p>
+  <p class="mb-6">{{ t.form_description }} <a href="{% if page.lang == 'ru' %}/ru/uldtingimused/{% else %}/et/uldtingimused/{% endif %}" class="text-red-700 underline font-bold hover:text-red-800">{{ t.form_terms_link }}</a>.</p>
 
   <form action="https://formsubmit.co/{{ site.email }}" method="POST" class="space-y-4">
     <input type="hidden" name="_subject" value="{{ t.form_subject }}: {{ page.title }}">

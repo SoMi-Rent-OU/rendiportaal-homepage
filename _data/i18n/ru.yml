@@ -15,6 +15,7 @@ form_heading: "Запрос"
 form_description: "Оставьте заявку и мы ответим при первой возможности."
 form_email_label: "Электронная почта"
 form_message_label: "Дополнительная информация"
+form_terms_link: "Условия аренды"
 form_submit: "Отправить запрос"
 form_subject: "Новый запрос"
 

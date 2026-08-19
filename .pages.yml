@@ -58,6 +58,9 @@ content:
       - name: form_description
         type: text
         label: Päringu kirjeldus
+      - name: form_terms_link
+        type: string
+        label: Tingimuste lingi tekst
       - name: form_email_label
         type: string
         label: E-posti väli
@@ -139,6 +142,9 @@ content:
       - name: form_description
         type: text
         label: Päringu kirjeldus
+      - name: form_terms_link
+        type: string
+        label: Tingimuste lingi tekst
       - name: form_email_label
         type: string
         label: E-posti väli
