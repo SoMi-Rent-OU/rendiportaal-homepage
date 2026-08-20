@@ -112,6 +112,21 @@ content:
       - name: error_back
         type: string
         label: 404 tagasi nupp
+      - name: cookie_text
+        type: string
+        label: Küpsiste tekst
+      - name: cookie_learn_more
+        type: string
+        label: Küpsiste lisainfo link
+      - name: cookie_accept
+        type: string
+        label: Küpsiste nõustun nupp
+      - name: cookie_decline
+        type: string
+        label: Küpsiste keeldun nupp
+      - name: cookie_settings
+        type: string
+        label: Küpsiste seaded link
 
   - name: i18n_ru
     label: Tõlked (RU)
@@ -196,6 +211,21 @@ content:
       - name: error_back
         type: string
         label: 404 tagasi nupp
+      - name: cookie_text
+        type: string
+        label: Küpsiste tekst
+      - name: cookie_learn_more
+        type: string
+        label: Küpsiste lisainfo link
+      - name: cookie_accept
+        type: string
+        label: Küpsiste nõustun nupp
+      - name: cookie_decline
+        type: string
+        label: Küpsiste keeldun nupp
+      - name: cookie_settings
+        type: string
+        label: Küpsiste seaded link
 
   - name: home_et
     label: Avaleht (ET)
