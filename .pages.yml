@@ -29,6 +29,58 @@ content:
             type: string
             label: Tellingud ja piirdeaiad
 
+  - name: nav_et
+    label: Navigatsioon (ET)
+    type: file
+    path: _data/nav/et.yml
+    fields:
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: url
+        type: string
+        label: URL
+      - name: button
+        type: boolean
+        label: Nupp
+      - name: children
+        type: object
+        list: true
+        label: Alamlehed
+        fields:
+          - name: title
+            type: string
+            label: Pealkiri
+          - name: url
+            type: string
+            label: URL
+
+  - name: nav_ru
+    label: Navigatsioon (RU)
+    type: file
+    path: _data/nav/ru.yml
+    fields:
+      - name: title
+        type: string
+        label: Pealkiri
+      - name: url
+        type: string
+        label: URL
+      - name: button
+        type: boolean
+        label: Nupp
+      - name: children
+        type: object
+        list: true
+        label: Alamlehed
+        fields:
+          - name: title
+            type: string
+            label: Pealkiri
+          - name: url
+            type: string
+            label: URL
+
   - name: i18n_et
     label: Tõlked (ET)
     type: file
