@@ -1,13 +1,12 @@
 ---
 title: Прицеп TikiTreileri с крышкой 1,5x3,0м
-description: Прицеп серии PRO для аренды — на усиленной сварной раме, пластиковая крышка в комплекте. Подходит для профессионального использования.
+description: Прицеп серии PRO для аренды — на усиленной сварной раме,
+  пластиковая крышка в комплекте. Подходит для профессионального использования.
 images:
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik-3-1024x768.jpg
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_1-3-1024x768.jpg
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_3-1-1024x768.jpg
 permalink: /ru/products/tiki-kerghaagis-kaanega/
-lang: ru
-lang_pair: /et/products/tiki-kerghaagis-kaanega/
 specifications:
   - label: Ширина кузова
     value: 1,5 м
@@ -34,9 +33,8 @@ specifications:
   - label: Шины
     value: 155R13C M+S
   - label: Количество болтов
-    value: 5
+    value: "3"
 ---
-
 # Прицеп TikiTreileri с крышкой 1,5x3,0м
 
 Прицеп серии PRO с пластиковой крышкой — прочный и практичный выбор как для профессионального, так и для домашнего использования.
@@ -60,7 +58,7 @@ specifications:
 
 ## Цены
 
-**Стоимость посуточной аренды:** запросите предложение
+**Стоимость посуточной аренды:** 35 € + km
 
 **Долгосрочная аренда:** более выгодные условия от 1 недели
 
