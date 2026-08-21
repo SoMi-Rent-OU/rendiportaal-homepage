@@ -33,7 +33,7 @@ specifications:
   - label: Шины
     value: 155R13C M+S
   - label: Количество болтов
-    value: "3"
+    value: "5"
 ---
 # Прицеп TikiTreileri с крышкой 1,5x3,0м
 
