@@ -33,7 +33,7 @@ specifications:
   - label: Rehvid
     value: 155R13C M+S
   - label: Rattapoltide arv
-    value: "4"
+    value: "5"
 ---
 # TikiTreileri Kerghaagis kaanega 1,5x3,0m
 
