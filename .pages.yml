@@ -33,6 +33,7 @@ content:
     label: Navigatsioon (ET)
     type: file
     path: _data/nav/et.yml
+    list: true
     fields:
       - name: title
         type: string
@@ -59,6 +60,7 @@ content:
     label: Navigatsioon (RU)
     type: file
     path: _data/nav/ru.yml
+    list: true
     fields:
       - name: title
         type: string
