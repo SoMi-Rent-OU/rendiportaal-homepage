@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Выполненные работы
-description: Подборка наших выполненных работ. Добавляйте сюда фотографии завершённых проектов.
-permalink: /ru/tehtud-tood/
 lang: ru
 lang_pair: /et/tehtud-tood/
+title: Выполненные работы
+description: Подборка наших выполненных работ.
+permalink: /ru/tehtud-tood/
 ---
-
 Подборка наших выполненных работ.
 
 ![Tellingud fassaadil](/images/products/tellingud/tellingud-fassaadil.jpg)
@@ -14,3 +13,4 @@ lang_pair: /et/tehtud-tood/
 ![Raamtellingud](/images/products/tellingud/raamtelling-monteeritud.jpg)
 
 ![Puurimine](/images/products/maapuur/puurimine.jpg)
+
