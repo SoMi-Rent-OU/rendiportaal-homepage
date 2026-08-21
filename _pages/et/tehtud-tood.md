@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Tehtud tööd
 description: Valik meie tehtud töödest. Lisage siia pilte oma lõpetatud projektidest.
 permalink: /et/tehtud-tood/
