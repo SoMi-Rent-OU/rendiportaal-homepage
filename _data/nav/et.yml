@@ -19,6 +19,8 @@
       url: /et/products/avant-juhiga/
     - title: Avant juhita
       url: /et/products/avant-juhita/
+    - title: Tehtud tööd
+      url: /et/tehtud-tood/
 - title: Tellingud ja piirdeaiad
   url: /et/tellingud-ja-piirdeaiad/
   children:
