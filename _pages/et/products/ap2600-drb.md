@@ -1,14 +1,13 @@
 ---
-title: Autoülekande haagis AP2600-DRB
-description: Autoülekande haagis rendiks – kandevõime 1900 kg, piduritega, reguleeritavad pealesõiduteed.
+title: Autoveo haagis AP2600-DRB
+description: Autoveo haagis rendiks – kandevõime 1900 kg, piduritega,
+  reguleeritavad pealesõiduteed.
 images:
   - /images/products/AP2600-DRB/ec0311ti-1024x682.jpg
   - /images/products/AP2600-DRB/ec0311ti_1-1024x683.jpg
   - /images/products/AP2600-DRB/ec0311ti_2-1024x683.jpg
   - /images/products/AP2600-DRB/ec0311ti_3-1024x683.jpg
 permalink: /et/products/ap2600-drb/
-lang: et
-lang_pair: /ru/products/ap2600-drb/
 specifications:
   - label: Kasti laius
     value: 1,96 m
@@ -35,10 +34,9 @@ specifications:
   - label: Rehvid
     value: 185R14C 104N
   - label: Rattapoltide arv
-    value: 5
+    value: "6"
 ---
-
-# Autoülekande haagis AP2600-DRB
+# Autoveo haagis AP2600-DRB
 
 Universaalne autoülekande haagis – sobib sõidukite transpordiks ja ka tavaliseks kaubaveoks.
 
@@ -61,7 +59,7 @@ Universaalne autoülekande haagis – sobib sõidukite transpordiks ja ka tavali
 
 ## Hinnakiri
 
-**Päevarendi hind:** küsi pakkumist
+**Päevarendi hind:** 35 € + km
 
 **Pikaajaline rent:** soodsamad tingimused alates 1 nädalast
 
