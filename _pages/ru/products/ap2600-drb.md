@@ -34,7 +34,7 @@ specifications:
   - label: Шины
     value: 185R14C 104N
   - label: Количество болтов
-    value: "4"
+    value: "5"
 ---
 # Прицеп для перевозки авто AP2600-DRB
 
