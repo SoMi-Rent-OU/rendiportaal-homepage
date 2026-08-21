@@ -7,6 +7,8 @@ images:
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_1-3-1024x768.jpg
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_3-1-1024x768.jpg
 permalink: /ru/products/tiki-kerghaagis-kaanega/
+lang: ru
+lang_pair: /et/products/tiki-kerghaagis-kaanega/
 specifications:
   - label: Ширина кузова
     value: 1,5 м

@@ -4,6 +4,8 @@ description: Avant laaduri rent ilma juhita. Sobib neile, kellel on oma kogemus 
 images:
   - /images/products/avant/avant-500-front.jpg
 permalink: /et/products/avant-juhita/
+lang: et
+lang_pair: /ru/products/avant-juhita/
 ---
 # Avant laaduri rent ilma juhita
 

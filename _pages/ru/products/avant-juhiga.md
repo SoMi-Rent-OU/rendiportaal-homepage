@@ -4,6 +4,8 @@ description: Аренда погрузчика Avant с опытным опер�
 images:
   - /images/products/avant/avant-500-front.jpg
 permalink: /ru/products/avant-juhiga/
+lang: ru
+lang_pair: /et/products/avant-juhiga/
 ---
 # Аренда погрузчика Avant с оператором
 

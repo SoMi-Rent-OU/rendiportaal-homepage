@@ -8,6 +8,8 @@ images:
   - /images/products/AP2600-DRB/ec0311ti_2-1024x683.jpg
   - /images/products/AP2600-DRB/ec0311ti_3-1024x683.jpg
 permalink: /et/products/ap2600-drb/
+lang: et
+lang_pair: /ru/products/ap2600-drb/
 specifications:
   - label: Kasti laius
     value: 1,96 m

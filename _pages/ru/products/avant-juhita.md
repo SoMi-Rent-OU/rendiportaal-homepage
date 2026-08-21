@@ -5,6 +5,8 @@ description: Аренда погрузчика Avant без оператора. 
 images:
   - /images/products/avant/avant-500-front.jpg
 permalink: /ru/products/avant-juhita/
+lang: ru
+lang_pair: /et/products/avant-juhita/
 ---
 # Аренда погрузчика Avant без оператора
 

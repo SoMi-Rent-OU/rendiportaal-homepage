@@ -8,6 +8,8 @@ images:
   - /images/products/AP2600-DRB/ec0311ti_2-1024x683.jpg
   - /images/products/AP2600-DRB/ec0311ti_3-1024x683.jpg
 permalink: /ru/products/ap2600-drb/
+lang: ru
+lang_pair: /et/products/ap2600-drb/
 specifications:
   - label: Ширина кузова
     value: 1,96 м

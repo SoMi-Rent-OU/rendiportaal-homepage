@@ -7,6 +7,8 @@ images:
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_1-3-1024x768.jpg
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_3-1-1024x768.jpg
 permalink: /et/products/tiki-kerghaagis-kaanega/
+lang: et
+lang_pair: /ru/products/tiki-kerghaagis-kaanega/
 specifications:
   - label: Kasti laius
     value: 1,5 m

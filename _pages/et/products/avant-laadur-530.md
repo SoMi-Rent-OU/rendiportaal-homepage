@@ -13,6 +13,8 @@ images:
   - /images/products/avant/avant-500-snow-plow.jpg
   - /images/products/avant/avant-500-pressure-washer.jpg
 permalink: /et/products/avant-laadur-530/
+lang: et
+lang_pair: /ru/products/avant-laadur-530/
 additionalEquipment:
   - maapuur
   - mullakopp
