@@ -2,6 +2,49 @@
 layout: default
 ---
 {% include lang.html %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": "{{ site.url }}{{ page.permalink }}",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "EUR"
+  }
+  {% if page.images and page.images.size > 0 %}
+  ,"image": [{% for img in page.images %}"{{ site.url }}{{ img }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+  {% endif %}
+  {% if page.specifications and page.specifications.size > 0 %}
+  ,"additionalProperty": [
+    {% for spec in page.specifications %}
+    {
+      "@type": "PropertyValue",
+      "name": {{ spec.label | jsonify }},
+      "value": {{ spec.value | jsonify }}
+    }{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  ]
+  {% endif %}
+  {% if page.additionalEquipment and page.additionalEquipment.size > 0 %}
+  ,"isRelatedTo": [
+    {% for slug in page.additionalEquipment %}
+      {% assign targetUrl = lang_prefix | append: "/products/" | append: slug | append: "/" %}
+      {% assign equip = site.pages | where: "url", targetUrl | first %}
+      {% if equip %}
+      {
+        "@type": "Product",
+        "name": {{ equip.title | jsonify }},
+        "url": "{{ site.url }}{{ equip.url }}"
+      }{% unless forloop.last %}, {% endunless %}
+      {% endif %}
+    {% endfor %}
+  ]
+  {% endif %}
+}
+</script>
 <section class="py-16 px-4">
   <div class="max-w-6xl mx-auto">
     <div class="prose max-w-none mb-16">
