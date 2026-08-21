@@ -1,13 +1,13 @@
 ---
-title: Haljastusteenused
-description: Professionaalsed haljastusteenused — muru niitmine, hekkide lõikamine, puude hooldus ja muud haljastustööd.
-images:
-  - /images/products/mullakopp.jpg
-permalink: /et/products/haljastusteenused/
 lang: et
 lang_pair: /ru/products/haljastusteenused/
+title: Haljastusteenused
+description: Professionaalsed haljastusteenused — muru niitmine, hekkide
+  lõikamine, puude hooldus ja muud haljastustööd.
+images:
+  - /images/768204956_1089216120127790_5802427945208186454_n.jpg
+permalink: /et/products/haljastusteenused/
 ---
-
 # Haljastusteenused
 
 Professionaalsed haljastustööd Sinu hoovile.
