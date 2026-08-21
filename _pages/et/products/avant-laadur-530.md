@@ -18,7 +18,7 @@ additionalEquipment:
   - mullakopp
   - kahvel
   - tasandusrest
-  - v-kujuline lumesahk
+  - v-kujuline-lumesahk
 specifications:
   - label: Tõstevõime
     value: 950 kg
@@ -99,8 +99,7 @@ Paku oma projektile parimat lahendust – pikaajalisest rendist kuni juhiga teen
 
 **Laaduri rent koos operaatoriga:** 35 € + km / tund
 
-- Sisaldab kogenud juhti, lisandub kütus.  
-
+- Sisaldab kogenud juhti, lisandub kütus.
 
 ## Saadaval olevad lisaseadmed
 
