@@ -4,10 +4,7 @@ description: Аренда погрузчика Avant с опытным опер�
 images:
   - /images/products/avant/avant-500-front.jpg
 permalink: /ru/products/avant-juhiga/
-lang: ru
-lang_pair: /et/products/avant-juhiga/
 ---
-
 # Аренда погрузчика Avant с оператором
 
 Вы говорите — мы делаем.
@@ -36,7 +33,7 @@ lang_pair: /et/products/avant-juhiga/
 
 ## Цены
 
-**Почасовая оплата:** 45 € + НДС / час
+**Почасовая оплата:** 35 € + НДС / час
 
 - Включает опытного оператора и топливо.
 - Минимальный заказ: 2 часа.
