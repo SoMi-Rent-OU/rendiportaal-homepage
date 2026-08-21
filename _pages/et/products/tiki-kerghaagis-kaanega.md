@@ -1,13 +1,12 @@
 ---
 title: TikiTreileri Kerghaagis kaanega 1,5x3,0m
-description: PRO seeria kastihaagis rendiks – tugevdatud täiskeevisraamil, plastkaas komplektis. Sobib professionaalseks kasutamiseks.
+description: PRO seeria kastihaagis rendiks – tugevdatud täiskeevisraamil,
+  plastkaas komplektis. Sobib professionaalseks kasutamiseks.
 images:
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik-3-1024x768.jpg
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_1-3-1024x768.jpg
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_3-1-1024x768.jpg
 permalink: /et/products/tiki-kerghaagis-kaanega/
-lang: et
-lang_pair: /ru/products/tiki-kerghaagis-kaanega/
 specifications:
   - label: Kasti laius
     value: 1,5 m
@@ -34,16 +33,15 @@ specifications:
   - label: Rehvid
     value: 155R13C M+S
   - label: Rattapoltide arv
-    value: 5
+    value: "4"
 ---
-
 # TikiTreileri Kerghaagis kaanega 1,5x3,0m
 
 PRO seeria kastihaagis plastkaanega – vastupidav ja praktiline valik nii professionaalseks kui ka koduseks kasutamiseks.
 
 ## Miks rentida just selle haagise?
 
-**Plastkaas komplektis:** Hall või must plastkaas ja kaane paigaldus sisalduvad rendihinnas.
+**Plastkaas komplektis:** Hall plastkaas ja kaane paigaldus sisalduvad rendihinnas.
 
 **Vastupidav konstruktsioon:** Täiskeevisraam, kuumtsingitud lehtmetall ja amortidega lehtvedrustus peavad vastu ka raskemates oludes.
 
