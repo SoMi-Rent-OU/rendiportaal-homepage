@@ -4,10 +4,7 @@ description: Avant laaduri rent ilma juhita. Sobib neile, kellel on oma kogemus 
 images:
   - /images/products/avant/avant-500-front.jpg
 permalink: /et/products/avant-juhita/
-lang: et
-lang_pair: /ru/products/avant-juhita/
 ---
-
 # Avant laaduri rent ilma juhita
 
 Sobib neile, kellel on oma kogemus masinaga.
@@ -34,13 +31,13 @@ Avant laaduri rent ilma juhita. Sobib neile, kellel on oma kogemus masinaga. Saa
 
 ## Hinnakiri
 
-**Päevarent:** 110 € + km / päev
+**Päevarent:** 100 € + km / päev
 
 - Sisaldab kuni 8 mototöötundi.
 - Tarnitakse täispaagiga (kütus ei sisaldu hinnas).
 - **Boonus iga rendiga:** Üks põhilisaseade (mullakühvel, tasandusrest või tõstekahvel) TASUTA kaasa!
 
-**Pikaajaline rent (1 kuu):** 1500 € + km / kuu
+**Pikaajaline rent (1 kuu):** 1400 € + km / kuu
 
 ## Soovid juhita renti tellida?
 
