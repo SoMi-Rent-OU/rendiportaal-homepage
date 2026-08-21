@@ -34,7 +34,7 @@ specifications:
   - label: Rehvid
     value: 185R14C 104N
   - label: Rattapoltide arv
-    value: "6"
+    value: "5"
 ---
 # Autoveo haagis AP2600-DRB
 
