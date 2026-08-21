@@ -232,6 +232,15 @@ content:
     type: file
     path: _pages/et/index.md
     fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: lang
+        type: string
+        label: Keel
+      - name: lang_pair
+        type: string
+        label: Keelepaar
       - name: title
         type: string
         label: Pealkiri
@@ -244,6 +253,15 @@ content:
     type: file
     path: _pages/ru/index.md
     fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: lang
+        type: string
+        label: Keel
+      - name: lang_pair
+        type: string
+        label: Keelepaar
       - name: title
         type: string
         label: Pealkiri
@@ -260,6 +278,15 @@ content:
     view:
       primary: title
     fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: lang
+        type: string
+        label: Keel
+      - name: lang_pair
+        type: string
+        label: Keelepaar
       - name: title
         type: string
         label: Pealkiri
@@ -282,6 +309,15 @@ content:
     view:
       primary: title
     fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: lang
+        type: string
+        label: Keel
+      - name: lang_pair
+        type: string
+        label: Keelepaar
       - name: title
         type: string
         label: Pealkiri
@@ -303,6 +339,15 @@ content:
     view:
       primary: title
     fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: lang
+        type: string
+        label: Keel
+      - name: lang_pair
+        type: string
+        label: Keelepaar
       - name: title
         type: string
         label: Pealkiri
@@ -328,6 +373,15 @@ content:
     view:
       primary: title
     fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: lang
+        type: string
+        label: Keel
+      - name: lang_pair
+        type: string
+        label: Keelepaar
       - name: title
         type: string
         label: Pealkiri
@@ -353,6 +407,12 @@ content:
     view:
       primary: title
     fields:
+      - name: lang
+        type: string
+        label: Keel
+      - name: lang_pair
+        type: string
+        label: Keelepaar
       - name: title
         type: string
         label: Pealkiri
@@ -397,6 +457,12 @@ content:
     view:
       primary: title
     fields:
+      - name: lang
+        type: string
+        label: Keel
+      - name: lang_pair
+        type: string
+        label: Keelepaar
       - name: title
         type: string
         label: Pealkiri
