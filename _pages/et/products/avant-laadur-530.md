@@ -1,6 +1,7 @@
 ---
 title: Avant 530 kompaktlaadur kabiiniga
-description: Kuldne kesktee – kompaktne, kuid võimas. Optidrive™ juhtsüsteem, lihtne hüdraulika ja suurepärane manööverdusvõime.
+description: Kuldne kesktee – kompaktne, kuid võimas. Optidrive™ juhtsüsteem,
+  lihtne hüdraulika ja suurepärane manööverdusvõime.
 images:
   - /images/products/avant/avant.jpg
   - /images/products/avant/avant-500-front.jpg
@@ -12,14 +13,12 @@ images:
   - /images/products/avant/avant-500-snow-plow.jpg
   - /images/products/avant/avant-500-pressure-washer.jpg
 permalink: /et/products/avant-laadur-530/
-lang: et
-lang_pair: /ru/products/avant-laadur-530/
 additionalEquipment:
   - maapuur
   - mullakopp
   - kahvel
   - tasandusrest
-  - v-kujuline-lumesahk
+  - v-kujuline lumesahk
 specifications:
   - label: Tõstevõime
     value: 950 kg
@@ -66,7 +65,6 @@ specifications:
   - label: Väändemoment
     value: 72 Nm @2200 rpm
 ---
-
 # Avant 530 kompaktlaadur kabiiniga
 
 Kuldne kesktee – kompaktne, kuid võimas. Optidrive™ juhtsüsteem, lihtne hüdraulika ja suurepärane manööverdusvõime.
@@ -75,7 +73,7 @@ Kuldne kesktee – kompaktne, kuid võimas. Optidrive™ juhtsüsteem, lihtne h�
 
 Avant 530 kuulub 500 seeriasse, mis seob endas kompaktsuse ja efektiivsuse ning tipptasemel võimekuse ja funktsionaalsuse. See laadur on piisavalt väike, et manööverdada ka kitsamates oludes, olles samas piisavalt tugev, et tõsta kuni 950-kilogrammist lasti ning toita võimsa hüdraulikasüsteemi abil pea igat soovitud töövahendit.
 
-500 seeria on piisavalt kerge ja kompaktne, et transportida see haagisel just sinna, kus töö ootab. Tõstevõime 800–950 kg, mootori võimsus 22–26 hj ja sõidukiirus kuni 19 km/h teevad sellest ideaalse tööriista nii taluhooviks, maatöödeks kui ka laoplatsiks.
+500 seeria on piisavalt kerge ja kompaktne, et transportida see haagisel just sinna, kus töö ootab. Tõstevõime 800–950 kg, mootori võimsus 22–26 hj ja sõidukiirus kuni 19 km/h teevad sellest ideaalse tööriista nii taluhooviks, maatöödeks, haljastuses, tänavakivi paigalduses kui ka laoplatsil.
 
 ## Miks valida rentimiseks just Avant 530?
 
@@ -91,17 +89,18 @@ Avant 530 kuulub 500 seeriasse, mis seob endas kompaktsuse ja efektiivsuse ning 
 
 Paku oma projektile parimat lahendust – pikaajalisest rendist kuni juhiga teenuseni.
 
-**Päevarent:** 110 € + km / päev
+**Päevarent:** 100 € + km / päev
 
 - Sisaldab kuni 8 mototöötundi.
 - Tarnitakse täispaagiga (kütus ei sisaldu hinnas).
 - **Boonus iga rendiga:** Üks põhilisaseade (mullakühvel, tasandusrest või tõstekahvel) TASUTA kaasa!
 
-**Pikaajaline rent (1 kuu):** 1500 € + km / kuu
+**Pikaajaline rent (1 kuu):** 1400 € + km / kuu
 
-**Laaduri rent koos operaatoriga:** 45 € + km / tund
+**Laaduri rent koos operaatoriga:** 35 € + km / tund
 
-- Sisaldab kogenud juhti ja kütust.
+- Sisaldab kogenud juhti, lisandub kütus.  
+
 
 ## Saadaval olevad lisaseadmed
 
