@@ -1,4 +1,6 @@
 ---
+lang: et
+lang_pair: /ru/products/avant-laadur-530/
 title: Avant 530 kompaktlaadur kabiiniga
 description: Kuldne kesktee – kompaktne, kuid võimas. Optidrive™ juhtsüsteem,
   lihtne hüdraulika ja suurepärane manööverdusvõime.
@@ -13,8 +15,6 @@ images:
   - /images/products/avant/avant-500-snow-plow.jpg
   - /images/products/avant/avant-500-pressure-washer.jpg
 permalink: /et/products/avant-laadur-530/
-lang: et
-lang_pair: /ru/products/avant-laadur-530/
 additionalEquipment:
   - maapuur
   - mullakopp
@@ -97,7 +97,7 @@ Paku oma projektile parimat lahendust – pikaajalisest rendist kuni juhiga teen
 - Tarnitakse täispaagiga (kütus ei sisaldu hinnas).
 - **Boonus iga rendiga:** Üks põhilisaseade (mullakühvel, tasandusrest või tõstekahvel) TASUTA kaasa!
 
-**Pikaajaline rent (1 kuu):** 1400 € + km / kuu
+**Pikaajaline rent (1 kuu):** 1500 € + km / kuu
 
 **Laaduri rent koos operaatoriga:** 35 € + km / tund
 
