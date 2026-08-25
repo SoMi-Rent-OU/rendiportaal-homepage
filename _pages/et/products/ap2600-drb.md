@@ -1,6 +1,8 @@
 ---
-title: Autoveo haagis AP2600-DRB
-description: Autoveo haagis rendiks – kandevõime 1900 kg, piduritega,
+lang: et
+lang_pair: /ru/products/ap2600-drb/
+title: Autoveohaagis AP2600-DRB
+description: Autoveohaagis rendiks – kandevõime 1900 kg, piduritega,
   reguleeritavad pealesõiduteed.
 images:
   - /images/products/AP2600-DRB/ec0311ti-1024x682.jpg
@@ -8,8 +10,6 @@ images:
   - /images/products/AP2600-DRB/ec0311ti_2-1024x683.jpg
   - /images/products/AP2600-DRB/ec0311ti_3-1024x683.jpg
 permalink: /et/products/ap2600-drb/
-lang: et
-lang_pair: /ru/products/ap2600-drb/
 specifications:
   - label: Kasti laius
     value: 1,96 m
@@ -38,9 +38,9 @@ specifications:
   - label: Rattapoltide arv
     value: "5"
 ---
-# Autoveo haagis AP2600-DRB
+# Autoveohaagis AP2600-DRB
 
-Universaalne autoülekande haagis – sobib sõidukite transpordiks ja ka tavaliseks kaubaveoks.
+Universaalne autoveohaagis – sobib sõidukite transpordiks ja ka tavaliseks kaubaveoks.
 
 ## Miks rentida just selle haagise?
 
@@ -71,6 +71,7 @@ Universaalne autoülekande haagis – sobib sõidukite transpordiks ja ka tavali
 - Rentija vastutab haagise heakorra eest rendiperioodi jooksul
 - Tagastamisel kontrollitakse haagise seisukorda
 - Haagisel on pidurid – veendu, et sõidukil on sobiv pidurikonks
+- BE-kategooria
 
 ## Soovid haagist rentida?
 
