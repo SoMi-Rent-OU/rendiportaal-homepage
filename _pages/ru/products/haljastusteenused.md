@@ -1,13 +1,15 @@
 ---
+lang: ru
+lang_pair: /et/products/haljastusteenused/
 title: Услуги озеленения
-description: Профессиональные услуги озеленения — стрижка газонов, обрезка живых изгородей, уход за деревьями и другие работы.
+description: Профессиональные услуги озеленения — стрижка газонов, обрезка живых
+  изгородей, уход за деревьями и другие работы.
 images:
   - /images/products/mullakopp.jpg
 permalink: /ru/products/haljastusteenused/
-lang: ru
-lang_pair: /et/products/haljastusteenused/
+youtubeVideos:
+  - t_YWldzw2uY
 ---
-
 # Услуги озеленения
 
 Профессиональные работы по озеленению для вашего двора.
