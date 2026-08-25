@@ -1,4 +1,6 @@
 ---
+lang: et
+lang_pair: /ru/products/tiki-kerghaagis-kaanega/
 title: TikiTreileri Kerghaagis kaanega 1,5x3,0m
 description: PRO seeria kastihaagis rendiks – tugevdatud täiskeevisraamil,
   plastkaas komplektis. Sobib professionaalseks kasutamiseks.
@@ -7,8 +9,6 @@ images:
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_1-3-1024x768.jpg
   - /images/products/CP300-LH-PRO-plastkaanega/sc0167tik_3-1-1024x768.jpg
 permalink: /et/products/tiki-kerghaagis-kaanega/
-lang: et
-lang_pair: /ru/products/tiki-kerghaagis-kaanega/
 specifications:
   - label: Kasti laius
     value: 1,5 m
@@ -60,7 +60,7 @@ PRO seeria kastihaagis plastkaanega – vastupidav ja praktiline valik nii profe
 
 ## Hinnakiri
 
-**Päevarendi hind:** küsi pakkumist
+**Päevarendi hind:** 25€ + km
 
 **Pikaajaline rent:** soodsamad tingimused alates 1 nädalast
 
