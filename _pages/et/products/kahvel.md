@@ -1,13 +1,11 @@
 ---
+lang: et
+lang_pair: /ru/products/kahvel/
 title: Tõstekahvlid
 description: Mitmekülgne töövahend materjalide tõstmiseks ja teisaldamiseks kaubaalustel.
 images:
   - /images/products/kahvel.jpg
 permalink: /et/products/kahvel/
-lang: et
-lang_pair: /ru/products/kahvel/
-youtubeVideos:
-  - dkZah8js1YM
 specifications:
   - label: REGULAR - Kahvli pikkus
     value: 850 mm
@@ -33,8 +31,9 @@ specifications:
     value: 2000 kg
   - label: XHD - Toote nr
     value: A36589
+youtubeVideos:
+  - dkZah8js1YM
 ---
-
 # Tõstekahvlid
 
 Nii töövahend kui ka ümbruskond on hästi näha, tänu millele on töö tõstekahvliga täpne ja lihtne. Tõstekahvel on kasulik töövahend materjalide teisaldamiseks ehitusplatsidel, farmides ning ettevõtte enda laoplatsil.
