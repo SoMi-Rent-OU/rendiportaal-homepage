@@ -38,9 +38,9 @@
   url: /et/haagise-rent/
   button: false
   children:
-    - title: Kerghaagis kaanega TikiTreiler
+    - title: Kerghaagis kaanega 750kg
       url: /et/products/tiki-kerghaagis-kaanega/
-    - title: Autoveohaagis TikiTreiler
+    - title: Autoveohaagis 2600kg
       url: /et/products/ap2600-drb/
 - title: Kontakt
   url: /et/kontakt/
