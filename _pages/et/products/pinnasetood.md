@@ -1,20 +1,22 @@
 ---
+lang: et
+lang_pair: /ru/products/pinnasetood/
 title: Pinnasetööd
-description: Teostame erinevaid pinnasetöid Avant laaduriga — kaevamine, tasandamine, mullatööd.
+description: Teostame erinevaid pinnasetöid Avant laaduriga — kaevamine,
+  tasandamine, mullatööd, pinnaseveod.
 images:
   - /images/products/mullakopp.jpg
 permalink: /et/products/pinnasetood/
-lang: et
-lang_pair: /ru/products/pinnasetood/
+youtubeVideos:
+  - YWldzw2uY
 ---
-
 # Pinnasetööd
 
 Professionaalsed pinnasetööd Avant laaduriga.
 
 ## Kvaliteetsed pinnasetööd Sinu projektile
 
-Teostame erinevaid pinnasetöid Avant laaduriga — kaevamine, tasandamine, mullatööd ja muud maaparandustööd. Kompaktne laadur mahub ka kitsastesse oludesse ja säästab Sinu haljastust.
+Teostame erinevaid pinnasetöid Avant laaduriga — kaevamine, tasandamine, mullatööd ja muud maaparandustööd. Kompaktne laadur mahub ka kitsastesse oludesse ja säästab Sinu haljastust tänu mururehvidele.
 
 ## Teenused
 
