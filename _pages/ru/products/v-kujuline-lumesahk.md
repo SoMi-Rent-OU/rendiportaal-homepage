@@ -11,7 +11,7 @@ images:
   - /images/products/v-kujuline/metsas.jpg
 permalink: /ru/products/v-kujuline-lumesahk/
 youtubeVideos:
-  - m9bEBoq0-eI
+  - m9bEBoq0-el
   - 0OxyjvOVnDY
 ---
 # V-образный снегоуборочный отвал
