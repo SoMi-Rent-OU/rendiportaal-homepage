@@ -1,13 +1,14 @@
 ---
+lang: et
+lang_pair: /ru/products/mullakopp/
 title: Mullakopp
 description: Mullakopp mullatöödeks ja kaevamiseks.
 images:
   - /images/products/mullakopp.jpg
 permalink: /et/products/mullakopp/
-lang: et
-lang_pair: /ru/products/mullakopp/
+youtubeVideos:
+  - t_YWldzw2uY
 ---
-
 # Mullakopp
 
 Mullakopp mullatöödeks ja kaevamiseks.
