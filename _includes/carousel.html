@@ -6,7 +6,7 @@
   <div class="relative">
     <div
       id="{{ carousel_id }}"
-      class="relative aspect-[3/2] bg-gray-100 rounded-lg overflow-hidden"
+      class="relative aspect-[3/2] bg-gray-100 md:rounded-lg overflow-hidden"
       data-current="0"
     >
       {% for img in images %}
@@ -23,7 +23,7 @@
     </div>
 
     {% if images.size > 1 %}
-      <div class="carousel-thumbs flex gap-2 overflow-x-auto pb-2 mt-3">
+      <div class="carousel-thumbs mx-2 md:mx-0 flex gap-2 overflow-x-auto pb-2 mt-3">
         {% for img in images %}
           <button
             class="carousel-thumb shrink-0 h-16 aspect-[3/2] rounded-md overflow-hidden border-2 bg-white {% if forloop.first %}border-red-700{% else %}border-gray-200 hover:border-gray-400{% endif %}"

@@ -68,9 +68,9 @@ layout: default
 </script>
 <section class="py-16 px-4">
   <div class="max-w-6xl mx-auto">
-    <div class="prose max-w-none mb-16">
-      {% assign hasVideos = false %}
-      {% if page.youtubeVideos.size > 0 %}{% assign hasVideos = true %}{% endif %}
+    {% assign hasVideos = false %}
+    {% if page.youtubeVideos.size > 0 %}{% assign hasVideos = true %}{% endif %}
+    <div class="prose max-w-none mb-16 prose-table:w-auto">
       {% if page.images and page.images.size > 0 %}
         {% if hasVideos %}
           <div class="float-left w-full md:w-1/2 mr-8 mb-4">
