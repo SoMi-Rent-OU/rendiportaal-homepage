@@ -6,6 +6,8 @@ description: Уборка снега погрузчиком Avant. Быстро�
 images:
   - /images/products/v-kujuline/lumelukkamine.jpg
 permalink: /ru/products/lumelukkamine/
+youtubeVideos:
+  - btWcwzoiUlA
 ---
 # Уборка снега
 
