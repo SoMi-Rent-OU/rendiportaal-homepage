@@ -1,18 +1,18 @@
 ---
+lang: ru
+lang_pair: /et/products/v-kujuline-lumesahk/
 title: V-образный снегоуборочный отвал
-description: "Профессиональный V-образный отвал для погрузчика Avant. Доступен шириной 1600, 1800 и 2400 мм."
+description: Профессиональный V-образный отвал для погрузчика Avant. Доступен
+  шириной 1600, 1800 и 2400 мм.
 images:
   - /images/products/v-kujuline/lumelukkamine.jpg
   - /images/products/v-kujuline/teepuhastus.jpg
   - /images/products/v-kujuline/kinnisvarahooldus.jpg
   - /images/products/v-kujuline/metsas.jpg
 permalink: /ru/products/v-kujuline-lumesahk/
-lang: ru
-lang_pair: /et/products/v-kujuline-lumesahk/
 youtubeVideos:
-  - NiHViXP9kd4
+  - m9bEBoq0-eI
 ---
-
 # V-образный снегоуборочный отвал
 
 V-отвал Avant — профессиональный снегоуборочный инструмент, состоящий из двух независимо управляемых крыльев. Установка углов крыльев выполняется удобно с помощью органов управления из кабины погрузчика.
@@ -48,10 +48,12 @@ V-отвал Avant — профессиональный снегоуборочн
 
 ## Дополнительное оборудование
 
+
 | Изделие | V1600 | V1800 | V2400 |
-|-------|-------|-------|-------|
+| -------------- | ------- | ------ | ------ |
 | Ледяные ножи | A453070 | A36817 | A36818 |
 | Резиновые ножи | A453068 | A37173 | A37171 |
+
 
 Рекомендуем электрический пакет управления навесным оборудованием с дополнительными органами управления для работы с отвалом.
 
