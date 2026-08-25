@@ -12,7 +12,7 @@ youtubeVideos:
 ---
 # Puurimistööd
 
-Professionaalsed puurimistööd Sinu hoovile.
+Professionaalsed puurimistööd Sinu hoovile või ehitusobjektile.
 
 ## Hoolitseme Sinu puurimistööde eest
 
