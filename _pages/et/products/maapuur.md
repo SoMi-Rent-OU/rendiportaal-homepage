@@ -11,7 +11,7 @@ images:
   - /images/products/maapuur/volfram-hambad.jpg
 permalink: /et/products/maapuur/
 youtubeVideos:
-  - EgkRHc9ILk4&t=2s
+  - EgkRHc9ILk4
 ---
 # Maapuur
 
