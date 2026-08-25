@@ -8,7 +8,7 @@ images:
   - /images/products/maapuur/maapuur.jpg
 permalink: /ru/products/puurimistood/
 youtubeVideos:
-  - EgkRHc9ILk4&t=2s
+  - EgkRHc9ILk4
 ---
 # Бурильные работы
 
