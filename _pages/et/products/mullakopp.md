@@ -2,7 +2,7 @@
 lang: et
 lang_pair: /ru/products/mullakopp/
 title: Mullakopp
-description: Mullakopp mullatöödeks ja kaevamiseks.
+description: Mullakopp mullatöödeks, kaevamiseks ja planeerimiseks.
 images:
   - /images/products/mullakopp.jpg
 permalink: /et/products/mullakopp/
@@ -11,17 +11,17 @@ youtubeVideos:
 ---
 # Mullakopp
 
-Mullakopp mullatöödeks ja kaevamiseks.
+Mullakopp mullatöödeks, kaevamiseks ja planeerimiseks.
 
 ## Võimas ja vastupidav kopp mullatöödeks
 
-Mullakopp on asendamatu tööriist mullatöödeks, kaevamiseks ja materjalide teisaldamiseks. Sobib ideaalselt Avant laaduriga ja tagab efektiivse töö.
+Mullakopp on asendamatu tööriist mullatöödeks, kaevamiseks, planeerimiseks ja materjalide teisaldamiseks. Sobib ideaalselt Avant laaduriga ja tagab efektiivse töö.
 
 ## Sobivad tööd
 
 - Mullatööd ja kaevamine
 - Materjalide teisaldamine
-- Kraavide kaevamine
+- Pinnase planeerimine
 - Haljastuse ettevalmistamine
 
 ## Eelised
