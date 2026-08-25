@@ -1,14 +1,12 @@
 ---
+lang: et
+lang_pair: /ru/products/tasandusrest/
 title: Tasandusrest
-description: Ökonoomne ja tõhus lahendus killustiku ja muude pinnasematerjalide tasandamiseks.
+description: Ökonoomne ja tõhus lahendus killustiku ja muude pinnasematerjalide
+  tasandamiseks.
 images:
   - /images/products/tasandusrest.jpg
 permalink: /et/products/tasandusrest/
-lang: et
-lang_pair: /ru/products/tasandusrest/
-youtubeVideos:
-  - bH6VuuW_TNE
-  - 3P44VTTWIQ8
 specifications:
   - label: Laius
     value: 1200 mm
@@ -22,23 +20,26 @@ specifications:
     value: 95 kg
   - label: Toote nr
     value: A33537
+youtubeVideos:
+  - bH6VuuW_TNE
+  - 3P44VTTWIQ8
 ---
-
 # Tasandusrest
 
 Ökonoomne ja tõhus lahendus killustiku ja muude pinnasematerjalide tasandamiseks. Vähendab vajadust käsitsi labidatöö järele, suurendades töö efektiivsust.
 
 ## Mitmekülgne kasutamine
 
-Avanti tasandusrest on lihtne, ökonoomne ja üllatavalt praktiline töövahend, mis on loodud suuremate alade efektiivseks tasandamiseks. See sobib ideaalselt liiva, multši, mulla ja muude pinnasematerjalide tasandamiseks, pakkudes kiiret ja lihtsat lahendust mitmesugustele tasandustöödele.
+Avanti tasandusrest on lihtne, ökonoomne ja üllatavalt praktiline töövahend, mis on loodud suuremate alade efektiivseks tasandamiseks. See sobib ideaalselt liiva, multši, mulla, killustiku ja muude pinnasematerjalide tasandamiseks, pakkudes kiiret ja lihtsat lahendust mitmesugustele tasandustöödele.
 
-Tasandusresti peamised kasutusalad hõlmavad muruplatside eelnevat tasandamist enne külvamist või muru rajamist, liiva tasandamist hoovides ja sõiduteede tasandamist. Tänu selle mitmekülgsusele saab tasandusresti kasutada ka ehitusplatsil, näiteks materjalide (näiteks mururullide, tööriistade jms) tõstmiseks.
+Tasandusresti peamised kasutusalad hõlmavad muruplatside eelnevat tasandamist enne külvamist või muru rajamist, liiva tasandamist hoovides ja sõiduteede tasandamist näiteks killustikuga. Tänu selle mitmekülgsusele saab tasandusresti kasutada ka ehitusplatsil, näiteks materjalide (mururullide, tööriistade jms) tõstmiseks.
 
 ## Sobivad tööd
 
 - Muruplatside eelne tasandamine enne külvamist või muru rajamist
 - Liiva tasandamine hoovides
 - Sõiduteede tasandamine
+- Tänavakivi aluspõhja silumisel
 - Ehitusplatsil materjalide tõstmine (mururullid, tööriistad jms)
 
 ## Eelised
