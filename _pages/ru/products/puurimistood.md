@@ -1,12 +1,14 @@
 ---
+lang: ru
+lang_pair: /et/products/puurimistood/
 title: Бурильные работы
-description: Профессиональные бурильные работы — бурение ям для столбов, пересадка
-  деревьев и другие работы земляным буром.
+description: Профессиональные бурильные работы — бурение ям для столбов,
+  пересадка деревьев и другие работы земляным буром.
 images:
   - /images/products/maapuur/maapuur.jpg
 permalink: /ru/products/puurimistood/
-lang: ru
-lang_pair: /et/products/puurimistood/
+youtubeVideos:
+  - EgkRHc9ILk4&t=2s
 ---
 # Бурильные работы
 
