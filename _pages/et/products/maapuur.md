@@ -2,8 +2,8 @@
 lang: et
 lang_pair: /ru/products/maapuur/
 title: Maapuur
-description: Hüdrauliline maapuur postiaukude ja muudeks kaevetöödeks. Saadaval
-  100, 200 ja 300mm läbimõõduga.
+description: Hüdrauliline maapuur postiaukude, vundamendiposti ja puude
+  istutamiseks. Saadaval 100, 200 ja 300mm läbimõõduga.
 images:
   - /images/products/maapuur/maapuur.jpg
   - /images/products/maapuur/puurimine.jpg
@@ -40,13 +40,12 @@ Kõik maapuurid on varustatud asendatavate volframhammastega ja juhtteravikuga, 
 | HD 72 (A34032) | 3874 Nm | 75–900 mm |
 
 
-Ajami valikul arvestage puuride suurima läbimõõduga. Suuremate puuride korral soovitame suure jõudlusega planetaarülekandega ajameid (HD seeria).
-
 ## Sobivad tööd
 
 - Postiaukude puurimine
 - Puude ümberistutamine
 - Piirdeaia postide paigaldamine
+- Vundamendiposti aukude puurimiseks
 - Drenaažisüsteemide paigaldus
 
 ## Eelised
