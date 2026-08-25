@@ -1,11 +1,11 @@
 ---
+lang: et
+lang_pair: /ru/products/avant-juhiga/
 title: Avant laaduri rent koos juhiga
 description: Avant laaduri rent koos kogenud juhiga. Teie ütlete, meie teeme.
 images:
   - /images/products/avant/avant-500-front.jpg
 permalink: /et/products/avant-juhiga/
-lang: et
-lang_pair: /ru/products/avant-juhiga/
 ---
 # Avant laaduri rent koos juhiga
 
@@ -38,7 +38,6 @@ Avant laaduri rent koos kogenud juhiga. Teie ütlete, meie teeme. Meie operaator
 **Tunnihind:** 35 € + km / tund
 
 - Sisaldab kogenud juhti, lisandub kütus.
-- Minimaalne tellimus: 2 tundi.
 
 ## Soovid juhiga renti tellida?
 
