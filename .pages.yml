@@ -498,7 +498,7 @@ content:
       - name: youtubeVideos
         type: string
         list: true
-        label: YouTube videod
+        label: YouTube videod (video ID)
       - name: body
         type: rich-text
         label: Sisu
@@ -548,7 +548,7 @@ content:
       - name: youtubeVideos
         type: string
         list: true
-        label: YouTube videod
+        label: YouTube videod (video ID)
       - name: body
         type: rich-text
         label: Sisu
