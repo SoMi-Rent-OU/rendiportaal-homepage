@@ -8,7 +8,7 @@ images:
   - /images/products/v-kujuline/lumelukkamine.jpg
 permalink: /et/products/lumelukkamine/
 youtubeVideos:
-  - https://www.youtube.com/watch?v=m9bEBoq0-eI
+  - "https://www.youtube.com/watch?v=m9bEBoq0-eI "
 ---
 # Lumelükkamine
 
