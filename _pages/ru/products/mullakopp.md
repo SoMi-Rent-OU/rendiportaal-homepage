@@ -1,13 +1,14 @@
 ---
+lang: ru
+lang_pair: /et/products/mullakopp/
 title: Грунтовый ковш
 description: Ковш для земляных работ и копания.
 images:
   - /images/products/mullakopp.jpg
 permalink: /ru/products/mullakopp/
-lang: ru
-lang_pair: /et/products/mullakopp/
+youtubeVideos:
+  - t_YWldzw2uY
 ---
-
 # Грунтовый ковш
 
 Ковш для земляных работ и копания.
