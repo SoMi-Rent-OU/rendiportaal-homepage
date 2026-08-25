@@ -1,13 +1,12 @@
 ---
+lang: ru
+lang_pair: /et/products/lumelukkamine/
 title: Уборка снега
 description: Уборка снега погрузчиком Avant. Быстрое и эффективное решение для зимних работ.
 images:
   - /images/products/v-kujuline/lumelukkamine.jpg
 permalink: /ru/products/lumelukkamine/
-lang: ru
-lang_pair: /et/products/lumelukkamine/
 ---
-
 # Уборка снега
 
 Быстрая и эффективная уборка снега погрузчиком Avant.
