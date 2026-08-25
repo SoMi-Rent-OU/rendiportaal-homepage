@@ -1,13 +1,15 @@
 ---
+lang: et
+lang_pair: /ru/products/lumelukkamine/
 title: Lumelükkamine
-description: Lumelükkamine ja lume koristamine Avant laaduriga. Kiire ja tõhus lahendus talvisteks töödeks.
+description: Lumelükkamine ja lume koristamine Avant laaduriga. Kiire ja tõhus
+  lahendus talvisteks töödeks.
 images:
   - /images/products/v-kujuline/lumelukkamine.jpg
 permalink: /et/products/lumelukkamine/
-lang: et
-lang_pair: /ru/products/lumelukkamine/
+youtubeVideos:
+  - https://www.youtube.com/watch?v=m9bEBoq0-eI
 ---
-
 # Lumelükkamine
 
 Kiire ja tõhus lume koristamine Avant laaduriga.
