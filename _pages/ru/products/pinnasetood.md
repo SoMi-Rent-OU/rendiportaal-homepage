@@ -1,13 +1,15 @@
 ---
+lang: ru
+lang_pair: /et/products/pinnasetood/
 title: Земляные работы
-description: Выполняем различные земляные работы погрузчиком Avant — копание, выравнивание, грунтовые работы.
+description: Выполняем различные земляные работы погрузчиком Avant — копание,
+  выравнивание, грунтовые работы.
 images:
   - /images/products/mullakopp.jpg
 permalink: /ru/products/pinnasetood/
-lang: ru
-lang_pair: /et/products/pinnasetood/
+youtubeVideos:
+  - t_YWldzw2uY
 ---
-
 # Земляные работы
 
 Профессиональные земляные работы погрузчиком Avant.
