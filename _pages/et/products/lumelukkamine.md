@@ -9,6 +9,7 @@ images:
 permalink: /et/products/lumelukkamine/
 youtubeVideos:
   - m9bEBoq0-eI
+  - 0OxyjvOVnDY
 ---
 # Lumelükkamine
 
