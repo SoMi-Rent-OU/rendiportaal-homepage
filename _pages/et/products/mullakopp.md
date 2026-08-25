@@ -7,7 +7,7 @@ images:
   - /images/products/mullakopp.jpg
 permalink: /et/products/mullakopp/
 youtubeVideos:
-  - t_YWldzw2uY
+  - YWldzw2uY
 ---
 # Mullakopp
 
