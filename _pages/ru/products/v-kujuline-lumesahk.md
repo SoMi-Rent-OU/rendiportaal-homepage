@@ -12,6 +12,7 @@ images:
 permalink: /ru/products/v-kujuline-lumesahk/
 youtubeVideos:
   - m9bEBoq0-eI
+  - 0OxyjvOVnDY
 ---
 # V-образный снегоуборочный отвал
 
