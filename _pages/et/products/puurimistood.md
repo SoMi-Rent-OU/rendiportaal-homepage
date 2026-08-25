@@ -2,11 +2,13 @@
 lang: et
 lang_pair: /ru/products/puurimistood/
 title: Puurimistööd
-description: Professionaalsed puurimistööd — postiaukude puurimine, puude ümberistutamine
-  ja muud maapuuritööd.
+description: Professionaalsed puurimistööd — postiaukude- ja vundamendiposti
+  puurimine, puude ümberistutamine  ja muud maapuurimistööd.
 images:
   - /images/products/maapuur/maapuur.jpg
 permalink: /et/products/puurimistood/
+youtubeVideos:
+  - EgkRHc9ILk4
 ---
 # Puurimistööd
 
