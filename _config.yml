@@ -1,14 +1,12 @@
 title: SoMi-Rent
 description: Masinate ja seadmete rent kogu Eestis.
-url: "https://somirent.ee"
+url: https://somirent.ee
 email: rent.somirent@gmail.com
 phone: +372 55991560
 permalink: pretty
-
 languages:
   - et
   - ru
-
 exclude:
   - AGENTS.md
   - vendor
@@ -22,35 +20,31 @@ exclude:
   - tailwind.config.js
   - build.sh
   - LICENCE
-
 plugins:
   - jekyll-sitemap
-
 locations:
   tehnika: Saku vald, Tõdva küla
-  tellingud: Suur-Sõjamäe 25a
-
+  tellingud: Suur-Sõjamäe 25a.
 include:
   - _pages
-
 defaults:
   - scope:
-      path: "_pages/et/products"
+      path: _pages/et/products
     values:
       layout: product
       lang: et
   - scope:
-      path: "_pages/ru/products"
+      path: _pages/ru/products
     values:
       layout: product
       lang: ru
   - scope:
-      path: "_pages/et"
+      path: _pages/et
     values:
       layout: page
       lang: et
   - scope:
-      path: "_pages/ru"
+      path: _pages/ru
     values:
       layout: page
       lang: ru
