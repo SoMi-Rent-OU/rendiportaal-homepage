@@ -12,12 +12,30 @@ content:
       - name: description
         type: text
         label: Kirjeldus
+      - name: url
+        type: string
+        label: URL
       - name: email
         type: string
         label: E-post
       - name: phone
         type: string
         label: Telefon
+      - name: permalink
+        type: string
+        label: Püsiviide
+      - name: languages
+        type: string
+        list: true
+        label: Keeled
+      - name: exclude
+        type: string
+        list: true
+        label: Väljaarvatud
+      - name: plugins
+        type: string
+        list: true
+        label: Pluginad
       - name: locations
         type: object
         label: Asukohad
@@ -28,6 +46,32 @@ content:
           - name: tellingud
             type: string
             label: Tellingud ja piirdeaiad
+      - name: include
+        type: string
+        list: true
+        label: Kaasatud
+      - name: defaults
+        type: object
+        list: true
+        label: Vaikimisi seaded
+        fields:
+          - name: scope
+            type: object
+            label: Ulatus
+            fields:
+              - name: path
+                type: string
+                label: Tee
+          - name: values
+            type: object
+            label: Väärtused
+            fields:
+              - name: layout
+                type: string
+                label: Paigutus
+              - name: lang
+                type: string
+                label: Keel
 
   - name: nav_et
     label: Navigatsioon (ET)
